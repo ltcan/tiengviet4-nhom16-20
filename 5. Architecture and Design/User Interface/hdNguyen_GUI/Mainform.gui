@@ -1,0 +1,520 @@
+<Screen
+	CID = "667236799"
+	DocID = ""
+	HasCanvas = "1"
+	Width = "640"
+	Height = "480"
+	NextCID = "5"
+	RepresentativeRefID = "0"
+	UseDefRepresentative = "1">
+	<Elements
+		CID = "1">
+		<Element
+			CID = "667223652"
+			Type = "FrameWindow"
+			X = "2"
+			Y = "4"
+			Width = "637"
+			Height = "474"
+			Flags = "0"
+			WindowColour = "172,168,153,0,13"
+			Typeface = ""
+			FontAttributes = "1"
+			TextSize = "Normal"
+			Title = "MainForm"
+			TitleBarHeight = "18"
+			IconMargin = "0"
+			BorderSize = "1"
+			IsBorderless = "0"
+			IsActive = "1"
+			IsDocWindow = "0"
+			HasSunkenWindow = "1"
+			CentreText = "0"
+			UseMutedColours = "0"
+			Mirror = "0"
+			Buttons = "7"
+			Icon = "DefaultApp"/>
+		<Element
+			CID = "667240180"
+			Type = "Tree"
+			X = "18"
+			Y = "87"
+			Width = "184"
+			Height = "318"
+			Flags = "0"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			NextItemID = "21"
+			IsDisabled = "0"
+			HasBorder = "1"
+			HasButtons = "1"
+			HasLines = "1"
+			HasLinesAtRoot = "0"
+			HasHorzScrollBar = "0"
+			HasVertScrollBar = "1"
+			Mirror = "0"
+			WordWrap = "0"
+			IconMargin = "0"
+			ItemHeight = "16"
+			Icons = "Folders">
+			<TreeItem
+				ItemID = "1"
+				Text = "Tree"
+				IsBold = "1"
+				IsChecked = "0"
+				IsExpanded = "1"
+				IsSelected = "0">
+				<TreeItem
+					ItemID = "2"
+					Text = "Tập Đọc"
+					IsBold = "1"
+					IsChecked = "0"
+					IsExpanded = "1"
+					IsSelected = "0">
+					<TreeItem
+						ItemID = "5"
+						Text = "Bài 1"
+						IsBold = "0"
+						IsChecked = "0"
+						IsExpanded = "0"
+						IsSelected = "0"/>
+					<TreeItem
+						ItemID = "6"
+						Text = "Bài 2"
+						IsBold = "0"
+						IsChecked = "0"
+						IsExpanded = "0"
+						IsSelected = "0"/>
+				</TreeItem>
+				<TreeItem
+					ItemID = "11"
+					Text = "Chính Tả"
+					IsBold = "1"
+					IsChecked = "1"
+					IsExpanded = "1"
+					IsSelected = "0">
+					<TreeItem
+						ItemID = "14"
+						Text = "Các bài chính tả"
+						IsBold = "1"
+						IsChecked = "1"
+						IsExpanded = "0"
+						IsSelected = "0"/>
+				</TreeItem>
+				<TreeItem
+					ItemID = "12"
+					Text = "Luyện Từ Và Câu"
+					IsBold = "1"
+					IsChecked = "1"
+					IsExpanded = "1"
+					IsSelected = "0">
+					<TreeItem
+						ItemID = "15"
+						Text = "Bài Tập Luyện Từ Và Câu"
+						IsBold = "1"
+						IsChecked = "1"
+						IsExpanded = "0"
+						IsSelected = "0"/>
+				</TreeItem>
+				<TreeItem
+					ItemID = "13"
+					Text = "Tập Làm Văn"
+					IsBold = "1"
+					IsChecked = "1"
+					IsExpanded = "1"
+					IsSelected = "0">
+					<TreeItem
+						ItemID = "16"
+						Text = "Bài Tập Tập Làm Văn"
+						IsBold = "1"
+						IsChecked = "1"
+						IsExpanded = "0"
+						IsSelected = "0"/>
+				</TreeItem>
+				<TreeItem
+					ItemID = "4"
+					Text = "Thư Giản"
+					IsBold = "1"
+					IsChecked = "0"
+					IsExpanded = "1"
+					IsSelected = "0">
+					<TreeItem
+						ItemID = "17"
+						Text = "Kể Chuyện"
+						IsBold = "1"
+						IsChecked = "1"
+						IsExpanded = "0"
+						IsSelected = "0"/>
+					<TreeItem
+						ItemID = "18"
+						Text = "Trò Chơi"
+						IsBold = "1"
+						IsChecked = "1"
+						IsExpanded = "1"
+						IsSelected = "0">
+						<TreeItem
+							ItemID = "19"
+							Text = "Tinh Mắt"
+							IsBold = "1"
+							IsChecked = "1"
+							IsExpanded = "0"
+							IsSelected = "0"/>
+						<TreeItem
+							ItemID = "20"
+							Text = "Đó Vui"
+							IsBold = "1"
+							IsChecked = "1"
+							IsExpanded = "0"
+							IsSelected = "0"/>
+					</TreeItem>
+				</TreeItem>
+			</TreeItem>
+		</Element>
+		<Element
+			CID = "667231225"
+			Type = "StaticText"
+			X = "51"
+			Y = "47"
+			Width = "100"
+			Height = "40"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,0,0,19"
+			Typeface = ""
+			FontAttributes = "1"
+			TextSize = "180"
+			Text = "Mục Lục"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Centre"
+			VertAlign = "Centre"/>
+		<Element
+			CID = "1854085369"
+			Type = "EditBoxMultiLine"
+			X = "223"
+			Y = "87"
+			Width = "396"
+			Height = "259"
+			Flags = "0"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			IsDisabled = "0"
+			IsReadOnly = "0"
+			HasHorzScrollBar = "0"
+			HasVertScrollBar = "1"
+			WordWrap = "1"
+			Mirror = "0"
+			HorzOffset = "0"
+			FirstVisibleLine = "1"
+			HorzAlign = "Left"
+			OverrideTextColour = "0"
+			OverrideDisabledTextColour = "0"
+			OverrideFillColour = "0"
+			OverrideDisabledFillColour = "0"
+			OverrideBorderColour = "0"
+			TextColour = "0,0,0,0,9"
+			DisabledTextColour = "161,161,146,0,18"
+			FillColour = "255,255,255,0,6"
+			DisabledFillColour = "236,233,216,0,16"
+			BorderColour = "164,185,127,0,12"
+			NextCID = "2">
+			<Text
+				CID = "1">
+				
+			</Text>
+		</Element>
+		<Element
+			CID = "1854086225"
+			Type = "StaticText"
+			X = "374"
+			Y = "47"
+			Width = "100"
+			Height = "40"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,0,0,19"
+			Typeface = ""
+			FontAttributes = "1"
+			TextSize = "180"
+			Text = "Mô Tả"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Centre"
+			VertAlign = "Centre"/>
+		<Element
+			CID = "1854096075"
+			Type = "TextButton"
+			X = "48"
+			Y = "437"
+			Width = "75"
+			Height = "23"
+			Flags = "0"
+			TextColour = "0,0,0,0,19"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			Text = "Hồ Sơ"
+			Depth = "2"
+			IsDefault = "0"
+			IsDisabled = "0"
+			MarginLeft = "0"
+			MarginRight = "0"
+			MarginTop = "0"
+			MarginBottom = "0"
+			AutoNavType = ""/>
+		<Element
+			CID = "1854090827"
+			Type = "TextButton"
+			X = "536"
+			Y = "437"
+			Width = "75"
+			Height = "23"
+			Flags = "0"
+			TextColour = "0,0,0,0,19"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			Text = "Đi Tiếp"
+			Depth = "2"
+			IsDefault = "0"
+			IsDisabled = "0"
+			MarginLeft = "0"
+			MarginRight = "0"
+			MarginTop = "0"
+			MarginBottom = "0"
+			AutoNavType = ""/>
+		<Element
+			CID = "1854094773"
+			Type = "TextButton"
+			X = "388"
+			Y = "358"
+			Width = "75"
+			Height = "23"
+			Flags = "0"
+			TextColour = "0,0,0,0,19"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			Text = "Bắt Đầu"
+			Depth = "2"
+			IsDefault = "0"
+			IsDisabled = "0"
+			MarginLeft = "0"
+			MarginRight = "0"
+			MarginTop = "0"
+			MarginBottom = "0"
+			AutoNavType = ""/>
+		<Element
+			CID = "1854082466"
+			Type = "Component"
+			X = "661"
+			Y = "85"
+			Width = "637"
+			Height = "472"
+			Flags = "3"
+			BackgroundColour = "255,255,255,0,6"
+			RootPath = "$Container"
+			Filename = "BaiHocCuThe.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			MaintainSize = "0"/>
+		<Element
+			CID = "1854080905"
+			Type = "Component"
+			X = "-665"
+			Y = "95"
+			Width = "636"
+			Height = "469"
+			Flags = "3"
+			BackgroundColour = "255,255,255,0,6"
+			RootPath = "$Container"
+			Filename = "TapLamVan.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			MaintainSize = "0"/>
+		<Element
+			CID = "1854107706"
+			Type = "Component"
+			X = "-8"
+			Y = "499"
+			Width = "640"
+			Height = "472"
+			Flags = "3"
+			BackgroundColour = "255,255,255,0,6"
+			RootPath = "$Container"
+			Filename = "KeChuyen.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			MaintainSize = "0"/>
+		<Element
+			CID = "1499019910"
+			Type = "Component"
+			X = "-686"
+			Y = "623"
+			Width = "638"
+			Height = "472"
+			Flags = "3"
+			BackgroundColour = "255,255,255,0,6"
+			RootPath = "$Container"
+			Filename = "HoSo.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			MaintainSize = "0"/>
+		<Element
+			CID = "1499012480"
+			Type = "Component"
+			X = "-687"
+			Y = "-426"
+			Width = "632"
+			Height = "473"
+			Flags = "3"
+			BackgroundColour = "255,255,255,0,6"
+			RootPath = "$Container"
+			Filename = "ChinhTa.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			MaintainSize = "0"/>
+		<Element
+			CID = "247679362"
+			Type = "Component"
+			X = "96"
+			Y = "-714"
+			Width = "637"
+			Height = "470"
+			Flags = "3"
+			BackgroundColour = "255,255,255,0,6"
+			RootPath = "$Container"
+			Filename = "TinhMat_DoVui.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			MaintainSize = "0"/>
+		<Element
+			CID = "247669574"
+			Type = "Component"
+			X = "814"
+			Y = "-509"
+			Width = "636"
+			Height = "474"
+			Flags = "3"
+			BackgroundColour = "255,255,255,0,6"
+			RootPath = "$Container"
+			Filename = "DoVui_TroChoi.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			MaintainSize = "0"/>
+	</Elements>
+	<Connections
+		CID = "2">
+		<Connection
+			CID = "1854093480"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "Modal"
+			SourceSubItemID = "5"
+			SourceRefID = "667240180"
+			TargetRefID = "1854082466"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+		<Connection
+			CID = "1854080720"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "Modal"
+			SourceSubItemID = ""
+			SourceRefID = "1854090827"
+			TargetRefID = "1854082466"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+		<Connection
+			CID = "1854101806"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "Modal"
+			SourceSubItemID = "16"
+			SourceRefID = "667240180"
+			TargetRefID = "1854080905"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+		<Connection
+			CID = "1499026298"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "Modal"
+			SourceSubItemID = ""
+			SourceRefID = "1854096075"
+			TargetRefID = "1499019910"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+		<Connection
+			CID = "1499033158"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "Modal"
+			SourceSubItemID = "14"
+			SourceRefID = "667240180"
+			TargetRefID = "1499012480"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+		<Connection
+			CID = "247672480"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "Modal"
+			SourceSubItemID = "17"
+			SourceRefID = "667240180"
+			TargetRefID = "1854107706"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+		<Connection
+			CID = "247662994"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "Modal"
+			SourceSubItemID = "19"
+			SourceRefID = "667240180"
+			TargetRefID = "247679362"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+		<Connection
+			CID = "247688425"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "Modal"
+			SourceSubItemID = "20"
+			SourceRefID = "667240180"
+			TargetRefID = "247669574"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+	</Connections>
+	<SelectionGroups
+		CID = "3"/>
+	<Notes
+		CID = "4">
+		<Note
+			CID = "667236927"
+			Name = "Description"
+			NextCID = "2">
+			<Text
+				CID = "1">
+				
+			</Text>
+		</Note>
+	</Notes>
+</Screen>
