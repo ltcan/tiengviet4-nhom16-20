@@ -1,0 +1,11 @@
+E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\GUI\bin\Debug\GUI.exe
+E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\GUI\bin\Debug\GUI.pdb
+E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\GUI\bin\Debug\BUS.dll
+E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\GUI\bin\Debug\DTO.dll
+E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\GUI\bin\Debug\BUS.pdb
+E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\GUI\bin\Debug\DTO.pdb
+E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\GUI\obj\Debug\ResolveAssemblyReference.cache
+E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\GUI\obj\Debug\GUI.Properties.Resources.resources
+E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
+E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\GUI\obj\Debug\GUI.exe
+E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\GUI\obj\Debug\GUI.pdb
