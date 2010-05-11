@@ -28,3 +28,8 @@ C:\Users\Lion\Desktop\TiengViet4\DTO\bin\Debug\DTO.pdb
 C:\Users\Lion\Desktop\TiengViet4\DTO\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Lion\Desktop\TiengViet4\DTO\obj\Debug\DTO.dll
 C:\Users\Lion\Desktop\TiengViet4\DTO\obj\Debug\DTO.pdb
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengVietVersion_Ngay12_05\TiengViet4\DTO\bin\Debug\DTO.dll
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengVietVersion_Ngay12_05\TiengViet4\DTO\bin\Debug\DTO.pdb
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengVietVersion_Ngay12_05\TiengViet4\DTO\obj\Debug\ResolveAssemblyReference.cache
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengVietVersion_Ngay12_05\TiengViet4\DTO\obj\Debug\DTO.dll
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengVietVersion_Ngay12_05\TiengViet4\DTO\obj\Debug\DTO.pdb
