@@ -1,0 +1,10 @@
+D:\TiengViet4\UnitTest\bin\Debug\UnitTest.dll
+D:\TiengViet4\UnitTest\bin\Debug\UnitTest.pdb
+D:\TiengViet4\UnitTest\obj\Debug\ResolveAssemblyReference.cache
+D:\TiengViet4\UnitTest\obj\Debug\UnitTest.dll
+D:\TiengViet4\UnitTest\obj\Debug\UnitTest.pdb
+C:\Users\Lion\Desktop\TiengViet4\UnitTest\bin\Debug\UnitTest.dll
+C:\Users\Lion\Desktop\TiengViet4\UnitTest\bin\Debug\UnitTest.pdb
+C:\Users\Lion\Desktop\TiengViet4\UnitTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Lion\Desktop\TiengViet4\UnitTest\obj\Debug\UnitTest.dll
+C:\Users\Lion\Desktop\TiengViet4\UnitTest\obj\Debug\UnitTest.pdb

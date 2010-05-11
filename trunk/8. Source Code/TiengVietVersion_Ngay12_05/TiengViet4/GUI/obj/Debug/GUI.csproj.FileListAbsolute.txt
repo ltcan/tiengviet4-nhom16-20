@@ -1,0 +1,19 @@
+C:\Users\Lion\Desktop\TiengViet4\GUI\bin\Debug\TiengVietLop4.exe
+C:\Users\Lion\Desktop\TiengViet4\GUI\bin\Debug\TiengVietLop4.pdb
+C:\Users\Lion\Desktop\TiengViet4\GUI\bin\Debug\BUS.dll
+C:\Users\Lion\Desktop\TiengViet4\GUI\bin\Debug\DTO.dll
+C:\Users\Lion\Desktop\TiengViet4\GUI\bin\Debug\DAO.dll
+C:\Users\Lion\Desktop\TiengViet4\GUI\bin\Debug\BUS.pdb
+C:\Users\Lion\Desktop\TiengViet4\GUI\bin\Debug\DAO.pdb
+C:\Users\Lion\Desktop\TiengViet4\GUI\bin\Debug\DTO.pdb
+C:\Users\Lion\Desktop\TiengViet4\GUI\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Lion\Desktop\TiengViet4\GUI\obj\Debug\TiengViet4.frmTiengViet4.resources
+C:\Users\Lion\Desktop\TiengViet4\GUI\obj\Debug\TiengViet4.frmChonBaiHoc.resources
+C:\Users\Lion\Desktop\TiengViet4\GUI\obj\Debug\TiengViet4.frmTapDoc.resources
+C:\Users\Lion\Desktop\TiengViet4\GUI\obj\Debug\TiengViet4.frmChinhTa.resources
+C:\Users\Lion\Desktop\TiengViet4\GUI\obj\Debug\TiengVietLop4.Properties.Resources.resources
+C:\Users\Lion\Desktop\TiengViet4\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
+C:\Users\Lion\Desktop\TiengViet4\GUI\obj\Debug\TiengVietLop4.exe
+C:\Users\Lion\Desktop\TiengViet4\GUI\obj\Debug\TiengVietLop4.pdb
+C:\Users\Lion\Desktop\tiengviet4-nhom16-20\8. Source Code\TiengViet4\GUI\obj\Debug\TiengVietLop4.exe
+C:\Users\Lion\Desktop\tiengviet4-nhom16-20\8. Source Code\TiengViet4\GUI\obj\Debug\TiengVietLop4.pdb
