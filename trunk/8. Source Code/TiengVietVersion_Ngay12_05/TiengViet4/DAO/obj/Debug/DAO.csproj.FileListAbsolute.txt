@@ -46,3 +46,11 @@ C:\Users\Lion\Desktop\TiengViet4\DAO\bin\Debug\DTO.pdb
 C:\Users\Lion\Desktop\TiengViet4\DAO\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Lion\Desktop\TiengViet4\DAO\obj\Debug\DAO.dll
 C:\Users\Lion\Desktop\TiengViet4\DAO\obj\Debug\DAO.pdb
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengVietVersion_Ngay12_05\TiengViet4\DAO\bin\Debug\CSDL\CSDL.mdb
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengVietVersion_Ngay12_05\TiengViet4\DAO\bin\Debug\DAO.dll
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengVietVersion_Ngay12_05\TiengViet4\DAO\bin\Debug\DAO.pdb
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengVietVersion_Ngay12_05\TiengViet4\DAO\bin\Debug\DTO.dll
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengVietVersion_Ngay12_05\TiengViet4\DAO\bin\Debug\DTO.pdb
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengVietVersion_Ngay12_05\TiengViet4\DAO\obj\Debug\ResolveAssemblyReference.cache
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengVietVersion_Ngay12_05\TiengViet4\DAO\obj\Debug\DAO.dll
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengVietVersion_Ngay12_05\TiengViet4\DAO\obj\Debug\DAO.pdb
