@@ -50,6 +50,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Caret.cs" />
     <Compile Include="frmTiengViet4.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -127,6 +128,9 @@
       <Project>{AA16DB7A-871A-4588-8620-FC9AE444F5EE}</Project>
       <Name>DTO</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="hidecaret.png" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

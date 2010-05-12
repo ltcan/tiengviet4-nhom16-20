@@ -4,10 +4,9 @@ using System.Text;
 using System.Windows.Forms;
 using System.Drawing;
 using System.Threading;
-using TiengViet4;
 using DTO;
 
-namespace ChucNangChinhTa
+namespace TiengViet4
 {
     public class KhungLamBai:TransparentRichTextBox
     {
@@ -22,13 +21,21 @@ namespace ChucNangChinhTa
             set;
         }
 
+        //Tình trạng caret
+        public TinhTrangCaret TinhTrangCaret
+        {
+            get;
+            set;
+        }
+
+
         //Danh sách vị trí học sinh được quyền chuyển đổi trạng thái khi làm bài.
         public List<Tu> DanhSachTu;
         
         public KhungLamBai():base()
         {
             DanhSachTu = new List<Tu>();
-            Cursor = Cursors.Hand;
+            TinhTrangCaret = TinhTrangCaret.Show;
         }
 
         
@@ -152,7 +159,15 @@ namespace ChucNangChinhTa
 
             return -1;
         }
-        
+
+        protected override void WndProc(ref Message m)
+        {
+            if (TinhTrangCaret == TinhTrangCaret.Hide)
+            {
+                Caret.HideCaret(Handle);
+            }
+            base.WndProc(ref m);
+        }
 
         protected override void OnKeyPress(KeyPressEventArgs e)
         {          
@@ -297,6 +312,7 @@ namespace ChucNangChinhTa
             {
                 int intSelectionStart = SelectionStart;
                 int intSelectionLength = SelectionLength;
+                
                 for (int i = 0; i < DanhSachTu.Count; ++i)
                 {
                     if (DanhSachTu[i].TenLoaiTu == "NhomTu")
@@ -346,6 +362,26 @@ namespace ChucNangChinhTa
             else
             {
                 base.OnMouseClick(e);
+            }
+        }
+        
+        protected override void OnMouseMove(MouseEventArgs e)
+        {
+            int intCharIndex = GetCharIndexFromPosition(e.Location);
+            for (int i = 0; i < DanhSachTu.Count; ++i)
+            {
+                if (DanhSachTu[i].TenLoaiTu == "NhomTu")
+                {
+                    if (intCharIndex >= DanhSachTu[i].ViTri && intCharIndex < DanhSachTu[i].ViTri + DanhSachTu[i].NoiDung.Length)
+                    {
+                        Cursor = Cursors.Hand;
+                        return;
+                    }
+                }
+            }
+            if (Cursor == Cursors.Hand)
+            {
+                Cursor = Cursors.IBeam;
             }
         }
     }
