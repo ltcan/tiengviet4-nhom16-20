@@ -7,8 +7,8 @@
     <ProjectGuid>{29E1DC1A-6109-45A4-B5B9-AF6A39965C28}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TiengVietLop4</RootNamespace>
-    <AssemblyName>TiengVietLop4</AssemblyName>
+    <RootNamespace>TiengViet4</RootNamespace>
+    <AssemblyName>TiengViet4</AssemblyName>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
@@ -115,6 +115,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="TinhTrangCursor.cs" />
     <Compile Include="TransparentRichTextBox.cs">
       <SubType>Component</SubType>
     </Compile>

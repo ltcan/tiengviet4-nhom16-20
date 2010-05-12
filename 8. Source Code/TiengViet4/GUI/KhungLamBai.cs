@@ -28,7 +28,6 @@ namespace TiengViet4
             set;
         }
 
-
         //Danh sách vị trí học sinh được quyền chuyển đổi trạng thái khi làm bài.
         public List<Tu> DanhSachTu;
         
@@ -58,7 +57,6 @@ namespace TiengViet4
             string[] DanhSachSoQuiUocs = DanhSachSoQuiUoc.Split(',');
             DanhSachTu.Clear();
             TinhTrangBaiLam = TinhTrang.DangLamBai;
-            TinhTrangCaret = TinhTrangCaret.Hide;
             ReadOnly = false;
             RichTextBox rtbTam = new RichTextBox();
             rtbTam.LoadFile(DuongDanDenFilertf);
@@ -147,33 +145,13 @@ namespace TiengViet4
             }
         }
 
-        //Lấy vị trí khoảng trống hiện tại mà dấu nhắc đang ở đó, nếu blnLast == true
+        //Lấy vị trí LoaiTu hiện tại mà dấu nhắc đang ở đó, nếu blnLast == true
         //dấu nhắc được chấp nhận nếu ở sau vị trí cuối cùng của khoảng trống 1 vị trí.
-        int VitriKhoangTrong(bool blnLast)
+        int ViTriTu(string strTenLoaiTu, bool blnLast)
         {
             for (int i = 0; i < DanhSachTu.Count; ++i)
             {
-                if (DanhSachTu[i].TenLoaiTu == "KhoangTrong")
-                {
-                    if (SelectionStart >= DanhSachTu[i].ViTri && SelectionStart < DanhSachTu[i].ViTri + DanhSachTu[i].NoiDung.Length)
-                    {
-                        return i;
-                    }
-                    else if (blnLast && SelectionStart == DanhSachTu[i].ViTri + DanhSachTu[i].NoiDung.Length)
-                    {
-                        return i;
-                    }
-                }
-            }
-
-            return -1;
-        }
-
-        int VitriTuInNghieng(bool blnLast)
-        {
-            for (int i = 0; i < DanhSachTu.Count; ++i)
-            {
-                if (DanhSachTu[i].TenLoaiTu == "TuInNghieng")
+                if (DanhSachTu[i].TenLoaiTu == strTenLoaiTu)
                 {
                     if (SelectionStart >= DanhSachTu[i].ViTri && SelectionStart < DanhSachTu[i].ViTri + DanhSachTu[i].NoiDung.Length)
                     {
@@ -195,6 +173,7 @@ namespace TiengViet4
             {
                 Caret.HideCaret(Handle);
             }
+            
             base.WndProc(ref m);
         }
 
@@ -203,11 +182,11 @@ namespace TiengViet4
             if (TinhTrangBaiLam == TinhTrang.DangLamBai)
             {
                 e.Handled = true;
-                int intVitriKhoangTrong = VitriKhoangTrong(false);
-                if (intVitriKhoangTrong != -1)
+                int intViTriTu = ViTriTu("KhoangTrong", false);
+                if (intViTriTu != -1)
                 {
-                    KhoangTrong ktKhoangTrong = (KhoangTrong)DanhSachTu[intVitriKhoangTrong];
-                    DanhSachTu.Remove(DanhSachTu[intVitriKhoangTrong]);
+                    KhoangTrong ktKhoangTrong = (KhoangTrong)DanhSachTu[intViTriTu];
+                    DanhSachTu.Remove(DanhSachTu[intViTriTu]);
 
                     int index = SelectionStart - ktKhoangTrong.ViTri;                
                     int removeIndex = ktKhoangTrong.NoiDung.IndexOf('.', index);
@@ -229,7 +208,7 @@ namespace TiengViet4
 
         protected override void OnSelectionChanged(EventArgs e)
         {
-            if (VitriKhoangTrong(true) > -1 || VitriTuInNghieng(true) > -1)
+            if (ViTriTu("KhoangTrong", true) > -1 || ViTriTu("TuInNghieng", true) > -1)
             {
                 TinhTrangCaret = TinhTrangCaret.Show;
             }
@@ -247,21 +226,21 @@ namespace TiengViet4
                 if (keyData == (Keys.Shift | Keys.Back) || keyData == (Keys.Control | Keys.Back))
                 {
                     keyData = Keys.Back;
-                    int intVitriKhoangTrongLast = VitriKhoangTrong(true);
-                    if (intVitriKhoangTrongLast > -1)
+                    int intViTriTuLast = ViTriTu("KhoangTrong", true);
+                    if (intViTriTuLast > -1)
                     {
-                        SelectionStart = DanhSachTu[intVitriKhoangTrongLast].ViTri;
-                        SelectionLength = DanhSachTu[intVitriKhoangTrongLast].NoiDung.Length;
+                        SelectionStart = DanhSachTu[intViTriTuLast].ViTri;
+                        SelectionLength = DanhSachTu[intViTriTuLast].NoiDung.Length;
                     }
                 }
 
                 if (keyData == Keys.Back)
                 {
-                    int intVitriKhoangTrongLast = VitriKhoangTrong(true);
-                    if (intVitriKhoangTrongLast > -1)
+                    int intViTriTuLast = ViTriTu("KhoangTrong", true);
+                    if (intViTriTuLast > -1)
                     {
-                        KhoangTrong ktKhoangTrong = (KhoangTrong)DanhSachTu[intVitriKhoangTrongLast];
-                        DanhSachTu.Remove(DanhSachTu[intVitriKhoangTrongLast]);
+                        KhoangTrong ktKhoangTrong = (KhoangTrong)DanhSachTu[intViTriTuLast];
+                        DanhSachTu.Remove(DanhSachTu[intViTriTuLast]);
                         int index = SelectionStart - ktKhoangTrong.ViTri;
 
                         if (index >= 0 && ((index != 0 || SelectionLength != 0) && SelectionLength <= ktKhoangTrong.NoiDung.Length - index))
@@ -298,21 +277,21 @@ namespace TiengViet4
                 if (keyData == (Keys.Shift | Keys.Delete) || keyData == (Keys.Control | Keys.Delete))
                 {
                     keyData = Keys.Delete;
-                    int intVitriKhoangTrongLast = VitriKhoangTrong(true);
-                    if (intVitriKhoangTrongLast > -1)
+                    int intViTriTuLast = ViTriTu("KhoangTrong", true);
+                    if (intViTriTuLast > -1)
                     {
-                        SelectionStart = DanhSachTu[intVitriKhoangTrongLast].ViTri;
-                        SelectionLength = DanhSachTu[intVitriKhoangTrongLast].NoiDung.Length;
+                        SelectionStart = DanhSachTu[intViTriTuLast].ViTri;
+                        SelectionLength = DanhSachTu[intViTriTuLast].NoiDung.Length;
                     }
                 }
 
                 if (keyData == Keys.Delete)
                 {
-                    int intVitriKhoangTrong = VitriKhoangTrong(false);
-                    if (intVitriKhoangTrong > -1)
+                    int intViTriTu = ViTriTu("KhoangTrong", false);
+                    if (intViTriTu > -1)
                     {
-                        KhoangTrong ktKhoangTrong = (KhoangTrong)DanhSachTu[intVitriKhoangTrong];
-                        DanhSachTu.Remove(DanhSachTu[intVitriKhoangTrong]);
+                        KhoangTrong ktKhoangTrong = (KhoangTrong)DanhSachTu[intViTriTu];
+                        DanhSachTu.Remove(DanhSachTu[intViTriTu]);
                         int index = SelectionStart - ktKhoangTrong.ViTri;
                         if (index > -1 && SelectionLength <= ktKhoangTrong.NoiDung.Length - index)
                         {
@@ -410,16 +389,17 @@ namespace TiengViet4
         
         protected override void OnMouseMove(MouseEventArgs e)
         {
+            base.OnMouseMove(e);
             int intCharIndex = GetCharIndexFromPosition(e.Location);
             for (int i = 0; i < DanhSachTu.Count; ++i)
             {
-                if (DanhSachTu[i].TenLoaiTu == "NhomTu")
+                if (intCharIndex >= DanhSachTu[i].ViTri && intCharIndex < DanhSachTu[i].ViTri + DanhSachTu[i].NoiDung.Length)
                 {
-                    if (intCharIndex >= DanhSachTu[i].ViTri && intCharIndex < DanhSachTu[i].ViTri + DanhSachTu[i].NoiDung.Length)
+                    if (DanhSachTu[i].TenLoaiTu == "NhomTu")
                     {
                         Cursor = Cursors.Hand;
-                        return;
                     }
+                    return;
                 }
             }
             if (Cursor == Cursors.Hand)

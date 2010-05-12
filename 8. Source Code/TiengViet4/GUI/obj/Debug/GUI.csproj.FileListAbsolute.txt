@@ -51,10 +51,8 @@ E:\Long's Documents\hoc ki 6\Kiem chung phan mem\Seminar\B5_BaoCao_Slide_Demo\RE
 E:\Long's Documents\hoc ki 6\Kiem chung phan mem\Seminar\B5_BaoCao_Slide_Demo\REPORT\TiengVietVersion_Ngay12_05\TiengViet4\GUI\obj\Debug\TiengViet4.frmChinhTa.resources
 E:\Long's Documents\hoc ki 6\Kiem chung phan mem\Seminar\B5_BaoCao_Slide_Demo\REPORT\TiengVietVersion_Ngay12_05\TiengViet4\GUI\obj\Debug\TiengVietLop4.Properties.Resources.resources
 E:\Long's Documents\hoc ki 6\Kiem chung phan mem\Seminar\B5_BaoCao_Slide_Demo\REPORT\TiengVietVersion_Ngay12_05\TiengViet4\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
-D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\GUI\obj\Debug\TiengVietLop4.exe
-D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\GUI\obj\Debug\TiengVietLop4.pdb
-D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\GUI\bin\Debug\TiengVietLop4.exe
-D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\GUI\bin\Debug\TiengVietLop4.pdb
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\GUI\bin\Debug\TiengViet4.exe
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\GUI\bin\Debug\TiengViet4.pdb
 D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\GUI\bin\Debug\BUS.dll
 D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\GUI\bin\Debug\DTO.dll
 D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\GUI\bin\Debug\DAO.dll
@@ -66,5 +64,7 @@ D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\GUI\
 D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.frmChonBaiHoc.resources
 D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.frmTapDoc.resources
 D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.frmChinhTa.resources
-D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\GUI\obj\Debug\TiengVietLop4.Properties.Resources.resources
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.Properties.Resources.resources
 D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.exe
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.pdb
