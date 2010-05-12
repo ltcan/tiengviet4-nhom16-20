@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 using System.Windows.Forms;
 using System.Drawing;
 
-namespace ChucNangChinhTa
+namespace TiengViet4
 {
     
     public class TransparentRichTextBox : RichTextBox

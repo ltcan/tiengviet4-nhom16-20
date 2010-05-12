@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TiengVietLop4.Properties {
+namespace TiengViet4.Properties {
     using System;
     
     
@@ -57,6 +57,13 @@ namespace TiengVietLop4.Properties {
             }
             set {
                 resourceCulture = value;
+            }
+        }
+        
+        internal static System.Drawing.Bitmap hidecaret {
+            get {
+                object obj = ResourceManager.GetObject("hidecaret", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
     }
