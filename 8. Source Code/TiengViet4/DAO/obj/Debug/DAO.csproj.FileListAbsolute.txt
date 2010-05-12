@@ -1,0 +1,64 @@
+D:\ChucNangChinhTa\DAO\bin\Debug\DAO.dll
+D:\ChucNangChinhTa\DAO\bin\Debug\DAO.pdb
+D:\ChucNangChinhTa\DAO\bin\Debug\DTO.dll
+D:\ChucNangChinhTa\DAO\bin\Debug\DTO.pdb
+D:\ChucNangChinhTa\DAO\obj\Debug\ResolveAssemblyReference.cache
+D:\ChucNangChinhTa\DAO\obj\Debug\DAO.dll
+D:\ChucNangChinhTa\DAO\obj\Debug\DAO.pdb
+D:\ChucNangChinhTa\DAO\bin\Debug\CSDL\CSDL.mdb
+I:\ChucNangChinhTa\DAO\bin\Debug\CSDL\CSDL.mdb
+I:\ChucNangChinhTa\DAO\bin\Debug\DAO.dll
+I:\ChucNangChinhTa\DAO\bin\Debug\DAO.pdb
+I:\ChucNangChinhTa\DAO\bin\Debug\DTO.dll
+I:\ChucNangChinhTa\DAO\bin\Debug\DTO.pdb
+I:\ChucNangChinhTa\DAO\obj\Debug\ResolveAssemblyReference.cache
+I:\ChucNangChinhTa\DAO\obj\Debug\DAO.dll
+I:\ChucNangChinhTa\DAO\obj\Debug\DAO.pdb
+C:\Users\Lion\Desktop\ChucNangChinhTa\DAO\bin\Debug\CSDL\CSDL.mdb
+C:\Users\Lion\Desktop\ChucNangChinhTa\DAO\bin\Debug\DAO.dll
+C:\Users\Lion\Desktop\ChucNangChinhTa\DAO\bin\Debug\DAO.pdb
+C:\Users\Lion\Desktop\ChucNangChinhTa\DAO\bin\Debug\DTO.dll
+C:\Users\Lion\Desktop\ChucNangChinhTa\DAO\bin\Debug\DTO.pdb
+C:\Users\Lion\Desktop\ChucNangChinhTa\DAO\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Lion\Desktop\ChucNangChinhTa\DAO\obj\Debug\DAO.dll
+C:\Users\Lion\Desktop\ChucNangChinhTa\DAO\obj\Debug\DAO.pdb
+D:\TiengViet4\DAO\bin\Debug\CSDL\CSDL.mdb
+D:\TiengViet4\DAO\bin\Debug\DAO.dll
+D:\TiengViet4\DAO\bin\Debug\DAO.pdb
+D:\TiengViet4\DAO\bin\Debug\DTO.dll
+D:\TiengViet4\DAO\bin\Debug\DTO.pdb
+D:\TiengViet4\DAO\obj\Debug\ResolveAssemblyReference.cache
+D:\TiengViet4\DAO\obj\Debug\DAO.dll
+D:\TiengViet4\DAO\obj\Debug\DAO.pdb
+C:\Users\Lion\Desktop\TiengVietLop4\DAO\bin\Debug\CSDL\CSDL.mdb
+C:\Users\Lion\Desktop\TiengVietLop4\DAO\bin\Debug\DTO.dll
+C:\Users\Lion\Desktop\TiengVietLop4\DAO\bin\Debug\DTO.pdb
+C:\Users\Lion\Desktop\TiengVietLop4\DAO\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Lion\Desktop\TiengVietLop4\DAO\obj\Debug\DAO.dll
+C:\Users\Lion\Desktop\TiengVietLop4\DAO\obj\Debug\DAO.pdb
+C:\Users\Lion\Desktop\TiengVietLop4\DAO\bin\Debug\DAO.dll
+C:\Users\Lion\Desktop\TiengVietLop4\DAO\bin\Debug\DAO.pdb
+C:\Users\Lion\Desktop\TiengViet4\DAO\bin\Debug\CSDL\CSDL.mdb
+C:\Users\Lion\Desktop\TiengViet4\DAO\bin\Debug\DAO.dll
+C:\Users\Lion\Desktop\TiengViet4\DAO\bin\Debug\DAO.pdb
+C:\Users\Lion\Desktop\TiengViet4\DAO\bin\Debug\DTO.dll
+C:\Users\Lion\Desktop\TiengViet4\DAO\bin\Debug\DTO.pdb
+C:\Users\Lion\Desktop\TiengViet4\DAO\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Lion\Desktop\TiengViet4\DAO\obj\Debug\DAO.dll
+C:\Users\Lion\Desktop\TiengViet4\DAO\obj\Debug\DAO.pdb
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengVietVersion_Ngay12_05\TiengViet4\DAO\bin\Debug\CSDL\CSDL.mdb
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengVietVersion_Ngay12_05\TiengViet4\DAO\bin\Debug\DAO.dll
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengVietVersion_Ngay12_05\TiengViet4\DAO\bin\Debug\DAO.pdb
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengVietVersion_Ngay12_05\TiengViet4\DAO\bin\Debug\DTO.dll
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengVietVersion_Ngay12_05\TiengViet4\DAO\bin\Debug\DTO.pdb
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengVietVersion_Ngay12_05\TiengViet4\DAO\obj\Debug\ResolveAssemblyReference.cache
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengVietVersion_Ngay12_05\TiengViet4\DAO\obj\Debug\DAO.dll
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengVietVersion_Ngay12_05\TiengViet4\DAO\obj\Debug\DAO.pdb
+E:\Long's Documents\hoc ki 6\Kiem chung phan mem\Seminar\B5_BaoCao_Slide_Demo\REPORT\TiengVietVersion_Ngay12_05\TiengViet4\DAO\bin\Debug\CSDL\CSDL.mdb
+E:\Long's Documents\hoc ki 6\Kiem chung phan mem\Seminar\B5_BaoCao_Slide_Demo\REPORT\TiengVietVersion_Ngay12_05\TiengViet4\DAO\bin\Debug\DAO.dll
+E:\Long's Documents\hoc ki 6\Kiem chung phan mem\Seminar\B5_BaoCao_Slide_Demo\REPORT\TiengVietVersion_Ngay12_05\TiengViet4\DAO\bin\Debug\DAO.pdb
+E:\Long's Documents\hoc ki 6\Kiem chung phan mem\Seminar\B5_BaoCao_Slide_Demo\REPORT\TiengVietVersion_Ngay12_05\TiengViet4\DAO\bin\Debug\DTO.dll
+E:\Long's Documents\hoc ki 6\Kiem chung phan mem\Seminar\B5_BaoCao_Slide_Demo\REPORT\TiengVietVersion_Ngay12_05\TiengViet4\DAO\bin\Debug\DTO.pdb
+E:\Long's Documents\hoc ki 6\Kiem chung phan mem\Seminar\B5_BaoCao_Slide_Demo\REPORT\TiengVietVersion_Ngay12_05\TiengViet4\DAO\obj\Debug\ResolveAssemblyReference.cache
+E:\Long's Documents\hoc ki 6\Kiem chung phan mem\Seminar\B5_BaoCao_Slide_Demo\REPORT\TiengVietVersion_Ngay12_05\TiengViet4\DAO\obj\Debug\DAO.dll
+E:\Long's Documents\hoc ki 6\Kiem chung phan mem\Seminar\B5_BaoCao_Slide_Demo\REPORT\TiengVietVersion_Ngay12_05\TiengViet4\DAO\obj\Debug\DAO.pdb
