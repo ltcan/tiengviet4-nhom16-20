@@ -58,6 +58,7 @@ namespace TiengViet4
             string[] DanhSachSoQuiUocs = DanhSachSoQuiUoc.Split(',');
             DanhSachTu.Clear();
             TinhTrangBaiLam = TinhTrang.DangLamBai;
+            TinhTrangCaret = TinhTrangCaret.Hide;
             ReadOnly = false;
             RichTextBox rtbTam = new RichTextBox();
             rtbTam.LoadFile(DuongDanDenFilertf);
@@ -132,6 +133,14 @@ namespace TiengViet4
                 }
             }
             LoadFile(DuongDanDenFilertf);
+            for (int i = 0; i < DanhSachTu.Count; ++i)
+            {
+                if (DanhSachTu[i].TenLoaiTu != "NhomTu")
+                {
+                    SelectionStart = DanhSachTu[i].ViTri;
+                    return;
+                }
+            }
             if (DanhSachTu.Count > 0)
             {
                 SelectionStart = DanhSachTu[0].ViTri;
@@ -145,6 +154,26 @@ namespace TiengViet4
             for (int i = 0; i < DanhSachTu.Count; ++i)
             {
                 if (DanhSachTu[i].TenLoaiTu == "KhoangTrong")
+                {
+                    if (SelectionStart >= DanhSachTu[i].ViTri && SelectionStart < DanhSachTu[i].ViTri + DanhSachTu[i].NoiDung.Length)
+                    {
+                        return i;
+                    }
+                    else if (blnLast && SelectionStart == DanhSachTu[i].ViTri + DanhSachTu[i].NoiDung.Length)
+                    {
+                        return i;
+                    }
+                }
+            }
+
+            return -1;
+        }
+
+        int VitriTuInNghieng(bool blnLast)
+        {
+            for (int i = 0; i < DanhSachTu.Count; ++i)
+            {
+                if (DanhSachTu[i].TenLoaiTu == "TuInNghieng")
                 {
                     if (SelectionStart >= DanhSachTu[i].ViTri && SelectionStart < DanhSachTu[i].ViTri + DanhSachTu[i].NoiDung.Length)
                     {
@@ -196,6 +225,19 @@ namespace TiengViet4
                     DanhSachTu.Add(ktKhoangTrong);
                 }
             }
+        }
+
+        protected override void OnSelectionChanged(EventArgs e)
+        {
+            if (VitriKhoangTrong(true) > -1 || VitriTuInNghieng(true) > -1)
+            {
+                TinhTrangCaret = TinhTrangCaret.Show;
+            }
+            else
+            {
+                TinhTrangCaret = TinhTrangCaret.Hide;
+            }
+            base.OnSelectionChanged(e);
         }
 
         protected override bool ProcessDialogKey(Keys keyData)
@@ -310,54 +352,55 @@ namespace TiengViet4
         {
             if (TinhTrangBaiLam == TinhTrang.DangLamBai)
             {
-                int intSelectionStart = SelectionStart;
-                int intSelectionLength = SelectionLength;
-                
+                RichTextBox rtb = new RichTextBox();
+                rtb.Rtf = Rtf;
                 for (int i = 0; i < DanhSachTu.Count; ++i)
                 {
                     if (DanhSachTu[i].TenLoaiTu == "NhomTu")
                     {
-                        int[] arrintVitriChon = ((NhomTu)DanhSachTu[i]).LayViTriChonVaThayDoiTinhTrangChonTuNeuO(intSelectionStart);
+                        int[] arrintVitriChon = ((NhomTu)DanhSachTu[i]).LayViTriChonVaThayDoiTinhTrangChonTuNeuO(SelectionStart);
                         if (arrintVitriChon[1] != -1)
                         {
+                            int intSelectionStart = SelectionStart;
                             if (arrintVitriChon[0] != -1)
                             {
-                                SelectionStart = DanhSachTu[i].ViTri - 1;
-                                SelectionLength = 1;
-                                Color clDefault = SelectionColor;
-                                System.Drawing.Font fntDefault = SelectionFont;
+                                rtb.SelectionStart = DanhSachTu[i].ViTri - 1;
+                                rtb.SelectionLength = 1;
+                                Color clDefault = rtb.SelectionColor;
+                                System.Drawing.Font fntDefault = rtb.SelectionFont;
                                 int[] arrintVitri = ((NhomTu)DanhSachTu[i]).LayKhoangViTriCuaTuTai(arrintVitriChon[0]);
-                                SelectionStart = arrintVitri[0];
-                                SelectionLength = arrintVitri[1];
-                                SelectionFont = fntDefault;
-                                SelectionColor = clDefault;
+                                rtb.SelectionStart = arrintVitri[0];
+                                rtb.SelectionLength = arrintVitri[1];
+                                rtb.SelectionFont = fntDefault;
+                                rtb.SelectionColor = clDefault;
                             }
 
                             if (arrintVitriChon[0] != arrintVitriChon[1])
                             {
                                 int[] arrintVitri = ((NhomTu)DanhSachTu[i]).LayKhoangViTriCuaTuTai(arrintVitriChon[1]);
-                                SelectionStart = arrintVitri[0];
-                                SelectionLength = 1;
+                                rtb.SelectionStart = arrintVitri[0];
+                                rtb.SelectionLength = 1;
                                 int j = 0;
-                                while (SelectedText == " " && j <= arrintVitri[1])
+                                while (rtb.SelectedText == " " && j <= arrintVitri[1])
                                 {
-                                    ++SelectionStart;
+                                    ++rtb.SelectionStart;
                                     ++j;
                                 }
-                                SelectionLength = arrintVitri[1] - j;
-                                while (SelectedText == " " && SelectionLength > 0)
+                                rtb.SelectionLength = arrintVitri[1] - j;
+                                while (rtb.SelectedText == " " && rtb.SelectionLength > 0)
                                 {
-                                    --SelectionLength;
+                                    --rtb.SelectionLength;
                                 }
-                                SelectionFont = new Font(SelectionFont.FontFamily, SelectionFont.Size, FontStyle.Underline);
-                                SelectionColor = Color.Blue;
+                                rtb.SelectionFont = new Font(rtb.SelectionFont.FontFamily, rtb.SelectionFont.Size, FontStyle.Underline);
+                                rtb.SelectionColor = Color.Blue;
                             }
+                            TinhTrangCaret = TinhTrangCaret.Hide;
+                            Rtf = rtb.Rtf;
+                            SelectionStart = intSelectionStart;
                             break;
                         }
                     }
                 }
-                SelectionStart = intSelectionStart;
-                SelectionLength = intSelectionLength;
             }
             else
             {
