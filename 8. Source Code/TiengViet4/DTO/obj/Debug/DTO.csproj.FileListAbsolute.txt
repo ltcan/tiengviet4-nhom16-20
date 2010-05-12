@@ -38,3 +38,8 @@ E:\Long's Documents\hoc ki 6\Kiem chung phan mem\Seminar\B5_BaoCao_Slide_Demo\RE
 E:\Long's Documents\hoc ki 6\Kiem chung phan mem\Seminar\B5_BaoCao_Slide_Demo\REPORT\TiengVietVersion_Ngay12_05\TiengViet4\DTO\obj\Debug\ResolveAssemblyReference.cache
 E:\Long's Documents\hoc ki 6\Kiem chung phan mem\Seminar\B5_BaoCao_Slide_Demo\REPORT\TiengVietVersion_Ngay12_05\TiengViet4\DTO\obj\Debug\DTO.dll
 E:\Long's Documents\hoc ki 6\Kiem chung phan mem\Seminar\B5_BaoCao_Slide_Demo\REPORT\TiengVietVersion_Ngay12_05\TiengViet4\DTO\obj\Debug\DTO.pdb
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\DTO\bin\Debug\DTO.dll
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\DTO\bin\Debug\DTO.pdb
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\DTO\obj\Debug\ResolveAssemblyReference.cache
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\DTO\obj\Debug\DTO.dll
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\DTO\obj\Debug\DTO.pdb

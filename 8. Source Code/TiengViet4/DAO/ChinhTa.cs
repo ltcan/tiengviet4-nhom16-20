@@ -12,7 +12,7 @@ namespace DAO
         {
             string LenhDocDuLieu = "Select * From FileLuyenTap " + 
                                    "Where MaBaiHoc = '" + strMaBaiHoc + "'" +
-                                   "And MaLoaiMon = '2'";
+                                   " And MaLoaiMon = '2'";
             return CoSoDuLieu.LayDuLieu(LenhDocDuLieu);
         }
     }
