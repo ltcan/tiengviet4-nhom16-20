@@ -13,7 +13,7 @@ namespace DAO
         public static DataTable LayDuLieu(string strLenhDocDulieu)
         {
             DataTable Table = new DataTable();
-            OleDbDataAdapter Adapter = new OleDbDataAdapter(strLenhDocDulieu, @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=CSDL\CSDL.mdb");
+            OleDbDataAdapter Adapter = new OleDbDataAdapter(strLenhDocDulieu, @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + AppDomain.CurrentDomain.BaseDirectory + @"CSDL\CSDL.mdb");
             Adapter.Fill(Table);
             return Table;
         }

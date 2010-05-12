@@ -88,3 +88,13 @@ E:\Long's Documents\hoc ki 6\Kiem chung phan mem\Seminar\B5_BaoCao_Slide_Demo\RE
 E:\Long's Documents\hoc ki 6\Kiem chung phan mem\Seminar\B5_BaoCao_Slide_Demo\REPORT\TiengVietVersion_Ngay12_05\TiengViet4\BUS\obj\Debug\ResolveAssemblyReference.cache
 E:\Long's Documents\hoc ki 6\Kiem chung phan mem\Seminar\B5_BaoCao_Slide_Demo\REPORT\TiengVietVersion_Ngay12_05\TiengViet4\BUS\obj\Debug\BUS.dll
 E:\Long's Documents\hoc ki 6\Kiem chung phan mem\Seminar\B5_BaoCao_Slide_Demo\REPORT\TiengVietVersion_Ngay12_05\TiengViet4\BUS\obj\Debug\BUS.pdb
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\BUS\bin\Debug\CSDL\CSDL.mdb
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\BUS\bin\Debug\BUS.dll
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\BUS\bin\Debug\BUS.pdb
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\BUS\bin\Debug\DAO.dll
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\BUS\bin\Debug\DTO.dll
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\BUS\bin\Debug\DAO.pdb
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\BUS\bin\Debug\DTO.pdb
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\BUS\obj\Debug\ResolveAssemblyReference.cache
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\BUS\obj\Debug\BUS.dll
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\BUS\obj\Debug\BUS.pdb
