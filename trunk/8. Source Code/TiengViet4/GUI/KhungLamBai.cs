@@ -201,7 +201,7 @@ namespace TiengViet4
                         SelectionLength = 0;
                         SelectedText = e.KeyChar.ToString();
                     }                            
-                    DanhSachTu.Add(ktKhoangTrong);
+                    DanhSachTu.Insert(intViTriTu, ktKhoangTrong);
                 }
             }
         }
@@ -269,7 +269,7 @@ namespace TiengViet4
                             SelectionLength = 0;
                             SelectionStart = index + ktKhoangTrong.ViTri;
                         }
-                        DanhSachTu.Add(ktKhoangTrong);
+                        DanhSachTu.Insert(intViTriTuLast, ktKhoangTrong);
                     }
                     return true;
                 }
@@ -314,7 +314,7 @@ namespace TiengViet4
                             SelectionLength = 0;
                             SelectionStart = index + ktKhoangTrong.ViTri + strRemove.Length;
                         }
-                        DanhSachTu.Add(ktKhoangTrong);
+                        DanhSachTu.Insert(intViTriTu, ktKhoangTrong);
                     }
                     return true;
                 }
