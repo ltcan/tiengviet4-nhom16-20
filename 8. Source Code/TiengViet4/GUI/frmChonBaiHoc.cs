@@ -17,31 +17,33 @@ namespace TiengViet4
 
         private void BtnThoat_Click(object sender, DevComponents.DotNetBar.ClickEventArgs e)
         {
-            Close();
+            this.Close();
             Application.Exit();            
         }
 
         private void btnEnter_Click(object sender, EventArgs e)
         {
+            frmTapDoc frm2 = new frmTapDoc("123");
+            frm2.Show();
             if (tvDanhSachBaiHoc.SelectedIndex == 1)
             {
                 frmChinhTa frm = new frmChinhTa("1");
-                Hide();
+                this.Hide();
                 frm.ShowDialog();
-                Close();
+                this.Close();
             }
             else if (tvDanhSachBaiHoc.SelectedIndex == 2)
             {
-                frmTapDoc frm = new frmTapDoc();
-                Hide();
+                frmTapDoc frm = new frmTapDoc("123");
+                this.Hide();
                 frm.ShowDialog();
-                Close();
+                this.Close();
             }
         }
 
         private void btnHome_Click(object sender, DevComponents.DotNetBar.ClickEventArgs e)
         {
-            Close();
+            this.Close();
         }
 
     }
