@@ -34,6 +34,6 @@ namespace BUS
             string strDapAn = QuanLyFile.LayNoiDung(strTenFileDapAn);
             strDapAn = strDapAn.Replace("||", "|");
             return new List<string>(strDapAn.Split('|'));
-        }       
+        }  
     }
 }

@@ -47,7 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ChinhTa.cs" />
-    <Compile Include="Dau.cs" />
+    <Compile Include="QuanLyDau.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QuanLyFile.cs" />
   </ItemGroup>

@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Text;
 using System.Windows.Forms;
 using System.Drawing;
-using System.Threading;
 using DTO;
+using BUS;
 
 namespace TiengViet4
 {
@@ -28,13 +28,24 @@ namespace TiengViet4
             set;
         }
 
+        //Biến quản lý việc chuyển đổi dấu.
+        public QuanLyDau QuanLyDau
+        {
+            get;
+            set;
+        }
+        
         //Danh sách vị trí học sinh được quyền chuyển đổi trạng thái khi làm bài.
         public List<Tu> DanhSachTu;
-        
+        //Đáp án của câu hiện tại.
+        public List<string> DapAn;
+
         public KhungLamBai():base()
         {
             DanhSachTu = new List<Tu>();
+            DapAn = new List<string>();
             TinhTrangCaret = TinhTrangCaret.Show;
+            QuanLyDau = null;
         }
 
         
@@ -51,16 +62,18 @@ namespace TiengViet4
         }
 
         //DanhSachSoQuiUoc: Danh sách số kí tự '.' được qui ước là vùng có thể đánh chữ.
-        public void DocDe(string DuongDanDenFilertf, string DanhSachSoQuiUoc)
+        public void DocDe(string strFileNoiDung, string strFileDapAn, string strDanhSachSoQuiUoc)
         {
-            DanhSachSoQuiUoc = DanhSachSoQuiUoc.Replace(" ", "");
-            string[] DanhSachSoQuiUocs = DanhSachSoQuiUoc.Split(',');
+            strDanhSachSoQuiUoc = strDanhSachSoQuiUoc.Replace(" ", "");
+            string[] DanhSachSoQuiUocs = strDanhSachSoQuiUoc.Split(',');
             DanhSachTu.Clear();
             TinhTrangBaiLam = TinhTrang.DangLamBai;
             ReadOnly = false;
             RichTextBox rtbTam = new RichTextBox();
-            rtbTam.LoadFile(DuongDanDenFilertf);
+            rtbTam.LoadFile(strFileNoiDung);
             DanhSachTu.Clear();
+            DapAn.Clear();
+            DapAn = ChinhTa.LayDapAn(strFileDapAn);
             bool blnFlag = false;
             
             for (int i = 0; i < rtbTam.Text.Length; ++i)
@@ -130,15 +143,8 @@ namespace TiengViet4
                     }
                 }
             }
-            LoadFile(DuongDanDenFilertf);
-            for (int i = 0; i < DanhSachTu.Count; ++i)
-            {
-                if (DanhSachTu[i].TenLoaiTu != "NhomTu")
-                {
-                    SelectionStart = DanhSachTu[i].ViTri;
-                    return;
-                }
-            }
+            LoadFile(strFileNoiDung);
+            
             if (DanhSachTu.Count > 0)
             {
                 SelectionStart = DanhSachTu[0].ViTri;
@@ -178,7 +184,7 @@ namespace TiengViet4
         }
 
         protected override void OnKeyPress(KeyPressEventArgs e)
-        {          
+        {
             if (TinhTrangBaiLam == TinhTrang.DangLamBai)
             {
                 e.Handled = true;
@@ -188,7 +194,7 @@ namespace TiengViet4
                     KhoangTrong ktKhoangTrong = (KhoangTrong)DanhSachTu[intViTriTu];
                     DanhSachTu.Remove(DanhSachTu[intViTriTu]);
 
-                    int index = SelectionStart - ktKhoangTrong.ViTri;                
+                    int index = SelectionStart - ktKhoangTrong.ViTri;
                     int removeIndex = ktKhoangTrong.NoiDung.IndexOf('.', index);
                     if (removeIndex >= 0)
                     {
@@ -200,8 +206,26 @@ namespace TiengViet4
                         SelectionStart = ktKhoangTrong.ViTri + index;
                         SelectionLength = 0;
                         SelectedText = e.KeyChar.ToString();
-                    }                            
+                    }
                     DanhSachTu.Insert(intViTriTu, ktKhoangTrong);
+                }
+                else
+                {
+                    intViTriTu = ViTriTu("TuInNghieng", true);
+                    if (intViTriTu > -1)
+                    {
+                        TuInNghieng tinTu = (TuInNghieng)DanhSachTu[intViTriTu];
+                        if (SelectionStart > tinTu.ViTri)
+                        {
+                            SelectionStart = SelectionStart - 1;
+                            SelectionLength = 1;
+                            char chrKyTu = SelectedText[0];
+                            chrKyTu = QuanLyDau.ChuyenDoi(chrKyTu, e.KeyChar);
+                            SelectedText = chrKyTu.ToString();
+                            tinTu.NoiDung = tinTu.NoiDung.Remove(SelectionStart - tinTu.ViTri - 1, 1);
+                            tinTu.NoiDung = tinTu.NoiDung.Insert(SelectionStart - tinTu.ViTri - 1, chrKyTu.ToString());
+                        }
+                    }
                 }
             }
         }
@@ -223,6 +247,24 @@ namespace TiengViet4
         {
             if (TinhTrangBaiLam == TinhTrang.DangLamBai)
             {
+                if (keyData == Keys.Tab)
+                {
+                    bool blnFlag = true;
+                    for (int i = 0; i < DanhSachTu.Count; ++i)
+                    {
+                        if (DanhSachTu[i].ViTri > SelectionStart)
+                        {
+                            blnFlag = false;
+                            SelectionStart = DanhSachTu[i].ViTri;
+                            break;
+                        }
+                    }
+                    if (blnFlag && DanhSachTu.Count > 0)
+                    {
+                        SelectionStart = DanhSachTu[0].ViTri;
+                    }
+                }
+                
                 if (keyData == (Keys.Shift | Keys.Back) || keyData == (Keys.Control | Keys.Back))
                 {
                     keyData = Keys.Back;
