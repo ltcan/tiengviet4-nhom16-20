@@ -47,7 +47,6 @@
   <ItemGroup>
     <Compile Include="BaiHoc.cs" />
     <Compile Include="ChuyenDoiDau.cs" />
-    <Compile Include="Dau.cs" />
     <Compile Include="KhoangTrong.cs" />
     <Compile Include="FileLuyenTap.cs" />
     <Compile Include="LoaiMon.cs" />
