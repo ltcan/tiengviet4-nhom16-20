@@ -14,3 +14,4 @@ E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet
 E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\UnitTest\bin\Debug\DTO.pdb
 E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\UnitTest\obj\Debug\UnitTest.dll
 E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\UnitTest\obj\Debug\UnitTest.pdb
+E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\UnitTest\bin\Debug\DevComponents.DotNetBar2.dll

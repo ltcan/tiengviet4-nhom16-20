@@ -33,8 +33,10 @@ namespace TiengViet4
                 switch (strMaLoaiMon)
                 {
                     case "CT":
+                        this.Cursor = Cursors.WaitCursor;
                         ChinhTaForm frmChinhTa = new ChinhTaForm(treDanhSachTuan.SelectedNode.Name);
                         frmChinhTa.ShowDialog();
+                        this.Cursor = Cursors.Default;
                         break;
                 }                
             }
@@ -90,6 +92,25 @@ namespace TiengViet4
             catch (Exception Ex)
             {
                 MessageBox.Show(Ex.Message);
+            }
+        }
+
+        private void treDanhSachTuan_NodeMouseDoubleClick(object sender, TreeNodeMouseClickEventArgs e)
+        {
+            this.btnEnter_Click(sender, e);
+        }
+
+        // Region Le Van Long
+        private void treDanhSachTuan_MouseMove(object sender, MouseEventArgs e)
+        {
+            TreeNode Node = treDanhSachTuan.GetNodeAt(e.Location);
+            if (Node != null && Node.Level > 0)
+            {
+                this.Cursor = Cursors.Hand;
+            }
+            else 
+            {
+                this.Cursor = Cursors.Default;
             }
         }
     }
