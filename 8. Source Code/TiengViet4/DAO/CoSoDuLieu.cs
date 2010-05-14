@@ -12,9 +12,21 @@ namespace DAO
     {
         public static DataTable LayDuLieu(string strLenhDocDulieu)
         {
+            OleDbConnection Conn = new OleDbConnection(@"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + AppDomain.CurrentDomain.BaseDirectory + @"CSDL\CSDL.mdb");
             DataTable Table = new DataTable();
-            OleDbDataAdapter Adapter = new OleDbDataAdapter(strLenhDocDulieu, @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + AppDomain.CurrentDomain.BaseDirectory + @"CSDL\CSDL.mdb");
-            Adapter.Fill(Table);
+            try
+            {
+                OleDbDataAdapter Adapter = new OleDbDataAdapter(strLenhDocDulieu, Conn);
+                Adapter.Fill(Table);
+            }
+            catch (OleDbException Ex)
+            {
+                throw Ex;
+            }
+            finally
+            {
+                Conn.Close();
+            }
             return Table;
         }
     }

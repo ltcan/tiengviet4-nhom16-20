@@ -14,7 +14,7 @@ namespace TiengViet4
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmTiengViet4());
+            Application.Run(new MainForm());
         }
     }
 }

@@ -12,7 +12,7 @@ namespace UnitTest
         [Test]
         public void LayDapAn()
         {
-            List<string> lstDapAn = BUS.ChinhTa.LayDapAn("test.txt");
+            List<string> lstDapAn = BUS.FileLuyenTapBUS.LayDapAn("test.txt");
             Assert.AreEqual(lstDapAn[0], "gi");
             Assert.AreEqual(lstDapAn[1], "gi");
             Assert.AreEqual(lstDapAn[2], "r");
