@@ -66,11 +66,18 @@ namespace TiengViet4
         {
             strDanhSachSoQuiUoc = strDanhSachSoQuiUoc.Replace(" ", "");
             string[] DanhSachSoQuiUocs = strDanhSachSoQuiUoc.Split(',');
-            DanhSachTu.Clear();
+            //DanhSachTu.Clear();
             TinhTrangBaiLam = TinhTrang.DangLamBai;
             ReadOnly = false;
             RichTextBox rtbTam = new RichTextBox();
-            rtbTam.LoadFile(strFileNoiDung);
+            try
+            {
+                rtbTam.LoadFile(strFileNoiDung);
+            }
+            catch(Exception Ex)
+            {
+                MessageBox.Show(Ex.Message);
+            }
             DanhSachTu.Clear();
             DapAn.Clear();
             DapAn = FileLuyenTapBUS.LayDapAn(strFileDapAn);
@@ -114,11 +121,15 @@ namespace TiengViet4
                             blnFlag = true;
                         }
                         KhoangTrong ktKhoangTrong = new KhoangTrong();
-                        ktKhoangTrong.NoiDung = "";
-                        for (int c = 0; c < j; ++c)
-                        {
-                            ktKhoangTrong.NoiDung = ktKhoangTrong.NoiDung.Insert(0, ".");
-                        }
+
+                        // Region Le Van Long
+                        ktKhoangTrong.NoiDung = rtbTam.Text.Substring(i, j);
+                        //for (int c = 0; c < j; ++c)
+                        //{
+                        //    ktKhoangTrong.NoiDung = ktKhoangTrong.NoiDung.Insert(0, ".");
+                        //}
+                        // Endregion
+                        
                         ktKhoangTrong.ViTri = i;
                         DanhSachTu.Add(ktKhoangTrong);
                     }
@@ -143,7 +154,14 @@ namespace TiengViet4
                     }
                 }
             }
-            LoadFile(strFileNoiDung);
+            try
+            {
+                LoadFile(strFileNoiDung);
+            }
+            catch (Exception Ex)
+            {
+                MessageBox.Show(Ex.Message);
+            }
             
             if (DanhSachTu.Count > 0)
             {
@@ -255,13 +273,13 @@ namespace TiengViet4
                         if (DanhSachTu[i].ViTri > SelectionStart)
                         {
                             blnFlag = false;
-                            SelectionStart = DanhSachTu[i].ViTri;
+                            SelectionStart = DanhSachTu[i].ViTri + DanhSachTu[i].NoiDung.Length/2;
                             break;
                         }
                     }
                     if (blnFlag && DanhSachTu.Count > 0)
                     {
-                        SelectionStart = DanhSachTu[0].ViTri;
+                        SelectionStart = DanhSachTu[0].ViTri + DanhSachTu[0].NoiDung.Length/2;
                     }
                 }
                 
