@@ -2,7 +2,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>9.0.21022</ProductVersion>
+    <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{29E1DC1A-6109-45A4-B5B9-AF6A39965C28}</ProjectGuid>
     <OutputType>WinExe</OutputType>
@@ -51,51 +51,50 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Caret.cs" />
-    <Compile Include="frmTiengViet4.cs">
+    <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmTiengViet4.Designer.cs">
-      <DependentUpon>frmTiengViet4.cs</DependentUpon>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmChonBaiHoc.cs">
+    <Compile Include="ChonBaiHocForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmChonBaiHoc.Designer.cs">
-      <DependentUpon>frmChonBaiHoc.cs</DependentUpon>
+    <Compile Include="ChonBaiHocForm.Designer.cs">
+      <DependentUpon>ChonBaiHocForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmTapDoc.cs">
+    <Compile Include="TapDocForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmTapDoc.Designer.cs">
-      <DependentUpon>frmTapDoc.cs</DependentUpon>
+    <Compile Include="TapDocForm.Designer.cs">
+      <DependentUpon>TapDocForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmChinhTa.cs">
+    <Compile Include="ChinhTaForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmChinhTa.Designer.cs">
-      <DependentUpon>frmChinhTa.cs</DependentUpon>
+    <Compile Include="ChinhTaForm.Designer.cs">
+      <DependentUpon>ChinhTaForm.cs</DependentUpon>
     </Compile>
     <Compile Include="KhungLamBai.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="MusicPlayer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmTiengViet4.resx">
+    <EmbeddedResource Include="MainForm.resx">
       <SubType>Designer</SubType>
-      <DependentUpon>frmTiengViet4.cs</DependentUpon>
+      <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmChonBaiHoc.resx">
+    <EmbeddedResource Include="ChonBaiHocForm.resx">
       <SubType>Designer</SubType>
-      <DependentUpon>frmChonBaiHoc.cs</DependentUpon>
+      <DependentUpon>ChonBaiHocForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmTapDoc.resx">
+    <EmbeddedResource Include="TapDocForm.resx">
       <SubType>Designer</SubType>
-      <DependentUpon>frmTapDoc.cs</DependentUpon>
+      <DependentUpon>TapDocForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmChinhTa.resx">
+    <EmbeddedResource Include="ChinhTaForm.resx">
       <SubType>Designer</SubType>
-      <DependentUpon>frmChinhTa.cs</DependentUpon>
+      <DependentUpon>ChinhTaForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

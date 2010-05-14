@@ -73,7 +73,7 @@ namespace TiengViet4
             rtbTam.LoadFile(strFileNoiDung);
             DanhSachTu.Clear();
             DapAn.Clear();
-            DapAn = ChinhTa.LayDapAn(strFileDapAn);
+            DapAn = FileLuyenTapBUS.LayDapAn(strFileDapAn);
             bool blnFlag = false;
             
             for (int i = 0; i < rtbTam.Text.Length; ++i)

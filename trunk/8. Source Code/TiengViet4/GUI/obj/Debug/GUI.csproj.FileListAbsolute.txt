@@ -1,87 +1,17 @@
-C:\Users\Lion\Desktop\TiengViet4\GUI\bin\Debug\TiengVietLop4.exe
-C:\Users\Lion\Desktop\TiengViet4\GUI\bin\Debug\TiengVietLop4.pdb
-C:\Users\Lion\Desktop\TiengViet4\GUI\bin\Debug\BUS.dll
-C:\Users\Lion\Desktop\TiengViet4\GUI\bin\Debug\DTO.dll
-C:\Users\Lion\Desktop\TiengViet4\GUI\bin\Debug\DAO.dll
-C:\Users\Lion\Desktop\TiengViet4\GUI\bin\Debug\BUS.pdb
-C:\Users\Lion\Desktop\TiengViet4\GUI\bin\Debug\DAO.pdb
-C:\Users\Lion\Desktop\TiengViet4\GUI\bin\Debug\DTO.pdb
-C:\Users\Lion\Desktop\TiengViet4\GUI\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\Lion\Desktop\TiengViet4\GUI\obj\Debug\TiengViet4.frmTiengViet4.resources
-C:\Users\Lion\Desktop\TiengViet4\GUI\obj\Debug\TiengViet4.frmChonBaiHoc.resources
-C:\Users\Lion\Desktop\TiengViet4\GUI\obj\Debug\TiengViet4.frmTapDoc.resources
-C:\Users\Lion\Desktop\TiengViet4\GUI\obj\Debug\TiengViet4.frmChinhTa.resources
-C:\Users\Lion\Desktop\TiengViet4\GUI\obj\Debug\TiengVietLop4.Properties.Resources.resources
-C:\Users\Lion\Desktop\TiengViet4\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
-C:\Users\Lion\Desktop\TiengViet4\GUI\obj\Debug\TiengVietLop4.exe
-C:\Users\Lion\Desktop\TiengViet4\GUI\obj\Debug\TiengVietLop4.pdb
-C:\Users\Lion\Desktop\tiengviet4-nhom16-20\8. Source Code\TiengViet4\GUI\obj\Debug\TiengVietLop4.exe
-C:\Users\Lion\Desktop\tiengviet4-nhom16-20\8. Source Code\TiengViet4\GUI\obj\Debug\TiengVietLop4.pdb
-D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengVietVersion_Ngay12_05\TiengViet4\GUI\obj\Debug\TiengVietLop4.exe
-D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengVietVersion_Ngay12_05\TiengViet4\GUI\obj\Debug\TiengVietLop4.pdb
-D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengVietVersion_Ngay12_05\TiengViet4\GUI\bin\Debug\TiengVietLop4.exe
-D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengVietVersion_Ngay12_05\TiengViet4\GUI\bin\Debug\TiengVietLop4.pdb
-D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengVietVersion_Ngay12_05\TiengViet4\GUI\bin\Debug\BUS.dll
-D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengVietVersion_Ngay12_05\TiengViet4\GUI\bin\Debug\DTO.dll
-D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengVietVersion_Ngay12_05\TiengViet4\GUI\bin\Debug\DAO.dll
-D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengVietVersion_Ngay12_05\TiengViet4\GUI\bin\Debug\BUS.pdb
-D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengVietVersion_Ngay12_05\TiengViet4\GUI\bin\Debug\DAO.pdb
-D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengVietVersion_Ngay12_05\TiengViet4\GUI\bin\Debug\DTO.pdb
-D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengVietVersion_Ngay12_05\TiengViet4\GUI\obj\Debug\ResolveAssemblyReference.cache
-D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengVietVersion_Ngay12_05\TiengViet4\GUI\obj\Debug\TiengViet4.frmTiengViet4.resources
-D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengVietVersion_Ngay12_05\TiengViet4\GUI\obj\Debug\TiengViet4.frmChonBaiHoc.resources
-D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengVietVersion_Ngay12_05\TiengViet4\GUI\obj\Debug\TiengViet4.frmTapDoc.resources
-D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengVietVersion_Ngay12_05\TiengViet4\GUI\obj\Debug\TiengViet4.frmChinhTa.resources
-D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengVietVersion_Ngay12_05\TiengViet4\GUI\obj\Debug\TiengVietLop4.Properties.Resources.resources
-D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengVietVersion_Ngay12_05\TiengViet4\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
-E:\Long's Documents\hoc ki 6\Kiem chung phan mem\Seminar\B5_BaoCao_Slide_Demo\REPORT\TiengVietVersion_Ngay12_05\TiengViet4\GUI\obj\Debug\TiengVietLop4.exe
-E:\Long's Documents\hoc ki 6\Kiem chung phan mem\Seminar\B5_BaoCao_Slide_Demo\REPORT\TiengVietVersion_Ngay12_05\TiengViet4\GUI\obj\Debug\TiengVietLop4.pdb
-E:\Long's Documents\hoc ki 6\Kiem chung phan mem\Seminar\B5_BaoCao_Slide_Demo\REPORT\TiengVietVersion_Ngay12_05\TiengViet4\GUI\bin\Debug\TiengVietLop4.exe
-E:\Long's Documents\hoc ki 6\Kiem chung phan mem\Seminar\B5_BaoCao_Slide_Demo\REPORT\TiengVietVersion_Ngay12_05\TiengViet4\GUI\bin\Debug\TiengVietLop4.pdb
-E:\Long's Documents\hoc ki 6\Kiem chung phan mem\Seminar\B5_BaoCao_Slide_Demo\REPORT\TiengVietVersion_Ngay12_05\TiengViet4\GUI\bin\Debug\BUS.dll
-E:\Long's Documents\hoc ki 6\Kiem chung phan mem\Seminar\B5_BaoCao_Slide_Demo\REPORT\TiengVietVersion_Ngay12_05\TiengViet4\GUI\bin\Debug\DTO.dll
-E:\Long's Documents\hoc ki 6\Kiem chung phan mem\Seminar\B5_BaoCao_Slide_Demo\REPORT\TiengVietVersion_Ngay12_05\TiengViet4\GUI\bin\Debug\DAO.dll
-E:\Long's Documents\hoc ki 6\Kiem chung phan mem\Seminar\B5_BaoCao_Slide_Demo\REPORT\TiengVietVersion_Ngay12_05\TiengViet4\GUI\bin\Debug\BUS.pdb
-E:\Long's Documents\hoc ki 6\Kiem chung phan mem\Seminar\B5_BaoCao_Slide_Demo\REPORT\TiengVietVersion_Ngay12_05\TiengViet4\GUI\bin\Debug\DAO.pdb
-E:\Long's Documents\hoc ki 6\Kiem chung phan mem\Seminar\B5_BaoCao_Slide_Demo\REPORT\TiengVietVersion_Ngay12_05\TiengViet4\GUI\bin\Debug\DTO.pdb
-E:\Long's Documents\hoc ki 6\Kiem chung phan mem\Seminar\B5_BaoCao_Slide_Demo\REPORT\TiengVietVersion_Ngay12_05\TiengViet4\GUI\obj\Debug\ResolveAssemblyReference.cache
-E:\Long's Documents\hoc ki 6\Kiem chung phan mem\Seminar\B5_BaoCao_Slide_Demo\REPORT\TiengVietVersion_Ngay12_05\TiengViet4\GUI\obj\Debug\TiengViet4.frmTiengViet4.resources
-E:\Long's Documents\hoc ki 6\Kiem chung phan mem\Seminar\B5_BaoCao_Slide_Demo\REPORT\TiengVietVersion_Ngay12_05\TiengViet4\GUI\obj\Debug\TiengViet4.frmChonBaiHoc.resources
-E:\Long's Documents\hoc ki 6\Kiem chung phan mem\Seminar\B5_BaoCao_Slide_Demo\REPORT\TiengVietVersion_Ngay12_05\TiengViet4\GUI\obj\Debug\TiengViet4.frmTapDoc.resources
-E:\Long's Documents\hoc ki 6\Kiem chung phan mem\Seminar\B5_BaoCao_Slide_Demo\REPORT\TiengVietVersion_Ngay12_05\TiengViet4\GUI\obj\Debug\TiengViet4.frmChinhTa.resources
-E:\Long's Documents\hoc ki 6\Kiem chung phan mem\Seminar\B5_BaoCao_Slide_Demo\REPORT\TiengVietVersion_Ngay12_05\TiengViet4\GUI\obj\Debug\TiengVietLop4.Properties.Resources.resources
-E:\Long's Documents\hoc ki 6\Kiem chung phan mem\Seminar\B5_BaoCao_Slide_Demo\REPORT\TiengVietVersion_Ngay12_05\TiengViet4\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
-D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\GUI\bin\Debug\TiengViet4.exe
-D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\GUI\bin\Debug\TiengViet4.pdb
-D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\GUI\bin\Debug\BUS.dll
-D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\GUI\bin\Debug\DTO.dll
-D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\GUI\bin\Debug\DAO.dll
-D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\GUI\bin\Debug\BUS.pdb
-D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\GUI\bin\Debug\DAO.pdb
-D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\GUI\bin\Debug\DTO.pdb
-D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\GUI\obj\Debug\ResolveAssemblyReference.cache
-D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.frmTiengViet4.resources
-D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.frmChonBaiHoc.resources
-D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.frmTapDoc.resources
-D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.frmChinhTa.resources
-D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.Properties.Resources.resources
-D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
-D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.exe
-D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.pdb
-D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.exe
-D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.pdb
-D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\GUI\bin\Debug\TiengViet4.exe
-D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\GUI\bin\Debug\TiengViet4.pdb
-D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\GUI\bin\Debug\BUS.dll
-D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\GUI\bin\Debug\DTO.dll
-D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\GUI\bin\Debug\DAO.dll
-D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\GUI\bin\Debug\BUS.pdb
-D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\GUI\bin\Debug\DAO.pdb
-D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\GUI\bin\Debug\DTO.pdb
-D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\GUI\obj\Debug\ResolveAssemblyReference.cache
-D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.frmTiengViet4.resources
-D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.frmChonBaiHoc.resources
-D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.frmTapDoc.resources
-D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.frmChinhTa.resources
-D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.Properties.Resources.resources
-D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
+E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\GUI\obj\Debug\ResolveAssemblyReference.cache
+E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.MainForm.resources
+E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.ChonBaiHocForm.resources
+E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.TapDocForm.resources
+E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.ChinhTaForm.resources
+E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.Properties.Resources.resources
+E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
+E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\GUI\bin\Debug\TiengViet4.exe
+E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\GUI\bin\Debug\TiengViet4.pdb
+E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\GUI\bin\Debug\BUS.dll
+E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\GUI\bin\Debug\DTO.dll
+E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\GUI\bin\Debug\DAO.dll
+E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\GUI\bin\Debug\BUS.pdb
+E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\GUI\bin\Debug\DAO.pdb
+E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\GUI\bin\Debug\DTO.pdb
+E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.exe
+E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.pdb
