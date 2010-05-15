@@ -15,3 +15,21 @@ E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet
 E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\UnitTest\obj\Debug\UnitTest.dll
 E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\UnitTest\obj\Debug\UnitTest.pdb
 E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\UnitTest\bin\Debug\DevComponents.DotNetBar2.dll
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\UnitTest\bin\Debug\CSDL\CSDL.mdb
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\UnitTest\bin\Debug\UnitTest.dll
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\UnitTest\bin\Debug\UnitTest.pdb
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\UnitTest\bin\Debug\BUS.dll
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\UnitTest\bin\Debug\DAO.dll
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\UnitTest\bin\Debug\DTO.dll
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\UnitTest\bin\Debug\nunit.framework.dll
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\UnitTest\bin\Debug\TiengViet4.exe
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\UnitTest\bin\Debug\CustomButton.dll
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\UnitTest\bin\Debug\DevComponents.DotNetBar2.dll
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\UnitTest\bin\Debug\nunit.framework.xml
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\UnitTest\bin\Debug\TiengViet4.pdb
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\UnitTest\bin\Debug\DAO.pdb
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\UnitTest\bin\Debug\BUS.pdb
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\UnitTest\bin\Debug\DTO.pdb
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\UnitTest\obj\Debug\ResolveAssemblyReference.cache
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\UnitTest\obj\Debug\UnitTest.dll
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\UnitTest\obj\Debug\UnitTest.pdb
