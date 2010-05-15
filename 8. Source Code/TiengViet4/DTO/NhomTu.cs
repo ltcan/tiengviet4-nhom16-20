@@ -19,7 +19,7 @@ namespace DTO
         //Lấy khoảng vị trí trong Text của từ ở vị trí intViTri trong nhom tu.
         public int[] LayKhoangViTriCuaTuTai(int intViTri)
         {
-            string []arrstrSplit = NoiDung.Split(',');
+            string []arrstrSplit = NoiDung.Split(',', '/');
             if (intViTri > -1 && intViTri < arrstrSplit.Length)
             {
                 int[] KhoangViTri = new int[2];
@@ -37,7 +37,7 @@ namespace DTO
                 return "@khongcotunaoduocchon@";
             }
 
-            string[] arrstrNhomTu = NoiDung.Split(',');
+            string[] arrstrNhomTu = NoiDung.Split(',','/');
             if (ViTriChon >= arrstrNhomTu.Length)
             {
                 return "@khongcotunaoduocchon@";
@@ -59,7 +59,7 @@ namespace DTO
             int intViTriTrongNhomTu = intViTriDauNhac - ViTri;
             if (intViTriTrongNhomTu >= 0 && intViTriTrongNhomTu < NoiDung.Length && NoiDung[intViTriTrongNhomTu] != ',')
             {
-                string[] arrstrNhomTu = NoiDung.Split(',');
+                string[] arrstrNhomTu = NoiDung.Split(',', '/');
                 int intK = -1;
                 for (int i = 0; i < arrstrNhomTu.Length; ++i)
                 {
