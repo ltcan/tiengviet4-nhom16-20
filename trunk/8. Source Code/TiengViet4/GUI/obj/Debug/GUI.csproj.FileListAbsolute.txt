@@ -32,3 +32,20 @@ D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\GUI\
 D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.ChinhTaForm.resources
 D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.Properties.Resources.resources
 D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.exe
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.pdb
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\GUI\bin\Debug\TiengViet4.exe
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\GUI\bin\Debug\TiengViet4.pdb
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\GUI\bin\Debug\BUS.dll
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\GUI\bin\Debug\DTO.dll
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\GUI\bin\Debug\DAO.dll
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\GUI\bin\Debug\BUS.pdb
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\GUI\bin\Debug\DAO.pdb
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\GUI\bin\Debug\DTO.pdb
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\GUI\obj\Debug\ResolveAssemblyReference.cache
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.MainForm.resources
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.ChonBaiHocForm.resources
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.TapDocForm.resources
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.ChinhTaForm.resources
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.Properties.Resources.resources
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
