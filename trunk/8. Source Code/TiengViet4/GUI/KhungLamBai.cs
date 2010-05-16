@@ -87,26 +87,23 @@ namespace TiengViet4
             {
                 rtbTam.SelectionStart = i;
                 rtbTam.SelectionLength = 1;
-                if (DanhSachTu.Count > 0 && rtbTam.SelectionFont.Italic)
+                if (rtbTam.SelectionFont.Italic)
                 {
-                    Tu tTu = DanhSachTu[DanhSachTu.Count - 1];
-                    if (tTu.TenLoaiTu != "TuInNghieng" || i > tTu.ViTri + tTu.NoiDung.Length + 1)
+                    string strTuInNghieng = "";
+                    do
                     {
-                        string strTuInNghieng = "";
-                        do
-                        {
-                            strTuInNghieng += rtbTam.SelectedText;
-                            rtbTam.SelectionStart++;
-                        } while (rtbTam.SelectionFont.Italic);
-                        TuInNghieng tinTuIngNghieng = new TuInNghieng();
-                        tinTuIngNghieng.ViTri = i;
-                        tinTuIngNghieng.NoiDung = strTuInNghieng;
-                        DanhSachTu.Add(tinTuIngNghieng);
-                    }
+                        strTuInNghieng += rtbTam.SelectedText;
+                        rtbTam.SelectionStart++;
+                        //++i;
+                    } while (rtbTam.SelectionFont.Italic);
+                    TuInNghieng tinTuIngNghieng = new TuInNghieng();
+                    tinTuIngNghieng.ViTri = i;
+                    tinTuIngNghieng.NoiDung = strTuInNghieng;
+                    DanhSachTu.Add(tinTuIngNghieng);
+                    i += strTuInNghieng.Length;
                 }
-                
-                if (rtbTam.Text[i] == '.')
-                {    
+                else if (rtbTam.Text[i] == '.')
+                {  
                     int j = 1;
                     while (i + j < rtbTam.Text.Length && rtbTam.Text[i + j] == '.')
                     {
