@@ -19,9 +19,15 @@ namespace TiengViet4
 
         private void BtnThoat_Click(object sender, DevComponents.DotNetBar.ClickEventArgs e)
         {
+            //Dispose();
             Close();
-            Application.Exit();            
         }
+
+        //protected override void OnClosed(EventArgs e)
+        //{
+        //    Parent.Dispose();
+        //    base.OnClosed(e);
+        //}
 
         private void btnEnter_Click(object sender, EventArgs e)
         {
@@ -34,9 +40,8 @@ namespace TiengViet4
                 {
                     case "CT":
                         this.Cursor = Cursors.WaitCursor;
-                        ChinhTaForm frmChinhTa = new ChinhTaForm(treDanhSachTuan.SelectedNode.Name);
-                        frmChinhTa.ShowDialog();
-                        this.Cursor = Cursors.Default;
+                        ChinhTaForm frmChinhTa = new ChinhTaForm(treDanhSachTuan.SelectedNode.Name, this);
+                        frmChinhTa.Show();
                         break;
                 }                
             }
@@ -49,6 +54,7 @@ namespace TiengViet4
         private void btnHome_Click(object sender, DevComponents.DotNetBar.ClickEventArgs e)
         {
             Close();
+            //Parent.Show();
         }
 
         private void frmChonBaiHoc_Load(object sender, EventArgs e)
@@ -88,6 +94,7 @@ namespace TiengViet4
                         MessageBox.Show(Ex.Message);
                     }
                 }
+                //Parent.Hide();
             }
             catch (Exception Ex)
             {
