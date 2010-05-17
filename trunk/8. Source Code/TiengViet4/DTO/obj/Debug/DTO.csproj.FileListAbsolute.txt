@@ -13,3 +13,8 @@ D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source
 D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\DTO\obj\Debug\ResolveAssemblyReference.cache
 D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\DTO\obj\Debug\DTO.dll
 D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\DTO\obj\Debug\DTO.pdb
+C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\DTO\bin\Debug\DTO.dll
+C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\DTO\bin\Debug\DTO.pdb
+C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\DTO\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\DTO\obj\Debug\DTO.dll
+C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\DTO\obj\Debug\DTO.pdb

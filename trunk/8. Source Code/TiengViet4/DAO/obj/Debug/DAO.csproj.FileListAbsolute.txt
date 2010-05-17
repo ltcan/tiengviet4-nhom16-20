@@ -22,3 +22,11 @@ D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source
 D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\DAO\obj\Debug\ResolveAssemblyReference.cache
 D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\DAO\obj\Debug\DAO.dll
 D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\DAO\obj\Debug\DAO.pdb
+C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\DAO\bin\Debug\CSDL\CSDL.mdb
+C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\DAO\bin\Debug\DAO.dll
+C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\DAO\bin\Debug\DAO.pdb
+C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\DAO\bin\Debug\DTO.dll
+C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\DAO\bin\Debug\DTO.pdb
+C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\DAO\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\DAO\obj\Debug\DAO.dll
+C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\DAO\obj\Debug\DAO.pdb

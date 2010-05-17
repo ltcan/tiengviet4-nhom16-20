@@ -51,6 +51,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Caret.cs" />
+    <Compile Include="LuyenTuVaCau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LuyenTuVaCau.Designer.cs">
+      <DependentUpon>LuyenTuVaCau.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,6 +87,10 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="LuyenTuVaCau.resx">
+      <DependentUpon>LuyenTuVaCau.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <SubType>Designer</SubType>
       <DependentUpon>MainForm.cs</DependentUpon>
@@ -133,6 +143,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="hidecaret.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5Bwallcoo51.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

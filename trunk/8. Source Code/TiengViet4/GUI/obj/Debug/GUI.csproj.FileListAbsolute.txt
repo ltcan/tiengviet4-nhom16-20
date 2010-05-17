@@ -49,3 +49,23 @@ D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source
 D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.ChinhTaForm.resources
 D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.Properties.Resources.resources
 D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
+J:\qlqtpm\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.exe
+J:\qlqtpm\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.pdb
+C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\GUI\obj\Debug\TiengViet4.exe
+C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\GUI\obj\Debug\TiengViet4.pdb
+C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\GUI\bin\Debug\TiengViet4.exe
+C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\GUI\bin\Debug\TiengViet4.pdb
+C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\GUI\bin\Debug\BUS.dll
+C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\GUI\bin\Debug\DTO.dll
+C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\GUI\bin\Debug\DAO.dll
+C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\GUI\bin\Debug\BUS.pdb
+C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\GUI\bin\Debug\DAO.pdb
+C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\GUI\bin\Debug\DTO.pdb
+C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\GUI\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\GUI\obj\Debug\TiengViet4.MainForm.resources
+C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\GUI\obj\Debug\TiengViet4.ChonBaiHocForm.resources
+C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\GUI\obj\Debug\TiengViet4.TapDocForm.resources
+C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\GUI\obj\Debug\TiengViet4.ChinhTaForm.resources
+C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\GUI\obj\Debug\TiengViet4.Properties.Resources.resources
+C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
+C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\GUI\obj\Debug\TiengViet4.LuyenTuVaCau.resources
