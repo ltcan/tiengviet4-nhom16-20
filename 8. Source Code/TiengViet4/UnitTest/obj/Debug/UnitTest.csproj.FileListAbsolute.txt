@@ -50,3 +50,20 @@ D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source
 D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\UnitTest\obj\Debug\ResolveAssemblyReference.cache
 D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\UnitTest\obj\Debug\UnitTest.dll
 D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\UnitTest\obj\Debug\UnitTest.pdb
+C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\UnitTest\bin\Debug\CSDL\CSDL.mdb
+C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\UnitTest\bin\Debug\UnitTest.dll
+C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\UnitTest\bin\Debug\UnitTest.pdb
+C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\UnitTest\bin\Debug\BUS.dll
+C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\UnitTest\bin\Debug\DAO.dll
+C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\UnitTest\bin\Debug\DTO.dll
+C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\UnitTest\bin\Debug\TiengViet4.exe
+C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\UnitTest\bin\Debug\CustomButton.dll
+C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\UnitTest\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\UnitTest\bin\Debug\nunit.framework.xml
+C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\UnitTest\bin\Debug\TiengViet4.pdb
+C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\UnitTest\bin\Debug\DAO.pdb
+C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\UnitTest\bin\Debug\BUS.pdb
+C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\UnitTest\bin\Debug\DTO.pdb
+C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\UnitTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\UnitTest\obj\Debug\UnitTest.dll
+C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\UnitTest\obj\Debug\UnitTest.pdb
