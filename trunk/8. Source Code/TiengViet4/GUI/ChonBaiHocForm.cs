@@ -32,20 +32,28 @@ namespace TiengViet4
         private void btnEnter_Click(object sender, EventArgs e)
         {
             TreeNode SelectedNode = treDanhSachTuan.SelectedNode;
-            if (SelectedNode != null && SelectedNode.Level != 0)
+            if (SelectedNode != null)
             {
-                lblNhacNho.Visible = false;
-                string strMaLoaiMon = SelectedNode.Tag.ToString();
-                switch (strMaLoaiMon)
+                if (SelectedNode.Level == 1)
                 {
-                    case "CT":
-                        this.Cursor = Cursors.WaitCursor;
-                        ChinhTaForm frmChinhTa = new ChinhTaForm(treDanhSachTuan.SelectedNode.Name, this);
-                        frmChinhTa.Show();
-                        break;
-                }                
+                    lblNhacNho.Visible = false;
+                    string strMaLoaiMon = SelectedNode.Tag.ToString();
+                    switch (strMaLoaiMon)
+                    {
+                        case "CT":
+                            this.Cursor = Cursors.WaitCursor;
+                            ChinhTaForm frmChinhTa = new ChinhTaForm(treDanhSachTuan.SelectedNode.Name, this);
+                            frmChinhTa.Show();
+                            break;
+                        case "LTVC":
+                            this.Cursor = Cursors.WaitCursor;
+                            LuyenTuVaCauForm frmLuyenTuVaCau = new LuyenTuVaCauForm(treDanhSachTuan.SelectedNode.Name, this);
+                            frmLuyenTuVaCau.Show();
+                            break;
+                    }
+                }             
             }
-            else 
+            else if (sender.GetType() == typeof(CustomButton.ImageButton))
             {
                 lblNhacNho.Visible = true;
             }

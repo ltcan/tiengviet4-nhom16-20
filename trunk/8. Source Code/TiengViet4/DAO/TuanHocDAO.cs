@@ -12,7 +12,7 @@ namespace DAO
         {
             try
             {
-                String strLenhLayDuLieu = "Select * From Tuan";
+                String strLenhLayDuLieu = "Select * From Tuan Order By Ma";
                 DataTable KetQua = CoSoDuLieu.LayDuLieu(strLenhLayDuLieu);
                 return KetQua;
             }

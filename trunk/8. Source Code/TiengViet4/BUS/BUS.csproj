@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="BaiHocBUS.cs" />
     <Compile Include="FileLuyenTapBUS.cs" />
+    <Compile Include="LuyenTuVaCauBUS.cs" />
     <Compile Include="QuanLyDau.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QuanLyFile.cs" />

@@ -26,6 +26,5 @@ namespace TiengViet4
                 return prams;
             }
         }
-
     }  
 }
