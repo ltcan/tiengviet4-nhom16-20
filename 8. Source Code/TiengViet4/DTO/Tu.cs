@@ -17,5 +17,10 @@ namespace DTO
         {
             TenLoaiTu = "Tu";
         }
+
+        public Tu(string strLoaiTu)
+        {
+            TenLoaiTu = strLoaiTu;
+        }
     }
 }

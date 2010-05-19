@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
-  <TopNode>[0-1003]UnitTest.UnitTestChinhTa.LayNoiDungFile</TopNode>
-  <SelectedNode>[0-1003]UnitTest.UnitTestChinhTa.LayNoiDungFile</SelectedNode>
+  <TopNode>[0-1011]E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\UnitTest\bin\Debug\UnitTest.dll</TopNode>
+  <SelectedNode>[0-1011]E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\UnitTest\bin\Debug\UnitTest.dll</SelectedNode>
   <ExcludeCategories>false</ExcludeCategories>
   <Nodes>
-    <Node UniqueName="[0-1004]D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\UnitTest\bin\Debug\UnitTest.dll" Expanded="true" />
-    <Node UniqueName="[0-1005]UnitTest" Expanded="true" />
+    <Node UniqueName="[0-1011]E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\UnitTest\bin\Debug\UnitTest.dll" Expanded="true" />
+    <Node UniqueName="[0-1012]UnitTest" Expanded="true" />
     <Node UniqueName="[0-1000]UnitTest.UnitTestChinhTa" Expanded="true" />
+    <Node UniqueName="[0-1004]UnitTest.UnitTestLuyenTuVaCauBUS" Expanded="true" />
   </Nodes>
 </VisualState>

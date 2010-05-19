@@ -51,11 +51,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Caret.cs" />
-    <Compile Include="LuyenTuVaCau.cs">
+    <Compile Include="KhungLamBaiLuyenTuVaCau.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="KhungLamBaiLuyenTuVaCau.Designer.cs">
+      <DependentUpon>KhungLamBaiLuyenTuVaCau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LuyenTuVaCauForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LuyenTuVaCau.Designer.cs">
-      <DependentUpon>LuyenTuVaCau.cs</DependentUpon>
+    <Compile Include="LuyenTuVaCauForm.Designer.cs">
+      <DependentUpon>LuyenTuVaCauForm.cs</DependentUpon>
     </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
@@ -82,13 +88,13 @@
     <Compile Include="ChinhTaForm.Designer.cs">
       <DependentUpon>ChinhTaForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="KhungLamBai.cs">
+    <Compile Include="KhungLamBaiChinhTa.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="LuyenTuVaCau.resx">
-      <DependentUpon>LuyenTuVaCau.cs</DependentUpon>
+    <EmbeddedResource Include="LuyenTuVaCauForm.resx">
+      <DependentUpon>LuyenTuVaCauForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">

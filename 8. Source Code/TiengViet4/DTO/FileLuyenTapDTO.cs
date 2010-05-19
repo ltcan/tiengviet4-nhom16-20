@@ -42,5 +42,13 @@ namespace DTO
             get { return m_MaBaiHoc; }
             set { m_MaBaiHoc = value; }
         }
+
+        private int m_LoaiFileLuyenTap;
+
+        public int LoaiFileLuyenTap
+        {
+            get { return m_LoaiFileLuyenTap; }
+            set { m_LoaiFileLuyenTap = value; }
+        }
     }
 }
