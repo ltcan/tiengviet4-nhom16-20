@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using System.Text;
 using System.Runtime.InteropServices;
 
+
 namespace TiengViet4
 {
     class MusicPlayer
     {
         string strCommand;
         bool blnOpened;
-
+        
         [DllImport("Winmm.dll")]
         private static extern long mciSendString(string strComand, string strReturn, int intReturnLength, IntPtr hwndCallback);
 
@@ -19,7 +20,7 @@ namespace TiengViet4
             mciSendString(strCommand, null, 0, IntPtr.Zero);
             blnOpened = true;
         }
-
+       
         public void Play(bool blnLoop)
         {
             if (blnOpened == true)

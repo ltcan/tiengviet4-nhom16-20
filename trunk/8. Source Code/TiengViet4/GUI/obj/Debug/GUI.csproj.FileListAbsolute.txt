@@ -70,3 +70,4 @@ C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\GUI\obj\Debug\TiengViet4.
 C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
 C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\GUI\obj\Debug\TiengViet4.LuyenTuVaCau.resources
 E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.LuyenTuVaCauForm.resources
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.LuyenTuVaCauForm.resources
