@@ -56,9 +56,9 @@ namespace BUS
                 }
                 return KetQua;
             }
-            catch (Exception Ex)
+            catch (Exception)
             {
-                throw Ex;
+                return null;
             }
         }
     }
