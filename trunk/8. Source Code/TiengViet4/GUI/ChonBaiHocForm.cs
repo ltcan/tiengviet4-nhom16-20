@@ -50,6 +50,11 @@ namespace TiengViet4
                             LuyenTuVaCauForm frmLuyenTuVaCau = new LuyenTuVaCauForm(treDanhSachTuan.SelectedNode.Name, this);
                             frmLuyenTuVaCau.Show();
                             break;
+                        case "TLV":
+                            this.Cursor = Cursors.WaitCursor;
+                            TapLamVanForm frmTapLamVan = new TapLamVanForm(treDanhSachTuan.SelectedNode.Name, this);
+                            frmTapLamVan.Show();
+                            break;
                     }
                 }             
             }
