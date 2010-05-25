@@ -18,7 +18,7 @@ namespace UnitTest
         public void KiemTraKQPhanLoaiTuTest1()
         {
             string strDapAnNguoiDung = string.Empty;
-            string strCacDapAn = string.Empty;
+            string []strCacDapAn = new string[0];
 
             LuyenTuVaCauBUS.KiemTraKQPhanLoaiTu(strDapAnNguoiDung, strCacDapAn);
         }
@@ -27,56 +27,55 @@ namespace UnitTest
         public void KiemTraKQPhanLoaiTuTest2()
         {
             string strDapAnNguoiDung = "abc";
-            string strCacDapAn = string.Empty;
-
-            bool blnKetQua = LuyenTuVaCauBUS.KiemTraKQPhanLoaiTu(strDapAnNguoiDung, strCacDapAn);
-            Assert.That(blnKetQua, Is.EqualTo(false));
+            string[] strCacDapAn = new string[0];
+            int intKetQua = LuyenTuVaCauBUS.KiemTraKQPhanLoaiTu(strDapAnNguoiDung, strCacDapAn);
+            Assert.That(intKetQua, Is.EqualTo(-1));
         }
 
         [Test]
         public void KiemTraKQPhanLoaiTuTest3()
         {
             string strDapAnNguoiDung = "abc";
-            string strCacDapAn = "123, 456";
+            string []strCacDapAn = {"123", "456"};
 
-            bool blnKetQua = LuyenTuVaCauBUS.KiemTraKQPhanLoaiTu(strDapAnNguoiDung, strCacDapAn);
-            Assert.That(blnKetQua, Is.EqualTo(false));
+            int intKetQua = LuyenTuVaCauBUS.KiemTraKQPhanLoaiTu(strDapAnNguoiDung, strCacDapAn);
+            Assert.That(intKetQua, Is.EqualTo(-1));
         }
 
         [Test]
         public void KiemTraKQPhanLoaiTuTest4()
         {
             string strDapAnNguoiDung = "abc";
-            string strCacDapAn = "abc, 123, 456";
+            string []strCacDapAn = {"abc", "123", "456"};
 
-            bool blnKetQua = LuyenTuVaCauBUS.KiemTraKQPhanLoaiTu(strDapAnNguoiDung, strCacDapAn);
-            Assert.That(blnKetQua, Is.EqualTo(true));
+            int intKetQua = LuyenTuVaCauBUS.KiemTraKQPhanLoaiTu(strDapAnNguoiDung, strCacDapAn);
+            Assert.That(intKetQua, Is.EqualTo(0));
         }
 
         [Test]
         public void KiemTraKQPhanLoaiTuTest5()
         {
             string strDapAnNguoiDung = "abc";
-            string strCacDapAn = "123, abc, 456";
+            string []strCacDapAn = {"123", "abc", "456"};
 
-            bool blnKetQua = LuyenTuVaCauBUS.KiemTraKQPhanLoaiTu(strDapAnNguoiDung, strCacDapAn);
-            Assert.That(blnKetQua, Is.EqualTo(true));
+            int intKetQua = LuyenTuVaCauBUS.KiemTraKQPhanLoaiTu(strDapAnNguoiDung, strCacDapAn);
+            Assert.That(intKetQua, Is.EqualTo(1));
         }
 
         [Test]
         public void KiemTraKQPhanLoaiTuTest6()
         {
             string strDapAnNguoiDung = "abc";
-            string strCacDapAn = "123, 456, abc";
+            string []strCacDapAn = {"123", "456", "abc"};
 
-            bool blnKetQua = LuyenTuVaCauBUS.KiemTraKQPhanLoaiTu(strDapAnNguoiDung, strCacDapAn);
-            Assert.That(blnKetQua, Is.EqualTo(true));
+            int intKetQua = LuyenTuVaCauBUS.KiemTraKQPhanLoaiTu(strDapAnNguoiDung, strCacDapAn);
+            Assert.That(intKetQua, Is.EqualTo(2));
         }
     }
 
-    [TestFixture]
-    public class UnitTestLuyenTuVaCauGUI
-    {
+    //[TestFixture]
+    //public class UnitTestLuyenTuVaCauGUI
+    //{
         //[Test]
         //public void TestDocDe1()
         //{
@@ -85,5 +84,5 @@ namespace UnitTest
 
         //    //Contains.
         //}
-    }
+    //}
 }

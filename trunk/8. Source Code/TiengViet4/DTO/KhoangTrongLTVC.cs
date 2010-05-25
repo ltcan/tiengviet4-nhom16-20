@@ -5,7 +5,7 @@ using System.Text;
 
 namespace DTO
 {
-    public class KhoangTrong_LuyenTuVaCau : KhoangTrong
+    public class KhoangTrongLTVC : KhoangTrong
     {
         private int intViTriDuLieu;
 
@@ -15,12 +15,12 @@ namespace DTO
             set { intViTriDuLieu = value; }
         }
 
-        public KhoangTrong_LuyenTuVaCau()
+        public KhoangTrongLTVC()
         {
             intViTriDuLieu = 0;
         }
 
-        public KhoangTrong_LuyenTuVaCau(KhoangTrong_LuyenTuVaCau Source)
+        public KhoangTrongLTVC(KhoangTrongLTVC Source)
         {
             this.ViTri = Source.ViTri;
             this.ViTriDuLieu = Source.ViTriDuLieu;

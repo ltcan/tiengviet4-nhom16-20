@@ -21,6 +21,7 @@ namespace BUS
                 fltFileLuyenTap.MaBaiHoc = Table.Rows[i]["MaBaiHoc"].ToString();
                 fltFileLuyenTap.FileDapAn = Table.Rows[i]["FileDapAn"].ToString();
                 fltFileLuyenTap.FileNoiDung = Table.Rows[i]["FileNoiDung"].ToString();
+                fltFileLuyenTap.LoaiFileLuyenTap = Table.Rows[i]["LoaiFile"].ToString();
                 DanhSachFileLuyenTap.Add(fltFileLuyenTap);
             }
             return DanhSachFileLuyenTap;

@@ -21,7 +21,7 @@ namespace BUS
         // Kiểm tra kết quả phân loại từ
         // Người dùng có thể để lộn xộn đáp án so với file kết quả
         // nên phải tìm kiếm kết quả
-        public static bool KiemTraKQPhanLoaiTu(String strDapAnNguoiDung, String strCacDapAn)
+        public static int KiemTraKQPhanLoaiTu(string strDapAnNguoiDung, string []strCacDapAn)
         {
             if (strDapAnNguoiDung == String.Empty)
             {
@@ -30,19 +30,18 @@ namespace BUS
 
             if (strCacDapAn.Length == 0)
             {
-                return false;
+                return -1;
             }
             else
             {
-                int iIndex = strCacDapAn.IndexOf(strDapAnNguoiDung);
-                if (iIndex == -1)
+                for (int i = 0; i < strCacDapAn.Length; i++)
                 {
-                    return false;
+                    if (string.Compare(strDapAnNguoiDung, strCacDapAn[i], true) == 0)
+                    {
+                        return i;
+                    }
                 }
-                else
-                {
-                    return true;
-                }
+                return -1;
             }
         }
     }

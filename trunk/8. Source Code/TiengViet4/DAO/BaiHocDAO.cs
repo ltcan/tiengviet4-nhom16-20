@@ -11,13 +11,13 @@ namespace DAO
         public static DataTable LayDanhSachBaiTheoTuan(string strMaTuan)
         {
             string strLenhDocDuLieu = "Select * From BaiHoc " + 
-                                   "Where MaTuan = '" + strMaTuan + "' Order By MaTuan, MaLoaiMon";
+                                   "Where MaTuan = '" + strMaTuan + "' Order By MaTuan, MaLoaiMon, Ma";
             try
             {
                 DataTable KetQua = CoSoDuLieu.LayDuLieu(strLenhDocDuLieu);
                 return KetQua;
             }
-            catch(Exception Ex)
+            catch (Exception Ex)
             {
                 throw Ex;
             }

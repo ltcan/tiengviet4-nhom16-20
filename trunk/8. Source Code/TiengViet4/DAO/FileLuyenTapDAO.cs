@@ -11,7 +11,7 @@ namespace DAO
     {
         public static DataTable LayFileTheoMaBaiHoc(string strMaBaiHoc)
         {
-            string strLenhDocDuLieu = "Select Ma, FileNoiDung, FileDapAn, MaBaiHoc  From FileLuyenTap " +
+            string strLenhDocDuLieu = "Select *  From FileLuyenTap " +
                                    "Where MaBaiHoc = '" + strMaBaiHoc + "'";
             DataTable KetQua = CoSoDuLieu.LayDuLieu(strLenhDocDuLieu);
             return KetQua;
