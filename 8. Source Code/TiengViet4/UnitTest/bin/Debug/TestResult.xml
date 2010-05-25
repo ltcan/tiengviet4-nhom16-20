@@ -1,22 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--This file represents the results of running a test suite-->
-<test-results name="E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\UnitTest\bin\Debug\UnitTest.dll" total="9" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2010-05-18" time="08:09:38">
+<test-results name="E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\UnitTest\bin\Debug\UnitTest.dll" total="9" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2010-05-25" time="11:06:42">
   <environment nunit-version="2.5.5.10112" clr-version="2.0.50727.3053" os-version="Microsoft Windows NT 5.1.2600 Service Pack 2" platform="Win32NT" cwd="C:\Program Files\NUnit 2.5.5\bin\net-2.0" machine-name="LEVANLONG" user="Le Van Long" user-domain="LEVANLONG" />
   <culture-info current-culture="en-US" current-uiculture="en-US" />
-  <test-suite type="Assembly" name="E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\UnitTest\bin\Debug\UnitTest.dll" executed="True" result="Success" success="True" time="0.188" asserts="0">
+  <test-suite type="Assembly" name="E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\UnitTest\bin\Debug\UnitTest.dll" executed="True" result="Success" success="True" time="0.172" asserts="0">
     <results>
-      <test-suite type="Namespace" name="UnitTest" executed="True" result="Success" success="True" time="0.172" asserts="0">
+      <test-suite type="Namespace" name="UnitTest" executed="True" result="Success" success="True" time="0.156" asserts="0">
         <results>
-          <test-suite type="TestFixture" name="UnitTestChinhTa" executed="True" result="Success" success="True" time="0.141" asserts="0">
+          <test-suite type="TestFixture" name="UnitTestChinhTa" executed="True" result="Success" success="True" time="0.125" asserts="0">
             <results>
-              <test-case name="UnitTest.UnitTestChinhTa.ChuyenDoiDau" executed="True" result="Success" success="True" time="0.094" asserts="5" />
-              <test-case name="UnitTest.UnitTestChinhTa.LayDapAn" executed="True" result="Success" success="True" time="0.047" asserts="9" />
+              <test-case name="UnitTest.UnitTestChinhTa.ChuyenDoiDau" executed="True" result="Success" success="True" time="0.078" asserts="5" />
+              <test-case name="UnitTest.UnitTestChinhTa.LayDapAn" executed="True" result="Success" success="True" time="0.031" asserts="9" />
               <test-case name="UnitTest.UnitTestChinhTa.LayNoiDungFile" executed="True" result="Success" success="True" time="0.000" asserts="1" />
             </results>
           </test-suite>
-          <test-suite type="TestFixture" name="UnitTestLuyenTuVaCauBUS" executed="True" result="Success" success="True" time="0.016" asserts="0">
+          <test-suite type="TestFixture" name="UnitTestLuyenTuVaCauBUS" executed="True" result="Success" success="True" time="0.031" asserts="0">
             <results>
-              <test-case name="UnitTest.UnitTestLuyenTuVaCauBUS.KiemTraKQPhanLoaiTuTest1" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+              <test-case name="UnitTest.UnitTestLuyenTuVaCauBUS.KiemTraKQPhanLoaiTuTest1" executed="True" result="Success" success="True" time="0.016" asserts="0" />
               <test-case name="UnitTest.UnitTestLuyenTuVaCauBUS.KiemTraKQPhanLoaiTuTest2" executed="True" result="Success" success="True" time="0.000" asserts="1" />
               <test-case name="UnitTest.UnitTestLuyenTuVaCauBUS.KiemTraKQPhanLoaiTuTest3" executed="True" result="Success" success="True" time="0.000" asserts="1" />
               <test-case name="UnitTest.UnitTestLuyenTuVaCauBUS.KiemTraKQPhanLoaiTuTest4" executed="True" result="Success" success="True" time="0.000" asserts="1" />

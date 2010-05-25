@@ -109,6 +109,7 @@
             this.btnHome.ImageLarge = ((System.Drawing.Image)(resources.GetObject("btnHome.ImageLarge")));
             this.btnHome.Name = "btnHome";
             this.btnHome.TooltipText = "Về trang đầu";
+            this.btnHome.Click += new DevComponents.DotNetBar.ClickEventHandler(this.btnHome_Click);
             // 
             // btnHuongDan
             // 
@@ -146,7 +147,6 @@
             this.picCTKetQua.Size = new System.Drawing.Size(45, 45);
             this.picCTKetQua.TabIndex = 36;
             this.picCTKetQua.TabStop = false;
-            this.picCTKetQua.Visible = false;
             this.picCTKetQua.Click += new System.EventHandler(this.picCTKetQua_Click);
             // 
             // picCTCauTruoc
@@ -160,7 +160,6 @@
             this.picCTCauTruoc.Size = new System.Drawing.Size(45, 45);
             this.picCTCauTruoc.TabIndex = 35;
             this.picCTCauTruoc.TabStop = false;
-            this.picCTCauTruoc.Visible = false;
             // 
             // picCTCauTiepTheo
             // 
@@ -173,7 +172,6 @@
             this.picCTCauTiepTheo.Size = new System.Drawing.Size(45, 45);
             this.picCTCauTiepTheo.TabIndex = 34;
             this.picCTCauTiepTheo.TabStop = false;
-            this.picCTCauTiepTheo.Visible = false;
             // 
             // lblThongBao
             // 
@@ -197,14 +195,18 @@
             // 
             // rtfCuaSoHienThi
             // 
+            this.rtfCuaSoHienThi.AcceptsTab = true;
             this.rtfCuaSoHienThi.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.rtfCuaSoHienThi.DanhSachTu = null;
             this.rtfCuaSoHienThi.EnableAutoDragDrop = true;
+            this.rtfCuaSoHienThi.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rtfCuaSoHienThi.KlbCaret = TiengViet4.TinhTrangCaret.Show;
             this.rtfCuaSoHienThi.LoaiBai = ((byte)(0));
-            this.rtfCuaSoHienThi.Location = new System.Drawing.Point(80, 84);
+            this.rtfCuaSoHienThi.Location = new System.Drawing.Point(80, 107);
             this.rtfCuaSoHienThi.Name = "rtfCuaSoHienThi";
-            this.rtfCuaSoHienThi.Size = new System.Drawing.Size(637, 330);
+            this.rtfCuaSoHienThi.Size = new System.Drawing.Size(637, 307);
             this.rtfCuaSoHienThi.TabIndex = 39;
-            this.rtfCuaSoHienThi.Text = "Testing, abcd\n...\nHahaha..............................................111";
+            this.rtfCuaSoHienThi.Text = "";
             this.rtfCuaSoHienThi.TinhTrangLamBai = DTO.TinhTrang.BinhThuong;
             // 
             // LuyenTuVaCauForm

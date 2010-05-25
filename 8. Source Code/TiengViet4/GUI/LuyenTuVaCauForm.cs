@@ -43,14 +43,31 @@ namespace TiengViet4
         private void LuyenTuVaCau_Load(object sender, EventArgs e)
         {
             lblThongBao.Visible = false;
+
+            if (DanhSachDeBai.Count > 0)
+            {
+                switch (DanhSachDeBai[0].LoaiFileLuyenTap)
+                {
+                    case "LTVC_PLT":
+                        rtfCuaSoHienThi.LoaiBai = (byte)KhungLamBaiLuyenTuVaCau.LoaiBaiTap.PhanLoaiTu;
+                        break;
+                    case "LTVC_TN":
+                        rtfCuaSoHienThi.LoaiBai = (byte)KhungLamBaiLuyenTuVaCau.LoaiBaiTap.TracNghiem;
+                        break;
+
+                }
+
+                HienThiBaiHoc();
+            }
+
             frmParent.Hide();
         }
 
-        private void HienThiBaiHoc(bool blnLaBaiHoc3Phan)
+        private void HienThiBaiHoc()
         {
-            if (blnLaBaiHoc3Phan == true)
+            if (iDeBaiHienTai >= 0 && iDeBaiHienTai < DanhSachDeBai.Count)
             {
-                //klbLuyenTuVaCau.DocDe(DanhSachDeBai[0].FileNoiDung, DanhSachDeBai[0].LoaiFileLuyenTap);
+                rtfCuaSoHienThi.DocDe(DanhSachDeBai[0].FileNoiDung);
             }
         }
 
@@ -59,8 +76,15 @@ namespace TiengViet4
             if (DanhSachDeBai.Count > 0)
             {
                 strDapAn = QuanLyFile.LayNoiDung(DanhSachDeBai[iDeBaiHienTai].FileDapAn);
-                
+                rtfCuaSoHienThi.TinhTrangLamBai = TinhTrang.XemDapAn;
+                rtfCuaSoHienThi.XemKetQua(strDapAn);
             }
+        }
+
+        private void btnHome_Click(object sender, DevComponents.DotNetBar.ClickEventArgs e)
+        {
+            this.Close();
+            frmParent.Show();
         }
     }
 }
