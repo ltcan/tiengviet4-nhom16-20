@@ -85,3 +85,21 @@ D:\HK2_2009-2010\Software management\tiengviet4-16-20\8. Source Code\TiengViet4\
 D:\HK2_2009-2010\Software management\tiengviet4-16-20\8. Source Code\TiengViet4\UnitTest\obj\Debug\ResolveAssemblyReference.cache
 D:\HK2_2009-2010\Software management\tiengviet4-16-20\8. Source Code\TiengViet4\UnitTest\obj\Debug\UnitTest.dll
 D:\HK2_2009-2010\Software management\tiengviet4-16-20\8. Source Code\TiengViet4\UnitTest\obj\Debug\UnitTest.pdb
+D:\TiengVietFix\TiengViet4\UnitTest\bin\Debug\CSDL\CSDL.mdb
+D:\TiengVietFix\TiengViet4\UnitTest\bin\Debug\UnitTest.dll
+D:\TiengVietFix\TiengViet4\UnitTest\bin\Debug\UnitTest.pdb
+D:\TiengVietFix\TiengViet4\UnitTest\bin\Debug\BUS.dll
+D:\TiengVietFix\TiengViet4\UnitTest\bin\Debug\DAO.dll
+D:\TiengVietFix\TiengViet4\UnitTest\bin\Debug\DTO.dll
+D:\TiengVietFix\TiengViet4\UnitTest\bin\Debug\nunit.framework.dll
+D:\TiengVietFix\TiengViet4\UnitTest\bin\Debug\TiengViet4.exe
+D:\TiengVietFix\TiengViet4\UnitTest\bin\Debug\CustomButton.dll
+D:\TiengVietFix\TiengViet4\UnitTest\bin\Debug\DevComponents.DotNetBar2.dll
+D:\TiengVietFix\TiengViet4\UnitTest\bin\Debug\nunit.framework.xml
+D:\TiengVietFix\TiengViet4\UnitTest\bin\Debug\TiengViet4.pdb
+D:\TiengVietFix\TiengViet4\UnitTest\bin\Debug\DAO.pdb
+D:\TiengVietFix\TiengViet4\UnitTest\bin\Debug\BUS.pdb
+D:\TiengVietFix\TiengViet4\UnitTest\bin\Debug\DTO.pdb
+D:\TiengVietFix\TiengViet4\UnitTest\obj\Debug\ResolveAssemblyReference.cache
+D:\TiengVietFix\TiengViet4\UnitTest\obj\Debug\UnitTest.dll
+D:\TiengVietFix\TiengViet4\UnitTest\obj\Debug\UnitTest.pdb
