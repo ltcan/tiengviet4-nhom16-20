@@ -110,3 +110,23 @@ D:\TiengVietFix\TiengViet4\GUI\bin\Debug\DAO.dll
 D:\TiengVietFix\TiengViet4\GUI\bin\Debug\BUS.pdb
 D:\TiengVietFix\TiengViet4\GUI\bin\Debug\DAO.pdb
 D:\TiengVietFix\TiengViet4\GUI\bin\Debug\DTO.pdb
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.exe
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.pdb
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\GUI\bin\Debug\TiengViet4.exe
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\GUI\bin\Debug\TiengViet4.pdb
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\GUI\bin\Debug\BUS.dll
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\GUI\bin\Debug\DTO.dll
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\GUI\bin\Debug\DAO.dll
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\GUI\bin\Debug\BUS.pdb
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\GUI\bin\Debug\DAO.pdb
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\GUI\bin\Debug\DTO.pdb
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\GUI\obj\Debug\ResolveAssemblyReference.cache
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.LuyenTuVaCauForm.resources
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.MainForm.resources
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.ChonBaiHocForm.resources
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.TapDocForm.resources
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.ChinhTaForm.resources
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.Properties.Resources.resources
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.TapLamVanForm.resources
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.KeChuyen.resources
