@@ -28,3 +28,8 @@ D:\TiengVietFix\TiengViet4\DTO\bin\Debug\DTO.pdb
 D:\TiengVietFix\TiengViet4\DTO\obj\Debug\ResolveAssemblyReference.cache
 D:\TiengVietFix\TiengViet4\DTO\obj\Debug\DTO.dll
 D:\TiengVietFix\TiengViet4\DTO\obj\Debug\DTO.pdb
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\DTO\bin\Debug\DTO.dll
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\DTO\bin\Debug\DTO.pdb
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\DTO\obj\Debug\ResolveAssemblyReference.cache
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\DTO\obj\Debug\DTO.dll
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\DTO\obj\Debug\DTO.pdb

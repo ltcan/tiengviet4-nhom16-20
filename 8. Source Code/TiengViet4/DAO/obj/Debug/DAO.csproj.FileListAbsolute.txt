@@ -46,3 +46,11 @@ D:\TiengVietFix\TiengViet4\DAO\bin\Debug\DTO.pdb
 D:\TiengVietFix\TiengViet4\DAO\obj\Debug\ResolveAssemblyReference.cache
 D:\TiengVietFix\TiengViet4\DAO\obj\Debug\DAO.dll
 D:\TiengVietFix\TiengViet4\DAO\obj\Debug\DAO.pdb
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\DAO\bin\Debug\CSDL\CSDL.mdb
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\DAO\bin\Debug\DAO.dll
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\DAO\bin\Debug\DAO.pdb
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\DAO\bin\Debug\DTO.dll
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\DAO\bin\Debug\DTO.pdb
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\DAO\obj\Debug\ResolveAssemblyReference.cache
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\DAO\obj\Debug\DAO.dll
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\DAO\obj\Debug\DAO.pdb
