@@ -38,3 +38,11 @@ D:\HK2_2009-2010\Software management\tiengviet4-16-20\8. Source Code\TiengViet4\
 D:\HK2_2009-2010\Software management\tiengviet4-16-20\8. Source Code\TiengViet4\DAO\obj\Debug\ResolveAssemblyReference.cache
 D:\HK2_2009-2010\Software management\tiengviet4-16-20\8. Source Code\TiengViet4\DAO\obj\Debug\DAO.dll
 D:\HK2_2009-2010\Software management\tiengviet4-16-20\8. Source Code\TiengViet4\DAO\obj\Debug\DAO.pdb
+D:\TiengVietFix\TiengViet4\DAO\bin\Debug\CSDL\CSDL.mdb
+D:\TiengVietFix\TiengViet4\DAO\bin\Debug\DAO.dll
+D:\TiengVietFix\TiengViet4\DAO\bin\Debug\DAO.pdb
+D:\TiengVietFix\TiengViet4\DAO\bin\Debug\DTO.dll
+D:\TiengVietFix\TiengViet4\DAO\bin\Debug\DTO.pdb
+D:\TiengVietFix\TiengViet4\DAO\obj\Debug\ResolveAssemblyReference.cache
+D:\TiengVietFix\TiengViet4\DAO\obj\Debug\DAO.dll
+D:\TiengVietFix\TiengViet4\DAO\obj\Debug\DAO.pdb
