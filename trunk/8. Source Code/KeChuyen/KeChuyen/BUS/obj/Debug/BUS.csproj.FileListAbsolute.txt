@@ -1,0 +1,5 @@
+D:\Documents and Settings\PHSON\My Documents\Visual Studio 2008\Projects\KeChuyen\BUS\bin\Debug\BUS.dll
+D:\Documents and Settings\PHSON\My Documents\Visual Studio 2008\Projects\KeChuyen\BUS\bin\Debug\BUS.pdb
+D:\Documents and Settings\PHSON\My Documents\Visual Studio 2008\Projects\KeChuyen\BUS\obj\Debug\ResolveAssemblyReference.cache
+D:\Documents and Settings\PHSON\My Documents\Visual Studio 2008\Projects\KeChuyen\BUS\obj\Debug\BUS.dll
+D:\Documents and Settings\PHSON\My Documents\Visual Studio 2008\Projects\KeChuyen\BUS\obj\Debug\BUS.pdb

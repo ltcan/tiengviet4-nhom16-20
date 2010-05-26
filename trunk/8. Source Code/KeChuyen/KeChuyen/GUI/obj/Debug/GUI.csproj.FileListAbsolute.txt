@@ -1,0 +1,5 @@
+D:\Documents and Settings\PHSON\My Documents\Visual Studio 2008\Projects\KeChuyen\GUI\bin\Debug\GUI.dll
+D:\Documents and Settings\PHSON\My Documents\Visual Studio 2008\Projects\KeChuyen\GUI\bin\Debug\GUI.pdb
+D:\Documents and Settings\PHSON\My Documents\Visual Studio 2008\Projects\KeChuyen\GUI\obj\Debug\ResolveAssemblyReference.cache
+D:\Documents and Settings\PHSON\My Documents\Visual Studio 2008\Projects\KeChuyen\GUI\obj\Debug\GUI.dll
+D:\Documents and Settings\PHSON\My Documents\Visual Studio 2008\Projects\KeChuyen\GUI\obj\Debug\GUI.pdb
