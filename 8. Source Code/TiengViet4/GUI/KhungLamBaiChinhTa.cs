@@ -262,6 +262,11 @@ namespace TiengViet4
         {
             if (TinhTrangBaiLam == TinhTrang.DangLamBai)
             {
+                if (keyData == (Keys.Control | Keys.V))
+                {
+                    return true;
+                }
+
                 if (keyData == Keys.Tab)
                 {
                     bool blnFlag = true;
@@ -443,7 +448,7 @@ namespace TiengViet4
                 base.OnMouseClick(e);
             }
         }
-        
+
         protected override void OnMouseMove(MouseEventArgs e)
         {
             base.OnMouseMove(e);
