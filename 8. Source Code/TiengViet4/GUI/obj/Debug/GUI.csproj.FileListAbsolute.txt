@@ -131,3 +131,29 @@ E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\GUI\obj\Debug\TiengVi
 E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
 E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.KeChuyen.resources
 D:\HK2_2009-2010\Software management\tiengviet4-16-20\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.KeChuyen.resources
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\GUI\obj\Debug\TiengViet4.exe
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\GUI\obj\Debug\TiengViet4.pdb
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\GUI\bin\Debug\TiengViet4.exe
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\GUI\bin\Debug\TiengViet4.pdb
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\GUI\bin\Debug\BUS.dll
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\GUI\bin\Debug\DTO.dll
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\GUI\bin\Debug\DAO.dll
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\GUI\bin\Debug\BUS.pdb
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\GUI\bin\Debug\DAO.pdb
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\GUI\bin\Debug\DTO.pdb
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\GUI\obj\Debug\ResolveAssemblyReference.cache
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\GUI\obj\Debug\TiengViet4.KeChuyenForm.resources
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\GUI\obj\Debug\TiengViet4.LuyenTuVaCauForm.resources
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\GUI\obj\Debug\TiengViet4.MainForm.resources
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\GUI\obj\Debug\TiengViet4.ChonBaiHocForm.resources
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\GUI\obj\Debug\TiengViet4.TapDocForm.resources
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\GUI\obj\Debug\TiengViet4.ChinhTaForm.resources
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\GUI\obj\Debug\TiengViet4.Properties.Resources.resources
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\GUI\obj\Debug\TiengViet4.TapLamVanForm.resources
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\GUI\obj\Debug\Interop.WMPLib.dll
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\GUI\obj\Debug\AxInterop.WMPLib.dll
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\GUI\obj\Debug\GUI.csproj.ResolveComReference.cache
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\GUI\bin\Debug\Interop.WMPLib.dll
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\GUI\bin\Debug\AxInterop.WMPLib.dll
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\GUI\obj\Debug\TiengViet4.HuongDanForm.resources

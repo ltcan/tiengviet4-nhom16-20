@@ -3,3 +3,8 @@ C:\Documents and Settings\Administrator\Desktop\8. Source Code\TiengViet4\DTO\bi
 C:\Documents and Settings\Administrator\Desktop\8. Source Code\TiengViet4\DTO\obj\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\Administrator\Desktop\8. Source Code\TiengViet4\DTO\obj\Debug\DTO.dll
 C:\Documents and Settings\Administrator\Desktop\8. Source Code\TiengViet4\DTO\obj\Debug\DTO.pdb
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\DTO\bin\Debug\DTO.dll
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\DTO\bin\Debug\DTO.pdb
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\DTO\obj\Debug\ResolveAssemblyReference.cache
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\DTO\obj\Debug\DTO.dll
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\DTO\obj\Debug\DTO.pdb
