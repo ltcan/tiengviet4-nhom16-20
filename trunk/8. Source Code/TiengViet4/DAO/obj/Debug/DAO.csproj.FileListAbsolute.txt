@@ -54,3 +54,11 @@ E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\DAO\bin\Debug\DTO.pdb
 E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\DAO\obj\Debug\ResolveAssemblyReference.cache
 E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\DAO\obj\Debug\DAO.dll
 E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\DAO\obj\Debug\DAO.pdb
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\DAO\bin\Debug\CSDL\CSDL.mdb
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\DAO\bin\Debug\DAO.dll
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\DAO\bin\Debug\DAO.pdb
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\DAO\bin\Debug\DTO.dll
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\DAO\bin\Debug\DTO.pdb
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\DAO\obj\Debug\ResolveAssemblyReference.cache
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\DAO\obj\Debug\DAO.dll
+D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\DAO\obj\Debug\DAO.pdb
