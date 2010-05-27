@@ -27,32 +27,50 @@ namespace TiengViet4
 
         private int slRecordGN;
 
+        private int pictiepstatus;
+
+        private int pictruocstatus;
+
         public TapLamVanForm(string strMaBaiHoc, ChonBaiHocForm frmParent)
         {
             InitializeComponent();
 
             cauHienTai = 0;
+            pictruocstatus = 0;
+            pictiepstatus = 0;
             myParent = frmParent;
             rtbGhiNho.Visible = false;
-            picCauHoi.Visible = false;
+            picCauHoi.Visible = true;
             picDapAn.Visible = true;
-            
-            tableLT = TapLamVanBUS.LayDanhSachBai(strMaBaiHoc,"TLV_LT");
-            tableGN = TapLamVanBUS.LayDanhSachBai(strMaBaiHoc, "TLV_GN");
-            slRecordLT = tableLT.Rows.Count;
-            slRecordGN = tableGN.Rows.Count;
-            layDuongDan();
+            try
+            {
+                tableLT = TapLamVanBUS.LayDanhSachBai(strMaBaiHoc, "TLV_LT");
+                tableGN = TapLamVanBUS.LayDanhSachBai(strMaBaiHoc, "TLV_GN");
+                slRecordLT = tableLT.Rows.Count;
+                slRecordGN = tableGN.Rows.Count;
+                layDuongDan();
 
-            if (slRecordLT >=1)
-                picCTCauTiepTheo.Visible = true;
+                if (slRecordLT >= 1)
+                    pictiepstatus = 1;
 
-            rtbCauHoi.LoadFile(filenoidung);
+                rtbCauHoi.LoadFile(filenoidung);
+                if (pictiepstatus == 1)
+                    picCTCauTiepTheo.Visible = true;
+                if (pictruocstatus == 1)
+                    picCTCauTruoc.Visible = true;
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Không thể đọc được dữ liệu!", "Thông báo lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void layDuongDan()
         {
-            filenoidung = tableLT.Rows[cauHienTai]["FileNoiDung"].ToString();
-            filedapan = tableLT.Rows[cauHienTai]["FileDapAn"].ToString();
+            
+                filenoidung = tableLT.Rows[cauHienTai]["FileNoiDung"].ToString();
+                filedapan = tableLT.Rows[cauHienTai]["FileDapAn"].ToString();
+           
         }
 
         private void btnThoat_Click(object sender, DevComponents.DotNetBar.ClickEventArgs e)
@@ -63,30 +81,53 @@ namespace TiengViet4
         private void picCTCauTiepTheo_Click(object sender, EventArgs e)
         {
             cauHienTai++;
+            pictruocstatus = 1;
             picCTCauTruoc.Visible = true;
+            try
+            {
+                layDuongDan();
 
-            layDuongDan();
+                rtbCauHoi.LoadFile(filenoidung);
+                rtbBaiLam.Text = "";
 
-            rtbCauHoi.LoadFile(filenoidung);
-            rtbBaiLam.Text = "";
+                if (cauHienTai == (slRecordLT - 1))
+                {
+                    picCTCauTiepTheo.Visible = false;
+                    pictiepstatus = 0;
+                }
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Không thể đọc được dữ liệu!", "Thông báo lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
 
-            if (cauHienTai == (slRecordLT - 1))
-                picCTCauTiepTheo.Visible = false;
 
         }
 
         private void picCTCauTruoc_Click(object sender, EventArgs e)
         {
             cauHienTai--;
+            pictiepstatus = 1;
             picCTCauTiepTheo.Visible = true;
 
-            layDuongDan();
+            try
+            {
+                layDuongDan();
 
-            rtbCauHoi.LoadFile(filenoidung);
-            rtbBaiLam.Text = "";
+                rtbCauHoi.LoadFile(filenoidung);
+                rtbBaiLam.Text = "";
 
-            if (cauHienTai==0)
-                picCTCauTruoc.Visible = false;
+                if (cauHienTai == 0)
+                {
+                    picCTCauTruoc.Visible = false;
+                    pictruocstatus = 0;
+                }
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Không thể đọc được dữ liệu!", "Thông báo lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
         }
 
         private void picCTKetQua_Click(object sender, EventArgs e)
@@ -105,12 +146,19 @@ namespace TiengViet4
             picCTCauTruoc.Visible = false;
             picCauHoi.Visible = false;
             picDapAn.Visible = false;
-            rtbGhiNho.Visible = true;
+            rtbGhiNho.Visible = true;            
 
-            if (slRecordGN != 0)
-                rtbGhiNho.LoadFile(tableGN.Rows[0]["FileNoiDung"].ToString());
-            else
-                rtbGhiNho.Text = "Bài học này không có ghi nhớ!";
+            try
+            {
+                if (slRecordGN != 0)
+                    rtbGhiNho.LoadFile(tableGN.Rows[0]["FileNoiDung"].ToString());
+                else
+                    rtbGhiNho.Text = "Bài học này không có ghi nhớ!";
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Không thể đọc được dữ liệu!", "Thông báo lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
             
         }
 
@@ -118,12 +166,15 @@ namespace TiengViet4
         {
             rtbCauHoi.Visible = true;
             rtbBaiLam.Visible = true;
-            lblLamBai.Visible = true;
-            picCTCauTiepTheo.Visible = true;
-            picCTCauTruoc.Visible = true;
+            lblLamBai.Visible = true;            
             picCauHoi.Visible = true;
             picDapAn.Visible = true;
             rtbGhiNho.Visible = false;
+
+            if (pictiepstatus == 1)
+                picCTCauTiepTheo.Visible = true;
+            if (pictruocstatus == 1)
+                picCTCauTruoc.Visible = true;
         }
 
         private void picBatDau_Click(object sender, EventArgs e)
@@ -136,8 +187,6 @@ namespace TiengViet4
         private void btnHome_Click(object sender, DevComponents.DotNetBar.ClickEventArgs e)
         {
             this.Close();
-
-
         }
     }
 }

@@ -130,3 +130,4 @@ E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\GUI\obj\Debug\TiengVi
 E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.TapLamVanForm.resources
 E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
 E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.KeChuyen.resources
+D:\HK2_2009-2010\Software management\tiengviet4-16-20\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.KeChuyen.resources
