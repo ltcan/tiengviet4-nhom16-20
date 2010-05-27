@@ -1,70 +1,10 @@
-E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\BUS\obj\Debug\ResolveAssemblyReference.cache
-E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\BUS\bin\Debug\CSDL\CSDL.mdb
-E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\BUS\bin\Debug\BUS.dll
-E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\BUS\bin\Debug\BUS.pdb
-E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\BUS\bin\Debug\DAO.dll
-E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\BUS\bin\Debug\DTO.dll
-E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\BUS\bin\Debug\DAO.pdb
-E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\BUS\bin\Debug\DTO.pdb
-E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\BUS\obj\Debug\BUS.dll
-E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\BUS\obj\Debug\BUS.pdb
-D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\BUS\bin\Debug\CSDL\CSDL.mdb
-D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\BUS\bin\Debug\BUS.dll
-D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\BUS\bin\Debug\BUS.pdb
-D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\BUS\bin\Debug\DAO.dll
-D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\BUS\bin\Debug\DTO.dll
-D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\BUS\bin\Debug\DAO.pdb
-D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\BUS\bin\Debug\DTO.pdb
-D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\BUS\obj\Debug\ResolveAssemblyReference.cache
-D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\BUS\obj\Debug\BUS.dll
-D:\SoftwareProcessManagement\tiengviet4-nhom16-20\8. Source Code\TiengViet4\BUS\obj\Debug\BUS.pdb
-D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\BUS\bin\Debug\CSDL\CSDL.mdb
-D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\BUS\bin\Debug\BUS.dll
-D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\BUS\bin\Debug\BUS.pdb
-D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\BUS\bin\Debug\DAO.dll
-D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\BUS\bin\Debug\DTO.dll
-D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\BUS\bin\Debug\DAO.pdb
-D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\BUS\bin\Debug\DTO.pdb
-D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\BUS\obj\Debug\ResolveAssemblyReference.cache
-D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\BUS\obj\Debug\BUS.dll
-D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\BUS\obj\Debug\BUS.pdb
-C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\BUS\bin\Debug\CSDL\CSDL.mdb
-C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\BUS\bin\Debug\BUS.dll
-C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\BUS\bin\Debug\BUS.pdb
-C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\BUS\bin\Debug\DAO.dll
-C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\BUS\bin\Debug\DTO.dll
-C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\BUS\bin\Debug\DAO.pdb
-C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\BUS\bin\Debug\DTO.pdb
-C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\BUS\obj\Debug\ResolveAssemblyReference.cache
-C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\BUS\obj\Debug\BUS.dll
-C:\Documents and Settings\BboyPaolo\Desktop\TiengViet4\BUS\obj\Debug\BUS.pdb
-D:\HK2_2009-2010\Software management\tiengviet4-16-20\8. Source Code\TiengViet4\BUS\bin\Debug\CSDL\CSDL.mdb
-D:\HK2_2009-2010\Software management\tiengviet4-16-20\8. Source Code\TiengViet4\BUS\bin\Debug\BUS.dll
-D:\HK2_2009-2010\Software management\tiengviet4-16-20\8. Source Code\TiengViet4\BUS\bin\Debug\BUS.pdb
-D:\HK2_2009-2010\Software management\tiengviet4-16-20\8. Source Code\TiengViet4\BUS\bin\Debug\DAO.dll
-D:\HK2_2009-2010\Software management\tiengviet4-16-20\8. Source Code\TiengViet4\BUS\bin\Debug\DTO.dll
-D:\HK2_2009-2010\Software management\tiengviet4-16-20\8. Source Code\TiengViet4\BUS\bin\Debug\DAO.pdb
-D:\HK2_2009-2010\Software management\tiengviet4-16-20\8. Source Code\TiengViet4\BUS\bin\Debug\DTO.pdb
-D:\HK2_2009-2010\Software management\tiengviet4-16-20\8. Source Code\TiengViet4\BUS\obj\Debug\ResolveAssemblyReference.cache
-D:\HK2_2009-2010\Software management\tiengviet4-16-20\8. Source Code\TiengViet4\BUS\obj\Debug\BUS.dll
-D:\HK2_2009-2010\Software management\tiengviet4-16-20\8. Source Code\TiengViet4\BUS\obj\Debug\BUS.pdb
-D:\TiengVietFix\TiengViet4\BUS\bin\Debug\CSDL\CSDL.mdb
-D:\TiengVietFix\TiengViet4\BUS\bin\Debug\BUS.dll
-D:\TiengVietFix\TiengViet4\BUS\bin\Debug\BUS.pdb
-D:\TiengVietFix\TiengViet4\BUS\bin\Debug\DAO.dll
-D:\TiengVietFix\TiengViet4\BUS\bin\Debug\DTO.dll
-D:\TiengVietFix\TiengViet4\BUS\bin\Debug\DAO.pdb
-D:\TiengVietFix\TiengViet4\BUS\bin\Debug\DTO.pdb
-D:\TiengVietFix\TiengViet4\BUS\obj\Debug\ResolveAssemblyReference.cache
-D:\TiengVietFix\TiengViet4\BUS\obj\Debug\BUS.dll
-D:\TiengVietFix\TiengViet4\BUS\obj\Debug\BUS.pdb
-E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\BUS\bin\Debug\CSDL\CSDL.mdb
-E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\BUS\bin\Debug\BUS.dll
-E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\BUS\bin\Debug\BUS.pdb
-E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\BUS\bin\Debug\DAO.dll
-E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\BUS\bin\Debug\DTO.dll
-E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\BUS\bin\Debug\DAO.pdb
-E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\BUS\bin\Debug\DTO.pdb
-E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\BUS\obj\Debug\ResolveAssemblyReference.cache
-E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\BUS\obj\Debug\BUS.dll
-E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\BUS\obj\Debug\BUS.pdb
+C:\Documents and Settings\Administrator\Desktop\8. Source Code\TiengViet4\BUS\bin\Debug\CSDL\CSDL.mdb
+C:\Documents and Settings\Administrator\Desktop\8. Source Code\TiengViet4\BUS\bin\Debug\BUS.dll
+C:\Documents and Settings\Administrator\Desktop\8. Source Code\TiengViet4\BUS\bin\Debug\BUS.pdb
+C:\Documents and Settings\Administrator\Desktop\8. Source Code\TiengViet4\BUS\bin\Debug\DAO.dll
+C:\Documents and Settings\Administrator\Desktop\8. Source Code\TiengViet4\BUS\bin\Debug\DTO.dll
+C:\Documents and Settings\Administrator\Desktop\8. Source Code\TiengViet4\BUS\bin\Debug\DAO.pdb
+C:\Documents and Settings\Administrator\Desktop\8. Source Code\TiengViet4\BUS\bin\Debug\DTO.pdb
+C:\Documents and Settings\Administrator\Desktop\8. Source Code\TiengViet4\BUS\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\8. Source Code\TiengViet4\BUS\obj\Debug\BUS.dll
+C:\Documents and Settings\Administrator\Desktop\8. Source Code\TiengViet4\BUS\obj\Debug\BUS.pdb

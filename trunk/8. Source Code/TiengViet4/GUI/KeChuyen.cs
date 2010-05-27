@@ -8,13 +8,20 @@ using System.Windows.Forms;
 
 namespace TiengViet4
 {
-    public partial class KeChuyen : Form
+    public partial class KeChuyenForm : Form
     {
-        public KeChuyen()
+        public KeChuyenForm()
         {
             InitializeComponent();
         }
+        ChonBaiHocForm   frmParent;
 
+        public KeChuyenForm(string strMaBaiHoc, ChonBaiHocForm MyParent)
+        {
+        InitializeComponent();
+
+            frmParent = MyParent;
+        }
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             grpCauHoi.Visible = true;
@@ -43,6 +50,18 @@ namespace TiengViet4
                 pnlCauChuyenTraLoi.Expanded = false;               
                 pnlHinhAnh.Expanded = true;
             }
+        }
+
+        private void btnHome_Click(object sender, DevComponents.DotNetBar.ClickEventArgs e)
+        {
+            this.Close();
+            frmParent.Show();
+        }
+
+        private void btnThoat_Click(object sender, DevComponents.DotNetBar.ClickEventArgs e)
+        {
+            this.Close();
+            frmParent.Close();
         }
     }
 }
