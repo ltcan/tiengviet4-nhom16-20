@@ -27,10 +27,10 @@ namespace BUS
             return DanhSachFileLuyenTap;
         }
 
-        public static List<FileLuyenTapDTO> LayFileTheoMaBaiHoc(string strMaBaiHoc, string strMaLoaiMon)
+        public static List<FileLuyenTapDTO> LayFileTheoMaBaiHoc(string strMaBaiHoc, string strLoaiFile)
         {
             List<FileLuyenTapDTO> DanhSachFileLuyenTap = new List<FileLuyenTapDTO>();
-            DataTable Table = FileLuyenTapDAO.LayFileTheoMaBaiHoc(strMaBaiHoc, strMaLoaiMon);
+            DataTable Table = FileLuyenTapDAO.LayFileTheoMaBaiHoc(strMaBaiHoc, strLoaiFile);
             for (int i = 0; i < Table.Rows.Count; ++i)
             {
                 FileLuyenTapDTO fltFileLuyenTap = new FileLuyenTapDTO();
