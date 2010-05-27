@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.Windows.Forms.PictureBox pictureBox1;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TapLamVanForm));
             this.picCauHoi = new System.Windows.Forms.PictureBox();
             this.picCTCauTruoc = new System.Windows.Forms.PictureBox();
@@ -40,20 +41,36 @@
             this.btnHuongDan = new DevComponents.DotNetBar.BubbleButton();
             this.btnAmThanh = new DevComponents.DotNetBar.BubbleButton();
             this.btnThoat = new DevComponents.DotNetBar.BubbleButton();
-            this.rtbGhiNho = new System.Windows.Forms.RichTextBox();
             this.a = new DevComponents.DotNetBar.BubbleBar();
             this.btThanhDieuHuongDuoi = new DevComponents.DotNetBar.BubbleBarTab(this.components);
-            this.btnNgheVaViet = new DevComponents.DotNetBar.BubbleButton();
-            this.btnChinhTa = new DevComponents.DotNetBar.BubbleButton();
+            this.btnGhiNho = new DevComponents.DotNetBar.BubbleButton();
+            this.btnTapLamVan = new DevComponents.DotNetBar.BubbleButton();
+            this.rtbGhiNho = new System.Windows.Forms.RichTextBox();
             this.rtbCauHoi = new System.Windows.Forms.RichTextBox();
             this.rtbBaiLam = new System.Windows.Forms.RichTextBox();
-            this.lblLamBai = new System.Windows.Forms.Label();
+            this.lblLamBai = new TiengViet4.TransparentRichTextBox();
+            pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picCauHoi)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picCTCauTruoc)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picCTCauTiepTheo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnThanhDieuHuongDuoi)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.a)).BeginInit();
             this.SuspendLayout();
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.AccessibleRole = System.Windows.Forms.AccessibleRole.TitleBar;
+            pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            pictureBox1.ErrorImage = null;
+            pictureBox1.InitialImage = null;
+            pictureBox1.Location = new System.Drawing.Point(9, 0);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new System.Drawing.Size(100, 600);
+            pictureBox1.TabIndex = 50;
+            pictureBox1.TabStop = false;
             // 
             // picCauHoi
             // 
@@ -197,15 +214,6 @@
             this.btnThoat.TooltipText = "Thoát";
             this.btnThoat.Click += new DevComponents.DotNetBar.ClickEventHandler(this.btnThoat_Click);
             // 
-            // rtbGhiNho
-            // 
-            this.rtbGhiNho.Enabled = false;
-            this.rtbGhiNho.Location = new System.Drawing.Point(187, 94);
-            this.rtbGhiNho.Name = "rtbGhiNho";
-            this.rtbGhiNho.Size = new System.Drawing.Size(558, 177);
-            this.rtbGhiNho.TabIndex = 39;
-            this.rtbGhiNho.Text = "";
-            // 
             // a
             // 
             this.a.Alignment = DevComponents.DotNetBar.eBubbleButtonAlignment.Bottom;
@@ -231,8 +239,8 @@
             this.btThanhDieuHuongDuoi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(230)))), ((int)(((byte)(247)))));
             this.btThanhDieuHuongDuoi.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(168)))), ((int)(((byte)(228)))));
             this.btThanhDieuHuongDuoi.Buttons.AddRange(new DevComponents.DotNetBar.BubbleButton[] {
-            this.btnNgheVaViet,
-            this.btnChinhTa});
+            this.btnGhiNho,
+            this.btnTapLamVan});
             this.btThanhDieuHuongDuoi.DarkBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(105)))), ((int)(((byte)(105)))), ((int)(((byte)(105)))));
             this.btThanhDieuHuongDuoi.LightBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btThanhDieuHuongDuoi.Name = "btThanhDieuHuongDuoi";
@@ -240,80 +248,96 @@
             this.btThanhDieuHuongDuoi.Text = "btThanhDieuHuongDuoi";
             this.btThanhDieuHuongDuoi.TextColor = System.Drawing.Color.Black;
             // 
-            // btnNgheVaViet
+            // btnGhiNho
             // 
-            this.btnNgheVaViet.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnNgheVaViet.Image = ((System.Drawing.Image)(resources.GetObject("btnNgheVaViet.Image")));
-            this.btnNgheVaViet.ImageLarge = ((System.Drawing.Image)(resources.GetObject("btnNgheVaViet.ImageLarge")));
-            this.btnNgheVaViet.Name = "btnNgheVaViet";
-            this.btnNgheVaViet.TooltipText = "Nghe và Viết";
-            this.btnNgheVaViet.Click += new DevComponents.DotNetBar.ClickEventHandler(this.btnNgheVaViet_Click);
+            this.btnGhiNho.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnGhiNho.Image = ((System.Drawing.Image)(resources.GetObject("btnGhiNho.Image")));
+            this.btnGhiNho.ImageLarge = ((System.Drawing.Image)(resources.GetObject("btnGhiNho.ImageLarge")));
+            this.btnGhiNho.Name = "btnGhiNho";
+            this.btnGhiNho.TooltipText = "Ghi Nhớ";
+            this.btnGhiNho.Click += new DevComponents.DotNetBar.ClickEventHandler(this.btnNgheVaViet_Click);
             // 
-            // btnChinhTa
+            // btnTapLamVan
             // 
-            this.btnChinhTa.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnChinhTa.Image = ((System.Drawing.Image)(resources.GetObject("btnChinhTa.Image")));
-            this.btnChinhTa.ImageLarge = ((System.Drawing.Image)(resources.GetObject("btnChinhTa.ImageLarge")));
-            this.btnChinhTa.Name = "btnChinhTa";
-            this.btnChinhTa.TooltipText = "Chính tả";
-            this.btnChinhTa.Click += new DevComponents.DotNetBar.ClickEventHandler(this.btnChinhTa_Click);
+            this.btnTapLamVan.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnTapLamVan.Image = ((System.Drawing.Image)(resources.GetObject("btnTapLamVan.Image")));
+            this.btnTapLamVan.ImageLarge = ((System.Drawing.Image)(resources.GetObject("btnTapLamVan.ImageLarge")));
+            this.btnTapLamVan.Name = "btnTapLamVan";
+            this.btnTapLamVan.TooltipText = "Tập làm văn";
+            this.btnTapLamVan.Click += new DevComponents.DotNetBar.ClickEventHandler(this.btnChinhTa_Click);
+            // 
+            // rtbGhiNho
+            // 
+            this.rtbGhiNho.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.rtbGhiNho.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rtbGhiNho.Location = new System.Drawing.Point(187, 94);
+            this.rtbGhiNho.Name = "rtbGhiNho";
+            this.rtbGhiNho.Size = new System.Drawing.Size(552, 264);
+            this.rtbGhiNho.TabIndex = 55;
+            this.rtbGhiNho.Text = "";
             // 
             // rtbCauHoi
             // 
-            this.rtbCauHoi.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.rtbCauHoi.Enabled = false;
-            this.rtbCauHoi.Location = new System.Drawing.Point(187, 121);
+            this.rtbCauHoi.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.rtbCauHoi.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rtbCauHoi.Location = new System.Drawing.Point(188, 94);
             this.rtbCauHoi.Name = "rtbCauHoi";
-            this.rtbCauHoi.Size = new System.Drawing.Size(558, 150);
-            this.rtbCauHoi.TabIndex = 41;
+            this.rtbCauHoi.Size = new System.Drawing.Size(551, 153);
+            this.rtbCauHoi.TabIndex = 56;
             this.rtbCauHoi.Text = "";
             // 
             // rtbBaiLam
             // 
-            this.rtbBaiLam.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.rtbBaiLam.Location = new System.Drawing.Point(187, 295);
+            this.rtbBaiLam.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.rtbBaiLam.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rtbBaiLam.Location = new System.Drawing.Point(188, 285);
             this.rtbBaiLam.Name = "rtbBaiLam";
-            this.rtbBaiLam.Size = new System.Drawing.Size(558, 154);
-            this.rtbBaiLam.TabIndex = 42;
+            this.rtbBaiLam.Size = new System.Drawing.Size(551, 159);
+            this.rtbBaiLam.TabIndex = 57;
             this.rtbBaiLam.Text = "";
             // 
             // lblLamBai
             // 
-            this.lblLamBai.AutoSize = true;
-            this.lblLamBai.Location = new System.Drawing.Point(416, 276);
+            this.lblLamBai.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.lblLamBai.Enabled = false;
+            this.lblLamBai.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLamBai.Location = new System.Drawing.Point(405, 253);
             this.lblLamBai.Name = "lblLamBai";
-            this.lblLamBai.Size = new System.Drawing.Size(93, 13);
-            this.lblLamBai.TabIndex = 43;
+            this.lblLamBai.Size = new System.Drawing.Size(155, 26);
+            this.lblLamBai.TabIndex = 54;
             this.lblLamBai.Text = "Nội Dung Bài Làm";
-            this.lblLamBai.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // TapLamVanForm
             // 
             this.AllowDrop = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 600);
-            this.Controls.Add(this.lblLamBai);
             this.Controls.Add(this.rtbBaiLam);
             this.Controls.Add(this.rtbCauHoi);
-            this.Controls.Add(this.a);
             this.Controls.Add(this.rtbGhiNho);
+            this.Controls.Add(this.lblLamBai);
+            this.Controls.Add(pictureBox1);
+            this.Controls.Add(this.a);
             this.Controls.Add(this.picCauHoi);
             this.Controls.Add(this.picCTCauTruoc);
             this.Controls.Add(this.picCTCauTiepTheo);
             this.Controls.Add(this.picDapAn);
             this.Controls.Add(this.btnThanhDieuHuongDuoi);
+            this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "TapLamVanForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TapLamVanForm";
+            ((System.ComponentModel.ISupportInitialize)(pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picCauHoi)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picCTCauTruoc)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picCTCauTiepTheo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnThanhDieuHuongDuoi)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.a)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -329,13 +353,13 @@
         private DevComponents.DotNetBar.BubbleButton btnHuongDan;
         private DevComponents.DotNetBar.BubbleButton btnAmThanh;
         private DevComponents.DotNetBar.BubbleButton btnThoat;
-        private System.Windows.Forms.RichTextBox rtbGhiNho;
         private DevComponents.DotNetBar.BubbleBar a;
         private DevComponents.DotNetBar.BubbleBarTab btThanhDieuHuongDuoi;
-        private DevComponents.DotNetBar.BubbleButton btnNgheVaViet;
-        private DevComponents.DotNetBar.BubbleButton btnChinhTa;
+        private DevComponents.DotNetBar.BubbleButton btnGhiNho;
+        private DevComponents.DotNetBar.BubbleButton btnTapLamVan;
+        private TransparentRichTextBox lblLamBai;
+        private System.Windows.Forms.RichTextBox rtbGhiNho;
         private System.Windows.Forms.RichTextBox rtbCauHoi;
         private System.Windows.Forms.RichTextBox rtbBaiLam;
-        private System.Windows.Forms.Label lblLamBai;
     }
 }

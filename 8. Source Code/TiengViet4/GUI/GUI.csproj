@@ -102,6 +102,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="KeChuyen.resx">
       <DependentUpon>KeChuyen.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="LuyenTuVaCauForm.resx">
       <DependentUpon>LuyenTuVaCauForm.cs</DependentUpon>
@@ -130,6 +131,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="TapLamVanForm.resx">
       <DependentUpon>TapLamVanForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
