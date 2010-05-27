@@ -17,11 +17,11 @@ namespace DAO
             return KetQua;
         }
 
-        public static DataTable LayFileTheoMaBaiHoc(string strMaBaiHoc, string strMaLoaiMon)
+        public static DataTable LayFileTheoMaBaiHoc(string strMaBaiHoc, string strLoaiFile)
         {
             string strLenhDocDuLieu = "Select *  From FileLuyenTap " +
                                    "Where MaBaiHoc = '" + strMaBaiHoc + "'" +
-                                   " And MaLoaiMon = '" + strMaLoaiMon + "'";
+                                   " And LoaiFile = '" + strLoaiFile + "'";
             DataTable KetQua = CoSoDuLieu.LayDuLieu(strLenhDocDuLieu);
             return KetQua;
         }
