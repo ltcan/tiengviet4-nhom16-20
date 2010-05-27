@@ -1,6 +1,6 @@
 ﻿namespace TiengViet4
 {
-    partial class KeChuyen
+    partial class KeChuyenForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(KeChuyen));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(KeChuyenForm));
             this.lblGCDCauChuyen = new DevComponents.DotNetBar.LabelX();
             this.picGCDCauTiepTheo = new System.Windows.Forms.PictureBox();
             this.labelX1 = new DevComponents.DotNetBar.LabelX();
@@ -168,6 +168,7 @@
             this.btnHome.ImageLarge = ((System.Drawing.Image)(resources.GetObject("btnHome.ImageLarge")));
             this.btnHome.Name = "btnHome";
             this.btnHome.TooltipText = "Về trang đầu";
+            this.btnHome.Click += new DevComponents.DotNetBar.ClickEventHandler(this.btnHome_Click);
             // 
             // btnHuongDan
             // 
@@ -192,6 +193,7 @@
             this.btnThoat.ImageLarge = ((System.Drawing.Image)(resources.GetObject("btnThoat.ImageLarge")));
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.TooltipText = "Thoát";
+            this.btnThoat.Click += new DevComponents.DotNetBar.ClickEventHandler(this.btnThoat_Click);
             // 
             // grpCauHoi
             // 
@@ -360,7 +362,7 @@
             this.labelX5.Text = "Nội dung câu chuyện hoặc câu trả lời";
             this.labelX5.TextLineAlignment = System.Drawing.StringAlignment.Near;
             // 
-            // KeChuyen
+            // KeChuyenForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -380,7 +382,7 @@
             this.Controls.Add(this.lblGCDCauChuyen);
             this.Controls.Add(this.picGCDCauTiepTheo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "KeChuyen";
+            this.Name = "KeChuyenForm";
             this.Text = "KeChuyen";
             this.Load += new System.EventHandler(this.KeChuyen_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picGCDCauTiepTheo)).EndInit();

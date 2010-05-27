@@ -55,6 +55,12 @@ namespace TiengViet4
                             TapLamVanForm frmTapLamVan = new TapLamVanForm(treDanhSachTuan.SelectedNode.Name, this);
                             frmTapLamVan.Show();
                             break;
+
+                        case "KC":
+                            this.Cursor = Cursors.WaitCursor;
+                            KeChuyenForm frmKeChuyen = new KeChuyenForm(treDanhSachTuan.SelectedNode.Name,this);
+                             frmKeChuyen.Show();
+                            break;
                     }
                 }             
             }
