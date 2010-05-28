@@ -78,7 +78,7 @@
             this.picCauHoi.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picCauHoi.BackgroundImage")));
             this.picCauHoi.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.picCauHoi.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picCauHoi.Location = new System.Drawing.Point(462, 461);
+            this.picCauHoi.Location = new System.Drawing.Point(462, 460);
             this.picCauHoi.Name = "picCauHoi";
             this.picCauHoi.Size = new System.Drawing.Size(45, 45);
             this.picCauHoi.TabIndex = 38;
@@ -116,7 +116,6 @@
             // picDapAn
             // 
             this.picDapAn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picDapAn.BackgroundImage")));
-            //this.picDapAn.BackgroundImage1 = ((System.Drawing.Image)(resources.GetObject("picDapAn.BackgroundImage1")));
             this.picDapAn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picDapAn.Location = new System.Drawing.Point(461, 460);
             this.picDapAn.Name = "picDapAn";

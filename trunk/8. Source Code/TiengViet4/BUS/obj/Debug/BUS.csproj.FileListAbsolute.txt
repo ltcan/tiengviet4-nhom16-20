@@ -18,3 +18,13 @@ D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\BUS\bin\Debug\DTO.p
 D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\BUS\obj\Debug\ResolveAssemblyReference.cache
 D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\BUS\obj\Debug\BUS.dll
 D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\BUS\obj\Debug\BUS.pdb
+D:\HK2_2009-2010\Software management\tiengviet4-16-20\8. Source Code\TiengViet4\BUS\bin\Debug\CSDL\CSDL.mdb
+D:\HK2_2009-2010\Software management\tiengviet4-16-20\8. Source Code\TiengViet4\BUS\bin\Debug\BUS.dll
+D:\HK2_2009-2010\Software management\tiengviet4-16-20\8. Source Code\TiengViet4\BUS\bin\Debug\BUS.pdb
+D:\HK2_2009-2010\Software management\tiengviet4-16-20\8. Source Code\TiengViet4\BUS\bin\Debug\DAO.dll
+D:\HK2_2009-2010\Software management\tiengviet4-16-20\8. Source Code\TiengViet4\BUS\bin\Debug\DTO.dll
+D:\HK2_2009-2010\Software management\tiengviet4-16-20\8. Source Code\TiengViet4\BUS\bin\Debug\DAO.pdb
+D:\HK2_2009-2010\Software management\tiengviet4-16-20\8. Source Code\TiengViet4\BUS\bin\Debug\DTO.pdb
+D:\HK2_2009-2010\Software management\tiengviet4-16-20\8. Source Code\TiengViet4\BUS\obj\Debug\ResolveAssemblyReference.cache
+D:\HK2_2009-2010\Software management\tiengviet4-16-20\8. Source Code\TiengViet4\BUS\obj\Debug\BUS.dll
+D:\HK2_2009-2010\Software management\tiengviet4-16-20\8. Source Code\TiengViet4\BUS\obj\Debug\BUS.pdb

@@ -40,7 +40,7 @@ namespace TiengViet4
             pictiepstatus = 0;
             myParent = frmParent;
             rtbGhiNho.Visible = false;
-            picCauHoi.Visible = true;
+            picCauHoi.Visible = false;
             picDapAn.Visible = true;
             try
             {
@@ -83,6 +83,8 @@ namespace TiengViet4
             cauHienTai++;
             pictruocstatus = 1;
             picCTCauTruoc.Visible = true;
+            picCauHoi.Visible = false;
+            picDapAn.Visible = true;
             try
             {
                 layDuongDan();
@@ -109,6 +111,8 @@ namespace TiengViet4
             cauHienTai--;
             pictiepstatus = 1;
             picCTCauTiepTheo.Visible = true;
+            picCauHoi.Visible = false;
+            picDapAn.Visible = true;
 
             try
             {
@@ -132,9 +136,17 @@ namespace TiengViet4
 
         private void picCTKetQua_Click(object sender, EventArgs e)
         {
-            rtbCauHoi.LoadFile(filenoidung);
-            picDapAn.Visible = true;
-            picCauHoi.Visible = false;
+            try
+            {
+                rtbCauHoi.LoadFile(filenoidung);
+                picDapAn.Visible = true;
+                picCauHoi.Visible = false;
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Không thể đọc được dữ liệu!", "Thông báo lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            
         }
 
         private void btnNgheVaViet_Click(object sender, DevComponents.DotNetBar.ClickEventArgs e)
@@ -167,7 +179,7 @@ namespace TiengViet4
             rtbCauHoi.Visible = true;
             rtbBaiLam.Visible = true;
             lblLamBai.Visible = true;            
-            picCauHoi.Visible = true;
+            picCauHoi.Visible = false;
             picDapAn.Visible = true;
             rtbGhiNho.Visible = false;
 
@@ -179,9 +191,16 @@ namespace TiengViet4
 
         private void picBatDau_Click(object sender, EventArgs e)
         {
-            rtbCauHoi.LoadFile(filedapan);
-            picCauHoi.Visible = true;
-            picDapAn.Visible = false;
+            try{
+                rtbCauHoi.LoadFile(filedapan);
+                picCauHoi.Visible = true;
+                picDapAn.Visible = false;
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Không thể đọc được dữ liệu!", "Thông báo lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            
         }
 
         private void btnHome_Click(object sender, DevComponents.DotNetBar.ClickEventArgs e)
