@@ -28,3 +28,13 @@ D:\HK2_2009-2010\Software management\tiengviet4-16-20\8. Source Code\TiengViet4\
 D:\HK2_2009-2010\Software management\tiengviet4-16-20\8. Source Code\TiengViet4\BUS\obj\Debug\ResolveAssemblyReference.cache
 D:\HK2_2009-2010\Software management\tiengviet4-16-20\8. Source Code\TiengViet4\BUS\obj\Debug\BUS.dll
 D:\HK2_2009-2010\Software management\tiengviet4-16-20\8. Source Code\TiengViet4\BUS\obj\Debug\BUS.pdb
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\BUS\bin\Debug\CSDL\CSDL.mdb
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\BUS\bin\Debug\BUS.dll
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\BUS\bin\Debug\BUS.pdb
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\BUS\bin\Debug\DAO.dll
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\BUS\bin\Debug\DTO.dll
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\BUS\bin\Debug\DAO.pdb
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\BUS\bin\Debug\DTO.pdb
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\BUS\obj\Debug\ResolveAssemblyReference.cache
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\BUS\obj\Debug\BUS.dll
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\BUS\obj\Debug\BUS.pdb
