@@ -163,3 +163,12 @@ D:\HK2_2009-2010\Software management\tiengviet4-16-20\8. Source Code\TiengViet4\
 D:\HK2_2009-2010\Software management\tiengviet4-16-20\8. Source Code\TiengViet4\GUI\bin\Debug\AxInterop.WMPLib.dll
 D:\HK2_2009-2010\Software management\tiengviet4-16-20\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.HuongDanForm.resources
 D:\HK2_2009-2010\Software management\tiengviet4-16-20\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.KeChuyenForm.resources
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\GUI\obj\Debug\Interop.WMPLib.dll
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\GUI\obj\Debug\AxInterop.WMPLib.dll
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\GUI\obj\Debug\GUI.csproj.ResolveComReference.cache
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.HuongDanForm.resources
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.KeChuyenForm.resources
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.LuyenTuVaCauForm.resources
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\GUI\obj\Debug\TiengViet4.TapLamVanForm.resources
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\GUI\bin\Debug\Interop.WMPLib.dll
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\GUI\bin\Debug\AxInterop.WMPLib.dll

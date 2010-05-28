@@ -61,6 +61,12 @@ namespace TiengViet4
                             KeChuyenForm frmKeChuyen = new KeChuyenForm(treDanhSachTuan.SelectedNode.Name,this);
                              frmKeChuyen.Show();
                             break;
+
+                        case "TD":
+                            this.Cursor = Cursors.WaitCursor;
+                            TapDocForm frmTapDoc = new TapDocForm(treDanhSachTuan.SelectedNode.Name, this);                            
+                            frmTapDoc.Show();
+                            break;
                     }
                 }             
             }

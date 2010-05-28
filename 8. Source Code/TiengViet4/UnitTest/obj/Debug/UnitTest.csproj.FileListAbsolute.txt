@@ -54,3 +54,22 @@ D:\HK2_2009-2010\Software management\tiengviet4-16-20\8. Source Code\TiengViet4\
 D:\HK2_2009-2010\Software management\tiengviet4-16-20\8. Source Code\TiengViet4\UnitTest\obj\Debug\ResolveAssemblyReference.cache
 D:\HK2_2009-2010\Software management\tiengviet4-16-20\8. Source Code\TiengViet4\UnitTest\obj\Debug\UnitTest.dll
 D:\HK2_2009-2010\Software management\tiengviet4-16-20\8. Source Code\TiengViet4\UnitTest\obj\Debug\UnitTest.pdb
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\UnitTest\bin\Debug\CSDL\CSDL.mdb
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\UnitTest\bin\Debug\UnitTest.dll
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\UnitTest\bin\Debug\UnitTest.pdb
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\UnitTest\bin\Debug\BUS.dll
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\UnitTest\bin\Debug\DAO.dll
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\UnitTest\bin\Debug\DTO.dll
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\UnitTest\bin\Debug\TiengViet4.exe
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\UnitTest\bin\Debug\CustomButton.dll
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\UnitTest\bin\Debug\Interop.WMPLib.dll
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\UnitTest\bin\Debug\DevComponents.DotNetBar2.dll
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\UnitTest\bin\Debug\AxInterop.WMPLib.dll
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\UnitTest\bin\Debug\nunit.framework.xml
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\UnitTest\bin\Debug\TiengViet4.pdb
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\UnitTest\bin\Debug\DAO.pdb
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\UnitTest\bin\Debug\BUS.pdb
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\UnitTest\bin\Debug\DTO.pdb
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\UnitTest\obj\Debug\ResolveAssemblyReference.cache
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\UnitTest\obj\Debug\UnitTest.dll
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\UnitTest\obj\Debug\UnitTest.pdb

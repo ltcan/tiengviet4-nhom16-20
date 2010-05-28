@@ -53,6 +53,7 @@
     <Compile Include="LoaiMon.cs" />
     <Compile Include="NhomTuLTVC.cs" />
     <Compile Include="QuyTacDau.cs" />
+    <Compile Include="TapDocDTO.cs" />
     <Compile Include="TinhTrang.cs" />
     <Compile Include="NhomTu.cs" />
     <Compile Include="Tu.cs" />
