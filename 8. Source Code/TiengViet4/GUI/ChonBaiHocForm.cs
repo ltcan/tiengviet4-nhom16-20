@@ -12,15 +12,18 @@ namespace TiengViet4
 {
     public partial class ChonBaiHocForm : Form
     {
-        public ChonBaiHocForm()
+        MainForm frmParent;
+
+        public ChonBaiHocForm(MainForm MyParent)
         {
             InitializeComponent();
+            frmParent = MyParent;
+            frmParent.Hide();
         }
 
         private void BtnThoat_Click(object sender, DevComponents.DotNetBar.ClickEventArgs e)
         {
-            //Dispose();
-            Close();
+            Application.Exit();
         }
 
         //protected override void OnClosed(EventArgs e)
@@ -76,12 +79,7 @@ namespace TiengViet4
             }
         }
 
-        private void btnHome_Click(object sender, DevComponents.DotNetBar.ClickEventArgs e)
-        {
-            Close();
-            //Parent.Show();
-        }
-
+      
         private void frmChonBaiHoc_Load(object sender, EventArgs e)
         {
             try
@@ -145,5 +143,18 @@ namespace TiengViet4
                 this.Cursor = Cursors.Default;
             }
         }
+
+        private void btnThoat_Click_1(object sender, DevComponents.DotNetBar.ClickEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnHome_Click_1(object sender, DevComponents.DotNetBar.ClickEventArgs e)
+        {
+            this.Close();
+            frmParent.Show();
+        }
+
+     
     }
 }

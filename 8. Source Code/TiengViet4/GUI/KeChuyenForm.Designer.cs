@@ -318,7 +318,7 @@
             this.labelX4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelX4.Location = new System.Drawing.Point(24, 85);
             this.labelX4.Name = "labelX4";
-            this.labelX4.Size = new System.Drawing.Size(456, 43);
+            this.labelX4.Size = new System.Drawing.Size(456, 35);
             this.labelX4.TabIndex = 36;
             this.labelX4.Text = "Tên câu chuyện";
             this.labelX4.TextAlignment = System.Drawing.StringAlignment.Center;
@@ -387,6 +387,7 @@
             this.Controls.Add(this.picGCDCauTiepTheo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "KeChuyenForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "KeChuyen";
             this.Load += new System.EventHandler(this.KeChuyen_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picGCDCauTiepTheo)).EndInit();
