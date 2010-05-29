@@ -18,3 +18,8 @@ D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source
 D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\DTO\obj\Debug\ResolveAssemblyReference.cache
 D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\DTO\obj\Debug\DTO.dll
 D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\DTO\obj\Debug\DTO.pdb
+E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\DTO\bin\Debug\DTO.dll
+E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\DTO\bin\Debug\DTO.pdb
+E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\DTO\obj\Debug\ResolveAssemblyReference.cache
+E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\DTO\obj\Debug\DTO.dll
+E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\DTO\obj\Debug\DTO.pdb

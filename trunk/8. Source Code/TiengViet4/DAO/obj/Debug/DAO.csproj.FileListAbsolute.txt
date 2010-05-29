@@ -54,7 +54,6 @@ E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\DAO\bin\Debug\DTO.pdb
 E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\DAO\obj\Debug\ResolveAssemblyReference.cache
 E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\DAO\obj\Debug\DAO.dll
 E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\DAO\obj\Debug\DAO.pdb
-<<<<<<< .mine
 C:\Documents and Settings\Administrator\Desktop\8. Source Code\TiengViet4\DAO\bin\Debug\CSDL\CSDL.mdb
 C:\Documents and Settings\Administrator\Desktop\8. Source Code\TiengViet4\DAO\bin\Debug\DAO.dll
 C:\Documents and Settings\Administrator\Desktop\8. Source Code\TiengViet4\DAO\bin\Debug\DAO.pdb
@@ -63,7 +62,6 @@ C:\Documents and Settings\Administrator\Desktop\8. Source Code\TiengViet4\DAO\bi
 C:\Documents and Settings\Administrator\Desktop\8. Source Code\TiengViet4\DAO\obj\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\Administrator\Desktop\8. Source Code\TiengViet4\DAO\obj\Debug\DAO.dll
 C:\Documents and Settings\Administrator\Desktop\8. Source Code\TiengViet4\DAO\obj\Debug\DAO.pdb
-=======
 D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\DAO\bin\Debug\CSDL\CSDL.mdb
 D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\DAO\bin\Debug\DAO.dll
 D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\DAO\bin\Debug\DAO.pdb
@@ -72,4 +70,3 @@ D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\DAO\bin\Debug\DTO.p
 D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\DAO\obj\Debug\ResolveAssemblyReference.cache
 D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\DAO\obj\Debug\DAO.dll
 D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\DAO\obj\Debug\DAO.pdb
->>>>>>> .r224

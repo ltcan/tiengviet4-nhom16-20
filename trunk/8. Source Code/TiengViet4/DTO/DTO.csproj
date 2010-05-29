@@ -46,6 +46,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaiHocDTO.cs" />
+    <Compile Include="Cau.cs" />
+    <Compile Include="CauHoi.cs" />
     <Compile Include="ChuyenDoiDau.cs" />
     <Compile Include="KhoangTrong.cs" />
     <Compile Include="FileLuyenTapDTO.cs" />

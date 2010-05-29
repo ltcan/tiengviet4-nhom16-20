@@ -10,10 +10,17 @@ namespace DAO
     {
         public static string LayNoiDung(string strTenFile)
         {
-            StreamReader sr = new StreamReader(strTenFile);
-            string NoiDung = sr.ReadToEnd();
-            sr.Close();
-            return NoiDung.Trim();
+            try
+            {
+                StreamReader sr = new StreamReader(strTenFile);
+                string NoiDung = sr.ReadToEnd();
+                sr.Close();
+                return NoiDung.Trim();
+            }
+            catch (Exception Ex)
+            {
+                throw Ex;
+            }
         }
     }
 }

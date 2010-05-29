@@ -30,6 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LuyenTuVaCauForm));
+            DTO.NhomTuLTVC nhomTuLTVC1 = new DTO.NhomTuLTVC();
             this.btnThanhDieuHuongDuoi = new DevComponents.DotNetBar.BubbleBar();
             this.bubbleBarTab2 = new DevComponents.DotNetBar.BubbleBarTab(this.components);
             this.btnHome = new DevComponents.DotNetBar.BubbleButton();
@@ -41,6 +42,8 @@
             this.picCTCauTiepTheo = new System.Windows.Forms.PictureBox();
             this.lblThongBao = new DevComponents.DotNetBar.LabelX();
             this.reflectionLabel1 = new DevComponents.DotNetBar.Controls.ReflectionLabel();
+            this.tltHuongDan = new System.Windows.Forms.ToolTip(this.components);
+            this.rtfCuaSoDapAn = new System.Windows.Forms.RichTextBox();
             this.rtfCuaSoHienThi = new TiengViet4.KhungLamBaiLuyenTuVaCau(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.btnThanhDieuHuongDuoi)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picCTKetQua)).BeginInit();
@@ -147,6 +150,7 @@
             this.picCTKetQua.Size = new System.Drawing.Size(45, 45);
             this.picCTKetQua.TabIndex = 36;
             this.picCTKetQua.TabStop = false;
+            this.tltHuongDan.SetToolTip(this.picCTKetQua, "Xem đáp án");
             this.picCTKetQua.Click += new System.EventHandler(this.picCTKetQua_Click);
             // 
             // picCTCauTruoc
@@ -160,6 +164,7 @@
             this.picCTCauTruoc.Size = new System.Drawing.Size(45, 45);
             this.picCTCauTruoc.TabIndex = 35;
             this.picCTCauTruoc.TabStop = false;
+            this.picCTCauTruoc.Click += new System.EventHandler(this.picCTCauTruoc_Click);
             // 
             // picCTCauTiepTheo
             // 
@@ -172,6 +177,7 @@
             this.picCTCauTiepTheo.Size = new System.Drawing.Size(45, 45);
             this.picCTCauTiepTheo.TabIndex = 34;
             this.picCTCauTiepTheo.TabStop = false;
+            this.picCTCauTiepTheo.Click += new System.EventHandler(this.picCTCauTiepTheo_Click);
             // 
             // lblThongBao
             // 
@@ -193,21 +199,36 @@
             this.reflectionLabel1.TabIndex = 38;
             this.reflectionLabel1.Text = "<font color=\"#22B14C\"><i><b>LUYỆN TỪ VÀ CÂU</b></i></font>";
             // 
+            // rtfCuaSoDapAn
+            // 
+            this.rtfCuaSoDapAn.BackColor = System.Drawing.Color.White;
+            this.rtfCuaSoDapAn.Location = new System.Drawing.Point(414, 108);
+            this.rtfCuaSoDapAn.Name = "rtfCuaSoDapAn";
+            this.rtfCuaSoDapAn.ReadOnly = true;
+            this.rtfCuaSoDapAn.Size = new System.Drawing.Size(348, 306);
+            this.rtfCuaSoDapAn.TabIndex = 41;
+            this.rtfCuaSoDapAn.Text = "";
+            this.rtfCuaSoDapAn.Visible = false;
+            // 
             // rtfCuaSoHienThi
             // 
             this.rtfCuaSoHienThi.AcceptsTab = true;
             this.rtfCuaSoHienThi.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.rtfCuaSoHienThi.DanhSachCauHoi = null;
             this.rtfCuaSoHienThi.DanhSachTu = null;
-            this.rtfCuaSoHienThi.EnableAutoDragDrop = true;
             this.rtfCuaSoHienThi.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rtfCuaSoHienThi.KlbCaret = TiengViet4.TinhTrangCaret.Show;
             this.rtfCuaSoHienThi.LoaiBai = ((byte)(0));
             this.rtfCuaSoHienThi.Location = new System.Drawing.Point(80, 107);
+            this.rtfCuaSoHienThi.MyCaret = TiengViet4.TinhTrangCaret.Show;
             this.rtfCuaSoHienThi.Name = "rtfCuaSoHienThi";
             this.rtfCuaSoHienThi.Size = new System.Drawing.Size(637, 307);
             this.rtfCuaSoHienThi.TabIndex = 39;
             this.rtfCuaSoHienThi.Text = "";
             this.rtfCuaSoHienThi.TinhTrangLamBai = DTO.TinhTrang.BinhThuong;
+            nhomTuLTVC1.DaDuocChon = false;
+            nhomTuLTVC1.DaDuocKeo = false;
+            nhomTuLTVC1.ViTriTrongDanhSach = 0;
+            this.rtfCuaSoHienThi.TuDuocChon = nhomTuLTVC1;
             // 
             // LuyenTuVaCauForm
             // 
@@ -215,6 +236,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::TiengViet4.Properties.Resources._5Bwallcoo51;
             this.ClientSize = new System.Drawing.Size(800, 600);
+            this.Controls.Add(this.rtfCuaSoDapAn);
             this.Controls.Add(this.rtfCuaSoHienThi);
             this.Controls.Add(this.reflectionLabel1);
             this.Controls.Add(this.lblThongBao);
@@ -222,6 +244,7 @@
             this.Controls.Add(this.picCTCauTruoc);
             this.Controls.Add(this.picCTCauTiepTheo);
             this.Controls.Add(this.btnThanhDieuHuongDuoi);
+            this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "LuyenTuVaCauForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -249,5 +272,7 @@
         private DevComponents.DotNetBar.LabelX lblThongBao;
         private DevComponents.DotNetBar.Controls.ReflectionLabel reflectionLabel1;
         private KhungLamBaiLuyenTuVaCau rtfCuaSoHienThi;
+        private System.Windows.Forms.ToolTip tltHuongDan;
+        private System.Windows.Forms.RichTextBox rtfCuaSoDapAn;
     }
 }
