@@ -26,6 +26,7 @@ namespace TiengViet4
         {
             InitializeComponent();
             frmParent = MyParent;
+            frmParent.Hide();
             maBH = strMaBaiHoc;
             try
             {
@@ -128,8 +129,7 @@ namespace TiengViet4
 
         private void btnThoat_Click(object sender, DevComponents.DotNetBar.ClickEventArgs e)
         {
-            this.Close();
-            frmParent.Close();
+            Application.Exit();
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)

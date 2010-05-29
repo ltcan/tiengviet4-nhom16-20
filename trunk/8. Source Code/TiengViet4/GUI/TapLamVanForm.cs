@@ -39,6 +39,7 @@ namespace TiengViet4
             pictruocstatus = 0;
             pictiepstatus = 0;
             myParent = frmParent;
+            myParent.Hide();
             rtbGhiNho.Visible = false;
             picCauHoi.Visible = false;
             picDapAn.Visible = true;
@@ -75,7 +76,7 @@ namespace TiengViet4
 
         private void btnThoat_Click(object sender, DevComponents.DotNetBar.ClickEventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
 
         private void picCTCauTiepTheo_Click(object sender, EventArgs e)
@@ -206,6 +207,7 @@ namespace TiengViet4
         private void btnHome_Click(object sender, DevComponents.DotNetBar.ClickEventArgs e)
         {
             this.Close();
+            myParent.Show();
         }
     }
 }

@@ -31,7 +31,7 @@ namespace TiengViet4
         {
             InitializeComponent();
             frmParent = MyParent;
-
+            frmParent.Hide();
             try
             {
                 DanhSachDeBai = FileLuyenTapBUS.LayFileTheoMaBaiHoc(strMaBaiHoc);
@@ -63,8 +63,7 @@ namespace TiengViet4
 
         private void btnThoat_Click(object sender, DevComponents.DotNetBar.ClickEventArgs e)
         {
-            this.Close();
-            frmParent.Close();
+            Application.Exit();
         }
 
         private void LuyenTuVaCau_Load(object sender, EventArgs e)
