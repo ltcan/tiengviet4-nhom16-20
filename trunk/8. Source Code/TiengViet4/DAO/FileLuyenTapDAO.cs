@@ -16,6 +16,23 @@ namespace DAO
             DataTable KetQua = CoSoDuLieu.LayDuLieu(strLenhDocDuLieu);
             return KetQua;
         }
+<<<<<<< .mine
+        public static DataTable LayFileLuyenTapTheoMa(string strMaBaiHoc)
+        {
+            string strLenhDocDuLieu = "Select * From FileLuyenTap " +
+                                   "Where MaBaiHoc = '" + strMaBaiHoc + "'";
+
+            try
+            {
+                DataTable KetQua = CoSoDuLieu.LayDuLieu(strLenhDocDuLieu);
+                return KetQua;
+            }
+            catch (Exception Ex)
+            {
+                throw Ex;
+            }
+        }
+=======
 
         public static DataTable LayFileTheoMaBaiHoc(string strMaBaiHoc, string strLoaiFile)
         {
@@ -25,5 +42,6 @@ namespace DAO
             DataTable KetQua = CoSoDuLieu.LayDuLieu(strLenhDocDuLieu);
             return KetQua;
         }
+>>>>>>> .r224
     }
 }
