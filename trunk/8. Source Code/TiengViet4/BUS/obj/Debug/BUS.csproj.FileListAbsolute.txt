@@ -48,3 +48,13 @@ E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet
 E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\BUS\obj\Debug\ResolveAssemblyReference.cache
 E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\BUS\obj\Debug\BUS.dll
 E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\BUS\obj\Debug\BUS.pdb
+D:\Nam hoc 2009-2010\Quan Ly Quy Trinh Phan Mem\TiengViet4\BUS\bin\Debug\CSDL\CSDL.mdb
+D:\Nam hoc 2009-2010\Quan Ly Quy Trinh Phan Mem\TiengViet4\BUS\bin\Debug\BUS.dll
+D:\Nam hoc 2009-2010\Quan Ly Quy Trinh Phan Mem\TiengViet4\BUS\bin\Debug\BUS.pdb
+D:\Nam hoc 2009-2010\Quan Ly Quy Trinh Phan Mem\TiengViet4\BUS\bin\Debug\DAO.dll
+D:\Nam hoc 2009-2010\Quan Ly Quy Trinh Phan Mem\TiengViet4\BUS\bin\Debug\DTO.dll
+D:\Nam hoc 2009-2010\Quan Ly Quy Trinh Phan Mem\TiengViet4\BUS\bin\Debug\DAO.pdb
+D:\Nam hoc 2009-2010\Quan Ly Quy Trinh Phan Mem\TiengViet4\BUS\bin\Debug\DTO.pdb
+D:\Nam hoc 2009-2010\Quan Ly Quy Trinh Phan Mem\TiengViet4\BUS\obj\Debug\ResolveAssemblyReference.cache
+D:\Nam hoc 2009-2010\Quan Ly Quy Trinh Phan Mem\TiengViet4\BUS\obj\Debug\BUS.dll
+D:\Nam hoc 2009-2010\Quan Ly Quy Trinh Phan Mem\TiengViet4\BUS\obj\Debug\BUS.pdb

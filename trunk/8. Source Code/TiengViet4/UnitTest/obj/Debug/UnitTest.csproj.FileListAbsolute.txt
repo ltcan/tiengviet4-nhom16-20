@@ -93,3 +93,22 @@ E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet
 E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\UnitTest\obj\Debug\ResolveAssemblyReference.cache
 E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\UnitTest\obj\Debug\UnitTest.dll
 E:\Long's Documents\hoc ki 6\QLQTPM\BTThucHanh\Checkout\8. Source Code\TiengViet4\UnitTest\obj\Debug\UnitTest.pdb
+D:\Nam hoc 2009-2010\Quan Ly Quy Trinh Phan Mem\TiengViet4\UnitTest\bin\Debug\CSDL\CSDL.mdb
+D:\Nam hoc 2009-2010\Quan Ly Quy Trinh Phan Mem\TiengViet4\UnitTest\bin\Debug\UnitTest.dll
+D:\Nam hoc 2009-2010\Quan Ly Quy Trinh Phan Mem\TiengViet4\UnitTest\bin\Debug\UnitTest.pdb
+D:\Nam hoc 2009-2010\Quan Ly Quy Trinh Phan Mem\TiengViet4\UnitTest\bin\Debug\BUS.dll
+D:\Nam hoc 2009-2010\Quan Ly Quy Trinh Phan Mem\TiengViet4\UnitTest\bin\Debug\DAO.dll
+D:\Nam hoc 2009-2010\Quan Ly Quy Trinh Phan Mem\TiengViet4\UnitTest\bin\Debug\DTO.dll
+D:\Nam hoc 2009-2010\Quan Ly Quy Trinh Phan Mem\TiengViet4\UnitTest\bin\Debug\TiengViet4.exe
+D:\Nam hoc 2009-2010\Quan Ly Quy Trinh Phan Mem\TiengViet4\UnitTest\bin\Debug\CustomButton.dll
+D:\Nam hoc 2009-2010\Quan Ly Quy Trinh Phan Mem\TiengViet4\UnitTest\bin\Debug\Interop.WMPLib.dll
+D:\Nam hoc 2009-2010\Quan Ly Quy Trinh Phan Mem\TiengViet4\UnitTest\bin\Debug\DevComponents.DotNetBar2.dll
+D:\Nam hoc 2009-2010\Quan Ly Quy Trinh Phan Mem\TiengViet4\UnitTest\bin\Debug\AxInterop.WMPLib.dll
+D:\Nam hoc 2009-2010\Quan Ly Quy Trinh Phan Mem\TiengViet4\UnitTest\bin\Debug\nunit.framework.xml
+D:\Nam hoc 2009-2010\Quan Ly Quy Trinh Phan Mem\TiengViet4\UnitTest\bin\Debug\TiengViet4.pdb
+D:\Nam hoc 2009-2010\Quan Ly Quy Trinh Phan Mem\TiengViet4\UnitTest\bin\Debug\DAO.pdb
+D:\Nam hoc 2009-2010\Quan Ly Quy Trinh Phan Mem\TiengViet4\UnitTest\bin\Debug\BUS.pdb
+D:\Nam hoc 2009-2010\Quan Ly Quy Trinh Phan Mem\TiengViet4\UnitTest\bin\Debug\DTO.pdb
+D:\Nam hoc 2009-2010\Quan Ly Quy Trinh Phan Mem\TiengViet4\UnitTest\obj\Debug\ResolveAssemblyReference.cache
+D:\Nam hoc 2009-2010\Quan Ly Quy Trinh Phan Mem\TiengViet4\UnitTest\obj\Debug\UnitTest.dll
+D:\Nam hoc 2009-2010\Quan Ly Quy Trinh Phan Mem\TiengViet4\UnitTest\obj\Debug\UnitTest.pdb
