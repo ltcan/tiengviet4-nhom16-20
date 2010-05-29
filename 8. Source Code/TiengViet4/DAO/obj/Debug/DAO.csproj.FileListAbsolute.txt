@@ -70,3 +70,11 @@ D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\DAO\bin\Debug\DTO.p
 D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\DAO\obj\Debug\ResolveAssemblyReference.cache
 D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\DAO\obj\Debug\DAO.dll
 D:\SoftwareProcessManagement\tiengviet4-nhom16-20\TiengViet4\DAO\obj\Debug\DAO.pdb
+D:\Nam hoc 2009-2010\Quan Ly Quy Trinh Phan Mem\TiengViet4\DAO\bin\Debug\CSDL\CSDL.mdb
+D:\Nam hoc 2009-2010\Quan Ly Quy Trinh Phan Mem\TiengViet4\DAO\bin\Debug\DAO.dll
+D:\Nam hoc 2009-2010\Quan Ly Quy Trinh Phan Mem\TiengViet4\DAO\bin\Debug\DAO.pdb
+D:\Nam hoc 2009-2010\Quan Ly Quy Trinh Phan Mem\TiengViet4\DAO\bin\Debug\DTO.dll
+D:\Nam hoc 2009-2010\Quan Ly Quy Trinh Phan Mem\TiengViet4\DAO\bin\Debug\DTO.pdb
+D:\Nam hoc 2009-2010\Quan Ly Quy Trinh Phan Mem\TiengViet4\DAO\obj\Debug\ResolveAssemblyReference.cache
+D:\Nam hoc 2009-2010\Quan Ly Quy Trinh Phan Mem\TiengViet4\DAO\obj\Debug\DAO.dll
+D:\Nam hoc 2009-2010\Quan Ly Quy Trinh Phan Mem\TiengViet4\DAO\obj\Debug\DAO.pdb
