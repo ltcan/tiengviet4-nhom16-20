@@ -112,3 +112,22 @@ D:\Nam hoc 2009-2010\Quan Ly Quy Trinh Phan Mem\TiengViet4\UnitTest\bin\Debug\DT
 D:\Nam hoc 2009-2010\Quan Ly Quy Trinh Phan Mem\TiengViet4\UnitTest\obj\Debug\ResolveAssemblyReference.cache
 D:\Nam hoc 2009-2010\Quan Ly Quy Trinh Phan Mem\TiengViet4\UnitTest\obj\Debug\UnitTest.dll
 D:\Nam hoc 2009-2010\Quan Ly Quy Trinh Phan Mem\TiengViet4\UnitTest\obj\Debug\UnitTest.pdb
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\UnitTest\bin\Debug\CSDL\CSDL.mdb
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\UnitTest\bin\Debug\UnitTest.dll
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\UnitTest\bin\Debug\UnitTest.pdb
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\UnitTest\bin\Debug\BUS.dll
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\UnitTest\bin\Debug\DAO.dll
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\UnitTest\bin\Debug\DTO.dll
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\UnitTest\bin\Debug\TiengViet4.exe
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\UnitTest\bin\Debug\CustomButton.dll
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\UnitTest\bin\Debug\Interop.WMPLib.dll
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\UnitTest\bin\Debug\DevComponents.DotNetBar2.dll
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\UnitTest\bin\Debug\AxInterop.WMPLib.dll
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\UnitTest\bin\Debug\nunit.framework.xml
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\UnitTest\bin\Debug\TiengViet4.pdb
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\UnitTest\bin\Debug\DAO.pdb
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\UnitTest\bin\Debug\BUS.pdb
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\UnitTest\bin\Debug\DTO.pdb
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\UnitTest\obj\Debug\ResolveAssemblyReference.cache
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\UnitTest\obj\Debug\UnitTest.dll
+E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\UnitTest\obj\Debug\UnitTest.pdb
