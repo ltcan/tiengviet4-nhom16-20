@@ -71,7 +71,17 @@ namespace TiengViet4
 
         private void KeChuyen_Load(object sender, EventArgs e)
         {
-
+            BaiHocDTO baihoc = new BaiHocDTO();
+            baihoc = BaiHocBUS.LayBaiHocTheoMa(maBH);
+            FileNoiDung = baihoc.FileNoiDung.ToString();
+            if (FileNoiDung == "")
+            {
+                pnlCauChuyenTraLoi.Visible = true;
+                pnlCauChuyenTraLoi.Expanded = true;
+                pnlHinhAnh.Visible = false;
+                picGCDCauTiepTheo.Visible = false;
+                lblGCDCauChuyen.Visible = false;
+            }
         }
 
         private void picGCDCauTiepTheo_Click(object sender, EventArgs e)
@@ -125,6 +135,7 @@ namespace TiengViet4
         private void pictureBox3_Click(object sender, EventArgs e)
         {
             pnlCauChuyenTraLoi.Expanded = true;
+            pnlHinhAnh.Visible = false;
             try
             {
                 FileLuyenTapDTO LuyenTap = new FileLuyenTapDTO();

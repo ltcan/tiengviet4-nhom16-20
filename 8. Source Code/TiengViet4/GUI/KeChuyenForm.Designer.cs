@@ -41,6 +41,7 @@
             this.btnAmThanh = new DevComponents.DotNetBar.BubbleButton();
             this.btnThoat = new DevComponents.DotNetBar.BubbleButton();
             this.grpCauHoi = new DevComponents.DotNetBar.Controls.GroupPanel();
+            this.rtbCauHoi = new System.Windows.Forms.RichTextBox();
             this.labelX3 = new DevComponents.DotNetBar.LabelX();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
@@ -49,7 +50,6 @@
             this.labelX4 = new DevComponents.DotNetBar.LabelX();
             this.rtbNoiDung = new System.Windows.Forms.RichTextBox();
             this.pnlCauChuyenTraLoi = new DevComponents.DotNetBar.ExpandablePanel();
-            this.rtbCauHoi = new System.Windows.Forms.RichTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.picGCDCauTiepTheo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnThanhDieuHuongDuoi)).BeginInit();
@@ -229,6 +229,16 @@
             this.grpCauHoi.Text = "Câu hỏi";
             this.grpCauHoi.Visible = false;
             // 
+            // rtbCauHoi
+            // 
+            this.rtbCauHoi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.rtbCauHoi.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rtbCauHoi.Location = new System.Drawing.Point(3, 3);
+            this.rtbCauHoi.Name = "rtbCauHoi";
+            this.rtbCauHoi.Size = new System.Drawing.Size(268, 96);
+            this.rtbCauHoi.TabIndex = 0;
+            this.rtbCauHoi.Text = "";
+            // 
             // labelX3
             // 
             this.labelX3.BackColor = System.Drawing.Color.Transparent;
@@ -306,9 +316,9 @@
             // 
             this.labelX4.BackColor = System.Drawing.Color.Transparent;
             this.labelX4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelX4.Location = new System.Drawing.Point(63, 85);
+            this.labelX4.Location = new System.Drawing.Point(24, 85);
             this.labelX4.Name = "labelX4";
-            this.labelX4.Size = new System.Drawing.Size(355, 43);
+            this.labelX4.Size = new System.Drawing.Size(456, 43);
             this.labelX4.TabIndex = 36;
             this.labelX4.Text = "Tên câu chuyện";
             this.labelX4.TextAlignment = System.Drawing.StringAlignment.Center;
@@ -336,7 +346,7 @@
             this.pnlCauChuyenTraLoi.ExpandedBounds = new System.Drawing.Rectangle(63, 131, 355, 282);
             this.pnlCauChuyenTraLoi.Location = new System.Drawing.Point(77, 135);
             this.pnlCauChuyenTraLoi.Name = "pnlCauChuyenTraLoi";
-            this.pnlCauChuyenTraLoi.Size = new System.Drawing.Size(356, 276);
+            this.pnlCauChuyenTraLoi.Size = new System.Drawing.Size(356, 0);
             this.pnlCauChuyenTraLoi.Style.Alignment = System.Drawing.StringAlignment.Center;
             this.pnlCauChuyenTraLoi.Style.BackColor1.Color = System.Drawing.Color.White;
             this.pnlCauChuyenTraLoi.Style.BackColor2.Color = System.Drawing.Color.Khaki;
@@ -355,16 +365,6 @@
             this.pnlCauChuyenTraLoi.TitleStyle.GradientAngle = 90;
             this.pnlCauChuyenTraLoi.TitleText = "Title Bar";
             this.pnlCauChuyenTraLoi.Visible = false;
-            // 
-            // rtbCauHoi
-            // 
-            this.rtbCauHoi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.rtbCauHoi.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rtbCauHoi.Location = new System.Drawing.Point(3, 3);
-            this.rtbCauHoi.Name = "rtbCauHoi";
-            this.rtbCauHoi.Size = new System.Drawing.Size(268, 96);
-            this.rtbCauHoi.TabIndex = 0;
-            this.rtbCauHoi.Text = "";
             // 
             // KeChuyenForm
             // 
