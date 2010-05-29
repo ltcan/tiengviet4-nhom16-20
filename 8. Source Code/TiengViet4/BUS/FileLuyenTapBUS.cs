@@ -50,6 +50,28 @@ namespace BUS
             string strDapAn = QuanLyFile.LayNoiDung(strTenFileDapAn);
             strDapAn = strDapAn.Replace("||", "|");
             return new List<string>(strDapAn.Split('|'));
-        }  
+        }
+        public static FileLuyenTapDTO LayFileLuyenTapTheoMa(string strMaBaiHoc)
+        {
+            try
+            {
+            
+                FileLuyenTapDTO KetQua = new FileLuyenTapDTO();
+                DataTable BaiHoc = FileLuyenTapDAO.LayFileLuyenTapTheoMa(strMaBaiHoc);
+                if (BaiHoc.Rows.Count > 0)
+                {
+                    KetQua.Ma = BaiHoc.Rows[0]["Ma"].ToString();
+                    KetQua.MaBaiHoc = BaiHoc.Rows[0]["MaBaiHoc"].ToString();
+                    KetQua.LoaiFileLuyenTap = BaiHoc.Rows[0]["LoaiFile"].ToString();
+                    KetQua.FileDapAn = BaiHoc.Rows[0]["FileDapAn"].ToString();
+                    KetQua.FileNoiDung = BaiHoc.Rows[0]["FileNoiDung"].ToString();
+                }
+                return KetQua;
+            }
+            catch (Exception)
+            {
+                return null;
+            }
+        }
     }
 }
