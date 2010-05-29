@@ -41,6 +41,7 @@
             this.btnAmThanh = new DevComponents.DotNetBar.BubbleButton();
             this.btnThoat = new DevComponents.DotNetBar.BubbleButton();
             this.grpCauHoi = new DevComponents.DotNetBar.Controls.GroupPanel();
+            this.labelX2 = new DevComponents.DotNetBar.LabelX();
             this.labelX3 = new DevComponents.DotNetBar.LabelX();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
@@ -48,8 +49,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.labelX4 = new DevComponents.DotNetBar.LabelX();
             this.pnlCauChuyenTraLoi = new DevComponents.DotNetBar.ExpandablePanel();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.labelX5 = new DevComponents.DotNetBar.LabelX();
             ((System.ComponentModel.ISupportInitialize)(this.picGCDCauTiepTheo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnThanhDieuHuongDuoi)).BeginInit();
@@ -200,7 +200,7 @@
             this.grpCauHoi.BackColor = System.Drawing.Color.Transparent;
             this.grpCauHoi.CanvasColor = System.Drawing.SystemColors.Control;
             this.grpCauHoi.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
-            this.grpCauHoi.Controls.Add(this.textBox1);
+            this.grpCauHoi.Controls.Add(this.labelX2);
             this.grpCauHoi.Location = new System.Drawing.Point(438, 64);
             this.grpCauHoi.Name = "grpCauHoi";
             this.grpCauHoi.Size = new System.Drawing.Size(280, 225);
@@ -228,6 +228,16 @@
             this.grpCauHoi.Text = "Câu hỏi";
             this.grpCauHoi.Visible = false;
             // 
+            // labelX2
+            // 
+            this.labelX2.AllowDrop = true;
+            this.labelX2.Location = new System.Drawing.Point(19, 13);
+            this.labelX2.Name = "labelX2";
+            this.labelX2.Size = new System.Drawing.Size(236, 172);
+            this.labelX2.TabIndex = 0;
+            this.labelX2.Text = "Load câu hỏi";
+            this.labelX2.TextLineAlignment = System.Drawing.StringAlignment.Near;
+            // 
             // labelX3
             // 
             this.labelX3.BackColor = System.Drawing.Color.Transparent;
@@ -249,7 +259,6 @@
             this.pictureBox3.Size = new System.Drawing.Size(45, 45);
             this.pictureBox3.TabIndex = 32;
             this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // pictureBox4
             // 
@@ -271,9 +280,9 @@
             this.pnlHinhAnh.Controls.Add(this.pictureBox1);
             this.pnlHinhAnh.Cursor = System.Windows.Forms.Cursors.Default;
             this.pnlHinhAnh.ExpandButtonVisible = false;
-            this.pnlHinhAnh.Location = new System.Drawing.Point(51, 134);
+            this.pnlHinhAnh.Location = new System.Drawing.Point(63, 134);
             this.pnlHinhAnh.Name = "pnlHinhAnh";
-            this.pnlHinhAnh.Size = new System.Drawing.Size(355, 269);
+            this.pnlHinhAnh.Size = new System.Drawing.Size(355, 282);
             this.pnlHinhAnh.Style.Alignment = System.Drawing.StringAlignment.Center;
             this.pnlHinhAnh.Style.BackColor1.Color = System.Drawing.Color.White;
             this.pnlHinhAnh.Style.BackColor2.Color = System.Drawing.Color.Khaki;
@@ -294,10 +303,9 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(30, 16);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(355, 269);
+            this.pictureBox1.Size = new System.Drawing.Size(304, 250);
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
@@ -318,12 +326,14 @@
             this.pnlCauChuyenTraLoi.CanvasColor = System.Drawing.Color.Transparent;
             this.pnlCauChuyenTraLoi.CollapseDirection = DevComponents.DotNetBar.eCollapseDirection.LeftToRight;
             this.pnlCauChuyenTraLoi.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
-            this.pnlCauChuyenTraLoi.Controls.Add(this.richTextBox1);
+            this.pnlCauChuyenTraLoi.Controls.Add(this.labelX5);
             this.pnlCauChuyenTraLoi.Cursor = System.Windows.Forms.Cursors.Default;
             this.pnlCauChuyenTraLoi.ExpandButtonVisible = false;
-            this.pnlCauChuyenTraLoi.Location = new System.Drawing.Point(63, 134);
+            this.pnlCauChuyenTraLoi.Expanded = false;
+            this.pnlCauChuyenTraLoi.ExpandedBounds = new System.Drawing.Rectangle(63, 131, 355, 282);
+            this.pnlCauChuyenTraLoi.Location = new System.Drawing.Point(412, 134);
             this.pnlCauChuyenTraLoi.Name = "pnlCauChuyenTraLoi";
-            this.pnlCauChuyenTraLoi.Size = new System.Drawing.Size(355, 282);
+            this.pnlCauChuyenTraLoi.Size = new System.Drawing.Size(6, 0);
             this.pnlCauChuyenTraLoi.Style.Alignment = System.Drawing.StringAlignment.Center;
             this.pnlCauChuyenTraLoi.Style.BackColor1.Color = System.Drawing.Color.White;
             this.pnlCauChuyenTraLoi.Style.BackColor2.Color = System.Drawing.Color.Khaki;
@@ -341,29 +351,16 @@
             this.pnlCauChuyenTraLoi.TitleStyle.ForeColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
             this.pnlCauChuyenTraLoi.TitleStyle.GradientAngle = 90;
             this.pnlCauChuyenTraLoi.TitleText = "Title Bar";
-            this.pnlCauChuyenTraLoi.Visible = false;
             // 
-            // richTextBox1
+            // labelX5
             // 
-            this.richTextBox1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox1.Location = new System.Drawing.Point(7, 3);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.ReadOnly = true;
-            this.richTextBox1.Size = new System.Drawing.Size(341, 279);
-            this.richTextBox1.TabIndex = 1;
-            this.richTextBox1.Text = "";
-            this.richTextBox1.Visible = false;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(3, 3);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.textBox1.Size = new System.Drawing.Size(268, 135);
-            this.textBox1.TabIndex = 0;
+            this.labelX5.AllowDrop = true;
+            this.labelX5.Location = new System.Drawing.Point(30, 19);
+            this.labelX5.Name = "labelX5";
+            this.labelX5.Size = new System.Drawing.Size(304, 250);
+            this.labelX5.TabIndex = 1;
+            this.labelX5.Text = "Nội dung câu chuyện hoặc câu trả lời";
+            this.labelX5.TextLineAlignment = System.Drawing.StringAlignment.Near;
             // 
             // KeChuyenForm
             // 
@@ -392,7 +389,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnThanhDieuHuongDuoi)).EndInit();
             this.grpCauHoi.ResumeLayout(false);
-            this.grpCauHoi.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.pnlHinhAnh.ResumeLayout(false);
@@ -415,6 +411,7 @@
         private DevComponents.DotNetBar.BubbleButton btnAmThanh;
         private DevComponents.DotNetBar.BubbleButton btnThoat;
         private DevComponents.DotNetBar.Controls.GroupPanel grpCauHoi;
+        private DevComponents.DotNetBar.LabelX labelX2;
         private DevComponents.DotNetBar.LabelX labelX3;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
@@ -422,7 +419,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private DevComponents.DotNetBar.LabelX labelX4;
         private DevComponents.DotNetBar.ExpandablePanel pnlCauChuyenTraLoi;
-        private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.TextBox textBox1;
+        private DevComponents.DotNetBar.LabelX labelX5;
     }
 }

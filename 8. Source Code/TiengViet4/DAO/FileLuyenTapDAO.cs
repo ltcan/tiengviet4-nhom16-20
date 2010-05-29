@@ -12,11 +12,11 @@ namespace DAO
         public static DataTable LayFileTheoMaBaiHoc(string strMaBaiHoc)
         {
             string strLenhDocDuLieu = "Select *  From FileLuyenTap " +
-                                   "Where MaBaiHoc = '" + strMaBaiHoc + "'";
+                                   "Where MaBaiHoc = '" + strMaBaiHoc + "' Order By Ma";
             DataTable KetQua = CoSoDuLieu.LayDuLieu(strLenhDocDuLieu);
             return KetQua;
         }
-<<<<<<< .mine
+
         public static DataTable LayFileLuyenTapTheoMa(string strMaBaiHoc)
         {
             string strLenhDocDuLieu = "Select * From FileLuyenTap " +
@@ -32,7 +32,6 @@ namespace DAO
                 throw Ex;
             }
         }
-=======
 
         public static DataTable LayFileTheoMaBaiHoc(string strMaBaiHoc, string strLoaiFile)
         {
@@ -42,6 +41,5 @@ namespace DAO
             DataTable KetQua = CoSoDuLieu.LayDuLieu(strLenhDocDuLieu);
             return KetQua;
         }
->>>>>>> .r224
     }
 }
