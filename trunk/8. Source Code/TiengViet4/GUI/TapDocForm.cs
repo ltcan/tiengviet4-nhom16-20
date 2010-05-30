@@ -276,5 +276,11 @@ namespace TiengViet4
 
         }
 
+        private void btnThongTin_Click(object sender, DevComponents.DotNetBar.ClickEventArgs e)
+        {
+            HuongDanSuDungForm frm = new HuongDanSuDungForm();
+            frm.Show();
+        }
+
     }
 }

@@ -209,5 +209,11 @@ namespace TiengViet4
             this.Close();
             myParent.Show();
         }
+
+        private void btnHuongDan_Click(object sender, DevComponents.DotNetBar.ClickEventArgs e)
+        {
+            HuongDanSuDungForm frm = new HuongDanSuDungForm();
+            frm.Show();
+        }
     }
 }
