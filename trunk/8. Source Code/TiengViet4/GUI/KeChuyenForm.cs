@@ -41,6 +41,13 @@ namespace TiengViet4
                     bm.MakeTransparent(System.Drawing.Color.White);
                     pictureBox1.BackgroundImage = bm;
                 }
+                else 
+                {
+                    pnlHinhAnh.Visible = false;
+                    pnlCauChuyenTraLoi.Visible = false;
+                    rtbNoiDung.Visible = false;
+                    
+                }
 
             }
             catch (System.Exception ex)
@@ -77,12 +84,14 @@ namespace TiengViet4
             FileNoiDung = baihoc.FileNoiDung.ToString();
             if (FileNoiDung == "")
             {
-                pnlCauChuyenTraLoi.Visible = true;
-                pnlCauChuyenTraLoi.Expanded = true;
+                pnlCauChuyenTraLoi.Visible = false;
+              //  pnlCauChuyenTraLoi.Expanded = true;
                 pnlHinhAnh.Visible = false;
                 picGCDCauTiepTheo.Visible = false;
                 lblGCDCauChuyen.Visible = false;
+                rtbNoiDung.Visible = false;
                 pictureBox2.Visible = false;
+                
                 labelX1.Visible = false;
                 grpCauHoi.Visible = true;
                 try
@@ -102,6 +111,7 @@ namespace TiengViet4
                     MessageBox.Show(ex.Message.ToString());
                 }
             }
+            
         }
 
         private void picGCDCauTiepTheo_Click(object sender, EventArgs e)

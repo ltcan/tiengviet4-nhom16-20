@@ -76,6 +76,7 @@
             this.picGCDCauTiepTheo.BackColor = System.Drawing.Color.Transparent;
             this.picGCDCauTiepTheo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picGCDCauTiepTheo.BackgroundImage")));
             this.picGCDCauTiepTheo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picGCDCauTiepTheo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picGCDCauTiepTheo.Location = new System.Drawing.Point(137, 422);
             this.picGCDCauTiepTheo.Name = "picGCDCauTiepTheo";
             this.picGCDCauTiepTheo.Size = new System.Drawing.Size(45, 45);
@@ -99,6 +100,7 @@
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Location = new System.Drawing.Point(238, 422);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(45, 45);
@@ -226,6 +228,7 @@
             this.rtbCauHoi.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rtbCauHoi.Location = new System.Drawing.Point(3, 3);
             this.rtbCauHoi.Name = "rtbCauHoi";
+            this.rtbCauHoi.ReadOnly = true;
             this.rtbCauHoi.Size = new System.Drawing.Size(268, 96);
             this.rtbCauHoi.TabIndex = 0;
             this.rtbCauHoi.Text = "";
@@ -246,6 +249,7 @@
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox3.Location = new System.Drawing.Point(333, 422);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(45, 45);
@@ -320,6 +324,7 @@
             this.rtbNoiDung.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rtbNoiDung.Location = new System.Drawing.Point(3, 3);
             this.rtbNoiDung.Name = "rtbNoiDung";
+            this.rtbNoiDung.ReadOnly = true;
             this.rtbNoiDung.Size = new System.Drawing.Size(350, 270);
             this.rtbNoiDung.TabIndex = 3;
             this.rtbNoiDung.Text = "";
