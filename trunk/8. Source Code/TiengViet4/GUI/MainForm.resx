@@ -117,12 +117,21 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="pnlGioiThieu.Text" xml:space="preserve">
+    <value>Phần mềm này được thiết kế dựa trên chương trình sách giáo khoa 
+Tiếng Việt lớp 4 do Bộ Giáo Dục và Đào Tạo phát hành.
+Nội dung của phần mềm bao gồm : các bài học trong sách Tiếng
+Việt lớp 4 có hình ảnh và âm thanh kèm theo,  phần đáp án,
+Ngoài ra để phong phú hơn chúng tôi còn cung cấp  những trò giải trí:
+âm nhạc , game , nhật ký …
+</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="btnEnter.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAALAgAA
-        CwIBm8luNgAAVFtJREFUeF7tnQd4VWW2/oMQkJpGIKSTQAik0btURUQRpCi9N+m9l9B7Dy0JvffepIk0
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAALAQAA
+        CwEBNnBPWwAAVFtJREFUeF7tnQd4VWW2/oMQkJpGIKSTQAik0btURUQRpCi9N+m9l9B7Dy0JvffepIk0
         C3ax6zhO9c7cueOdOzP3P3N1/X/vt8+B6OiMbRwc4XnWc0Jyzj577/ddfX3fDgi48+/OHbhzB+7cgTt3
         4M4duHMH7tyBO3fgB3UHypULKCQJqBYQ+IM68Tsn++3uQExagQYx6YGXotMCP4xOK/BzXt/h9VhMRoFR
         pdMDSn27o9/59G1/B2LS8reOyQi8EZUWeEbAR6cVPA0J/hJXNdD4ee5tfwF3TvA7uQN3+Y8SlZa/PRbh
@@ -3195,8 +3204,8 @@
   <data name="btnThoat.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAALAgAA
-        CwIBm8luNgAAINxJREFUaEPNegdYVtfS9X4BW4oaYy/Ye9doorGXqEmMsaWo0WjUxERjjFFjBxWl9947
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAALAQAA
+        CwEBNnBPWwAAINxJREFUaEPNegdYVtfS9X4BW4oaYy/Ye9doorGXqEmMsaWo0WjUxERjjFFjBxWl9947
         iEjvHRSkIyJIExCxd7DGsv61j+CN4s3N99z83//zPOs5bzln9qyZ2TOz50UFQDT8HUvLfPG64YX8tslT
         IZpqNBFNNFRCQ11dqKmpi6dPIeouXBRNW7UU6s2aiCe364Ras6aiCV+/3aGdeHzrjppG02bqKhU63K65
         OPjpw0f9uVSPZ0+fdsLjx81UeCYoSKiaNH2spq5+jctUqDdrXv5W+3cLgacXmjZv/sczdY1ntZevCo2W
@@ -3342,8 +3351,8 @@
   <data name="btnThoat.ImageLarge" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAALAgAA
-        CwIBm8luNgAAINxJREFUaEPNegdYVtfS9X4BW4oaYy/Ye9doorGXqEmMsaWo0WjUxERjjFFjBxWl9947
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAALAQAA
+        CwEBNnBPWwAAINxJREFUaEPNegdYVtfS9X4BW4oaYy/Ye9doorGXqEmMsaWo0WjUxERjjFFjBxWl9947
         iEjvHRSkIyJIExCxd7DGsv61j+CN4s3N99z83//zPOs5bzln9qyZ2TOz50UFQDT8HUvLfPG64YX8tslT
         IZpqNBFNNFRCQ11dqKmpi6dPIeouXBRNW7UU6s2aiCe364Ras6aiCV+/3aGdeHzrjppG02bqKhU63K65
         OPjpw0f9uVSPZ0+fdsLjx81UeCYoSKiaNH2spq5+jctUqDdrXv5W+3cLgacXmjZv/sczdY1ntZevCo2W
