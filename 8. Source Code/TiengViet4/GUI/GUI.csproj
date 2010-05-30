@@ -2,7 +2,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>9.0.30729</ProductVersion>
+    <ProductVersion>9.0.21022</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{29E1DC1A-6109-45A4-B5B9-AF6A39965C28}</ProjectGuid>
     <OutputType>WinExe</OutputType>
@@ -57,6 +57,12 @@
     </Compile>
     <Compile Include="HuongDanForm.Designer.cs">
       <DependentUpon>HuongDanForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HuongDanSuDungForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HuongDanSuDungForm.Designer.cs">
+      <DependentUpon>HuongDanSuDungForm.cs</DependentUpon>
     </Compile>
     <Compile Include="KeChuyenForm.cs">
       <SubType>Form</SubType>

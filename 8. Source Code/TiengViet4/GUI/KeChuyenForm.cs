@@ -82,6 +82,25 @@ namespace TiengViet4
                 pnlHinhAnh.Visible = false;
                 picGCDCauTiepTheo.Visible = false;
                 lblGCDCauChuyen.Visible = false;
+                pictureBox2.Visible = false;
+                labelX1.Visible = false;
+                grpCauHoi.Visible = true;
+                try
+                {
+                    FileLuyenTapDTO LuyenTap = new FileLuyenTapDTO();
+                    LuyenTap = FileLuyenTapBUS.LayFileLuyenTapTheoMa(maBH);
+                    string FileCauHoi = LuyenTap.FileNoiDung.ToString();
+                    RichTextBox cauhoi = new RichTextBox();
+                    if (FileCauHoi != " ")
+                    {
+                        cauhoi.LoadFile(FileCauHoi);
+                        rtbCauHoi.Text = cauhoi.Text;
+                    }
+                }
+                catch (System.Exception ex)
+                {
+                    MessageBox.Show(ex.Message.ToString());
+                }
             }
         }
 
@@ -152,6 +171,12 @@ namespace TiengViet4
             {
                 MessageBox.Show(ex.Message.ToString());
             }
+        }
+
+        private void btnHuongDan_Click(object sender, DevComponents.DotNetBar.ClickEventArgs e)
+        {
+            HuongDanSuDungForm frm = new HuongDanSuDungForm();
+            frm.Show();
         }
     }
 }

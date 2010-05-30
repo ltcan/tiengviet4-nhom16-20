@@ -38,7 +38,6 @@
             this.bubbleBarTab2 = new DevComponents.DotNetBar.BubbleBarTab(this.components);
             this.btnHome = new DevComponents.DotNetBar.BubbleButton();
             this.btnHuongDan = new DevComponents.DotNetBar.BubbleButton();
-            this.btnAmThanh = new DevComponents.DotNetBar.BubbleButton();
             this.btnThoat = new DevComponents.DotNetBar.BubbleButton();
             this.grpCauHoi = new DevComponents.DotNetBar.Controls.GroupPanel();
             this.rtbCauHoi = new System.Windows.Forms.RichTextBox();
@@ -152,7 +151,6 @@
             this.bubbleBarTab2.Buttons.AddRange(new DevComponents.DotNetBar.BubbleButton[] {
             this.btnHome,
             this.btnHuongDan,
-            this.btnAmThanh,
             this.btnThoat});
             this.bubbleBarTab2.DarkBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(105)))), ((int)(((byte)(105)))), ((int)(((byte)(105)))));
             this.bubbleBarTab2.LightBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
@@ -177,14 +175,7 @@
             this.btnHuongDan.ImageLarge = ((System.Drawing.Image)(resources.GetObject("btnHuongDan.ImageLarge")));
             this.btnHuongDan.Name = "btnHuongDan";
             this.btnHuongDan.TooltipText = "Thông tin trợ giúp";
-            // 
-            // btnAmThanh
-            // 
-            this.btnAmThanh.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAmThanh.Image = ((System.Drawing.Image)(resources.GetObject("btnAmThanh.Image")));
-            this.btnAmThanh.ImageLarge = ((System.Drawing.Image)(resources.GetObject("btnAmThanh.ImageLarge")));
-            this.btnAmThanh.Name = "btnAmThanh";
-            this.btnAmThanh.TooltipText = "Bật/Tắt nhạc";
+            this.btnHuongDan.Click += new DevComponents.DotNetBar.ClickEventHandler(this.btnHuongDan_Click);
             // 
             // btnThoat
             // 
@@ -413,7 +404,6 @@
         private DevComponents.DotNetBar.BubbleBarTab bubbleBarTab2;
         private DevComponents.DotNetBar.BubbleButton btnHome;
         private DevComponents.DotNetBar.BubbleButton btnHuongDan;
-        private DevComponents.DotNetBar.BubbleButton btnAmThanh;
         private DevComponents.DotNetBar.BubbleButton btnThoat;
         private DevComponents.DotNetBar.Controls.GroupPanel grpCauHoi;
         private DevComponents.DotNetBar.LabelX labelX3;

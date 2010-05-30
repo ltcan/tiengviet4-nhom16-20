@@ -263,6 +263,12 @@ namespace TiengViet4
             HienThiBaiHoc();
         }
 
+        private void btnHuongDan_Click(object sender, DevComponents.DotNetBar.ClickEventArgs e)
+        {
+            HuongDanSuDungForm frm = new HuongDanSuDungForm();
+            frm.Show();
+        }
+
         //private void btnChuyenCauQua_Click(object sender, EventArgs e)
         //{
         //    if (this.rtfCuaSoHienThi.SelectedText == string.Empty)
