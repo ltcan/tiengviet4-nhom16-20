@@ -19,7 +19,9 @@ namespace TiengViet4
         private string[] arrStrNoiDungDapAn;
         int intCauHoiHienTai;
         private bool bDangMoHinhAnh = false;
+        
         private Form frmHinhAnh;
+        private Form frmParent;
 
         public TapDocForm(string strMaBaiHoc, Form frmParent)
         {
@@ -39,8 +41,8 @@ namespace TiengViet4
             }
 
             NapBaiHoc();
+            this.frmParent = frmParent;
             frmParent.Hide();
-
         }
 
         private void NapBaiHoc()
@@ -74,6 +76,8 @@ namespace TiengViet4
                     rtbTuMoi.Text = "";
                 }
                 rtbNoiDungBaiHoc.Select(0, 0);
+                //rtbTuMoi.SelectAll();
+                rtbTuMoi.Font = new Font("Times New Roman", 12);
             }
             else
             {
@@ -117,7 +121,7 @@ namespace TiengViet4
                 }
 
                 //Kiểm tra có thiếu câu hỏi hay không
-                if (rtbCauHoi.Text[rtbCauHoi.Text.Length - 2] != '\n')
+                if (rtbCauHoi.Text[rtbCauHoi.Text.Length - 1] != '\n')
                 {
                     intSoLuongCauHoi++;
                     rtbCauHoi.Text += "\n";
@@ -129,11 +133,18 @@ namespace TiengViet4
                 int j = 0;
 
                 //Lấy nội dung cho từng câu hỏi
-                for (int i = 0; i < intSoLuongCauHoi; i++)
+                try
                 {
-                    j = rtbCauHoi.Text.IndexOf("\n");
-                    arrStrNoiDungCauHoi[i] = rtbCauHoi.Text.Substring(0, j);
-                    rtbCauHoi.Text = rtbCauHoi.Text.Replace(arrStrNoiDungCauHoi[i] + "\n", "");
+                    for (int i = 0; i < intSoLuongCauHoi; i++)
+                    {
+                        j = rtbCauHoi.Text.IndexOf("\n");
+                        arrStrNoiDungCauHoi[i] = rtbCauHoi.Text.Substring(0, j);
+                        rtbCauHoi.Text = rtbCauHoi.Text.Replace(arrStrNoiDungCauHoi[i] + "\n", "");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
                 }
 
                 //Lấy nội dung cho từng đáp án
@@ -149,13 +160,20 @@ namespace TiengViet4
                 if (rtbCauHoi.Text[rtbCauHoi.Text.Length - 2] != '\n')
                 {
                     rtbCauHoi.Text += "\n";
-                }
+                }      
 
-                for (int i = 0; i < intSoLuongCauHoi; i++)
+                try
                 {
-                    j = rtbCauHoi.Text.IndexOf("\n\n");
-                    arrStrNoiDungDapAn[i] = rtbCauHoi.Text.Substring(0, j);
-                    rtbCauHoi.Text = rtbCauHoi.Text.Replace(arrStrNoiDungDapAn[i] + "\n\n", "");
+                    for (int i = 0; i < intSoLuongCauHoi; i++)
+                    {
+                        j = rtbCauHoi.Text.IndexOf("\n\n");
+                        arrStrNoiDungDapAn[i] = rtbCauHoi.Text.Substring(0, j);
+                        rtbCauHoi.Text = rtbCauHoi.Text.Replace(arrStrNoiDungDapAn[i] + "\n\n", "");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
                 }
                 intCauHoiHienTai = 0;
                 BatDauTraLoi();
@@ -175,7 +193,8 @@ namespace TiengViet4
             btnThanhDieuHuongMatTroi.Visible = false;
 
             rtbCauHoi.Font = new Font("Times New Roman", 14);
-            rtbTuMoi.Font = new Font("Times New Roman", 14);
+
+            
             rtbTuMoi.ForeColor = Color.Red;
             NapCauHoi();
 
@@ -183,7 +202,7 @@ namespace TiengViet4
 
         private void bubbleButton7_Click(object sender, DevComponents.DotNetBar.ClickEventArgs e)
         {
-            Close();
+            Application.Exit();
         }
 
         private void picTDKetQua_MouseDown(object sender, MouseEventArgs e)
@@ -249,16 +268,19 @@ namespace TiengViet4
         private void rtbNoiDungBaiHoc_MouseClick(object sender, MouseEventArgs e)
         {
             if (rtbNoiDungBaiHoc.SelectionType == RichTextBoxSelectionTypes.Object && bDangMoHinhAnh == false)
-            {
-                frmHinhAnh = new Form();
-                frmHinhAnh.Text = "Hinh Anh";
-                frmHinhAnh.Size = new Size(640, 480);
-                frmHinhAnh.BackgroundImage = new Bitmap(tapDocDto.DuongDanFileHinhAnh);
-                frmHinhAnh.BackgroundImageLayout = ImageLayout.Stretch;
-                bDangMoHinhAnh = true;
+            {                
+                if (File.Exists(tapDocDto.DuongDanFileHinhAnh) == true)
+                {
+                    frmHinhAnh = new Form();
+                    frmHinhAnh.Text = "Hinh Anh";
+                    frmHinhAnh.Size = new Size(640, 480);
+                    frmHinhAnh.BackgroundImage = new Bitmap(tapDocDto.DuongDanFileHinhAnh);
+                    frmHinhAnh.BackgroundImageLayout = ImageLayout.Stretch;
+                    bDangMoHinhAnh = true;
 
-                frmHinhAnh.Show();
-                frmHinhAnh.FormClosed += new FormClosedEventHandler(frmHinhAnh_FormClosed);
+                    frmHinhAnh.Show();
+                    frmHinhAnh.FormClosed += new FormClosedEventHandler(frmHinhAnh_FormClosed);
+                }
             }
             else if (bDangMoHinhAnh == true)
             {
@@ -268,7 +290,8 @@ namespace TiengViet4
 
         private void frmHinhAnh_FormClosed(object sender, EventArgs e)
         {
-            bDangMoHinhAnh = false;
+            this.Close();
+            
         }
 
         private void TapDocForm_Load(object sender, EventArgs e)
@@ -278,8 +301,17 @@ namespace TiengViet4
 
         private void btnThongTin_Click(object sender, DevComponents.DotNetBar.ClickEventArgs e)
         {
-            HuongDanSuDungForm frm = new HuongDanSuDungForm();
-            frm.Show();
+            System.Diagnostics.Process proc = new System.Diagnostics.Process();
+            proc.EnableRaisingEvents = false;
+            proc.StartInfo.FileName = "winword";
+            proc.StartInfo.Arguments = "huongdan.doc";
+            proc.Start();
+        }
+
+        private void btnHome_Click(object sender, DevComponents.DotNetBar.ClickEventArgs e)
+        {
+            frmParent.Show();
+            this.Close();
         }
 
     }
