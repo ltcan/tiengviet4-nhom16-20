@@ -51,7 +51,7 @@ namespace TiengViet4
                 slRecordGN = tableGN.Rows.Count;
                 layDuongDan();
 
-                if (slRecordLT >= 1)
+                if (slRecordLT > 1)
                     pictiepstatus = 1;
 
                 rtbCauHoi.LoadFile(filenoidung);
@@ -62,7 +62,12 @@ namespace TiengViet4
             }
             catch (Exception)
             {
-                MessageBox.Show("Không thể đọc được dữ liệu!", "Thông báo lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                if (slRecordLT == 0)
+                {
+                    rtbCauHoi.Text = "Bài này không có bài tập!";                    
+                }
+                else
+                    MessageBox.Show("Không thể đọc được dữ liệu!", "Thông báo lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -199,8 +204,9 @@ namespace TiengViet4
             }
             catch (Exception)
             {
-                MessageBox.Show("Không thể đọc được dữ liệu!", "Thông báo lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Bài này không có đáp án!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
+            
             
         }
 
