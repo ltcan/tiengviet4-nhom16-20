@@ -30,7 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LuyenTuVaCauForm));
-            DTO.NhomTuLTVC nhomTuLTVC1 = new DTO.NhomTuLTVC();
             this.btnThanhDieuHuongDuoi = new DevComponents.DotNetBar.BubbleBar();
             this.bubbleBarTab2 = new DevComponents.DotNetBar.BubbleBarTab(this.components);
             this.btnHome = new DevComponents.DotNetBar.BubbleButton();
@@ -42,12 +41,16 @@
             this.lblThongBao = new DevComponents.DotNetBar.LabelX();
             this.reflectionLabel1 = new DevComponents.DotNetBar.Controls.ReflectionLabel();
             this.tltHuongDan = new System.Windows.Forms.ToolTip(this.components);
+            this.rtfCuaSoHienThi = new System.Windows.Forms.RichTextBox();
             this.rtfCuaSoDapAn = new System.Windows.Forms.RichTextBox();
-            this.rtfCuaSoHienThi = new TiengViet4.KhungLamBaiLuyenTuVaCau(this.components);
+            this.pnlDeBai = new DevComponents.DotNetBar.ExpandablePanel();
+            this.pnlDapAn = new DevComponents.DotNetBar.ExpandablePanel();
             ((System.ComponentModel.ISupportInitialize)(this.btnThanhDieuHuongDuoi)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picCTKetQua)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picCTCauTruoc)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picCTCauTiepTheo)).BeginInit();
+            this.pnlDeBai.SuspendLayout();
+            this.pnlDapAn.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnThanhDieuHuongDuoi
@@ -174,7 +177,7 @@
             // 
             this.lblThongBao.BackColor = System.Drawing.Color.Transparent;
             this.lblThongBao.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblThongBao.Location = new System.Drawing.Point(180, 107);
+            this.lblThongBao.Location = new System.Drawing.Point(180, 138);
             this.lblThongBao.Name = "lblThongBao";
             this.lblThongBao.Size = new System.Drawing.Size(410, 229);
             this.lblThongBao.TabIndex = 37;
@@ -190,45 +193,104 @@
             this.reflectionLabel1.TabIndex = 38;
             this.reflectionLabel1.Text = "<font color=\"#22B14C\"><i><b>LUYỆN TỪ VÀ CÂU</b></i></font>";
             // 
+            // rtfCuaSoHienThi
+            // 
+            this.rtfCuaSoHienThi.BackColor = System.Drawing.Color.White;
+            this.rtfCuaSoHienThi.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.rtfCuaSoHienThi.Location = new System.Drawing.Point(0, 26);
+            this.rtfCuaSoHienThi.Name = "rtfCuaSoHienThi";
+            this.rtfCuaSoHienThi.ReadOnly = true;
+            this.rtfCuaSoHienThi.Size = new System.Drawing.Size(641, 306);
+            this.rtfCuaSoHienThi.TabIndex = 42;
+            this.rtfCuaSoHienThi.Text = "";
+            this.tltHuongDan.SetToolTip(this.rtfCuaSoHienThi, "Đề bài");
+            // 
             // rtfCuaSoDapAn
             // 
             this.rtfCuaSoDapAn.BackColor = System.Drawing.Color.White;
-            this.rtfCuaSoDapAn.Location = new System.Drawing.Point(414, 108);
+            this.rtfCuaSoDapAn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.rtfCuaSoDapAn.Location = new System.Drawing.Point(0, 26);
             this.rtfCuaSoDapAn.Name = "rtfCuaSoDapAn";
             this.rtfCuaSoDapAn.ReadOnly = true;
-            this.rtfCuaSoDapAn.Size = new System.Drawing.Size(348, 306);
+            this.rtfCuaSoDapAn.Size = new System.Drawing.Size(641, 0);
             this.rtfCuaSoDapAn.TabIndex = 41;
             this.rtfCuaSoDapAn.Text = "";
-            this.rtfCuaSoDapAn.Visible = false;
             // 
-            // rtfCuaSoHienThi
+            // pnlDeBai
             // 
-            this.rtfCuaSoHienThi.AcceptsTab = true;
-            this.rtfCuaSoHienThi.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.rtfCuaSoHienThi.DanhSachCauHoi = null;
-            this.rtfCuaSoHienThi.DanhSachTu = null;
-            this.rtfCuaSoHienThi.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rtfCuaSoHienThi.LoaiBai = ((byte)(0));
-            this.rtfCuaSoHienThi.Location = new System.Drawing.Point(80, 107);
-            this.rtfCuaSoHienThi.MyCaret = TiengViet4.TinhTrangCaret.Show;
-            this.rtfCuaSoHienThi.Name = "rtfCuaSoHienThi";
-            this.rtfCuaSoHienThi.Size = new System.Drawing.Size(637, 307);
-            this.rtfCuaSoHienThi.TabIndex = 39;
-            this.rtfCuaSoHienThi.Text = "";
-            this.rtfCuaSoHienThi.TinhTrangLamBai = DTO.TinhTrang.BinhThuong;
-            nhomTuLTVC1.DaDuocChon = false;
-            nhomTuLTVC1.DaDuocKeo = false;
-            nhomTuLTVC1.ViTriTrongDanhSach = 0;
-            this.rtfCuaSoHienThi.TuDuocChon = nhomTuLTVC1;
+            this.pnlDeBai.CanvasColor = System.Drawing.SystemColors.Control;
+            this.pnlDeBai.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.pnlDeBai.Controls.Add(this.rtfCuaSoHienThi);
+            this.pnlDeBai.ExpandOnTitleClick = true;
+            this.pnlDeBai.Location = new System.Drawing.Point(74, 70);
+            this.pnlDeBai.Name = "pnlDeBai";
+            this.pnlDeBai.Size = new System.Drawing.Size(641, 332);
+            this.pnlDeBai.Style.Alignment = System.Drawing.StringAlignment.Center;
+            this.pnlDeBai.Style.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.pnlDeBai.Style.BackColor2.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.pnlDeBai.Style.Border = DevComponents.DotNetBar.eBorderType.Bump;
+            this.pnlDeBai.Style.BorderColor.Alpha = ((byte)(0));
+            this.pnlDeBai.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.pnlDeBai.Style.BorderDashStyle = System.Drawing.Drawing2D.DashStyle.DashDot;
+            this.pnlDeBai.Style.BorderWidth = 2;
+            this.pnlDeBai.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
+            this.pnlDeBai.Style.ForeColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.ItemText;
+            this.pnlDeBai.Style.GradientAngle = 90;
+            this.pnlDeBai.TabIndex = 43;
+            this.pnlDeBai.TitleStyle.Alignment = System.Drawing.StringAlignment.Center;
+            this.pnlDeBai.TitleStyle.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.pnlDeBai.TitleStyle.BackColor2.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.pnlDeBai.TitleStyle.Border = DevComponents.DotNetBar.eBorderType.RaisedInner;
+            this.pnlDeBai.TitleStyle.BorderColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
+            this.pnlDeBai.TitleStyle.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pnlDeBai.TitleStyle.ForeColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
+            this.pnlDeBai.TitleStyle.GradientAngle = 90;
+            this.pnlDeBai.TitleText = "ĐỀ BÀI";
+            this.pnlDeBai.ExpandedChanged += new DevComponents.DotNetBar.ExpandChangeEventHandler(this.pnlDeBai_ExpandedChanged);
+            // 
+            // pnlDapAn
+            // 
+            this.pnlDapAn.CanvasColor = System.Drawing.Color.Transparent;
+            this.pnlDapAn.CollapseDirection = DevComponents.DotNetBar.eCollapseDirection.TopToBottom;
+            this.pnlDapAn.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.pnlDapAn.Controls.Add(this.rtfCuaSoDapAn);
+            this.pnlDapAn.Expanded = false;
+            this.pnlDapAn.ExpandedBounds = new System.Drawing.Rectangle(74, 96, 641, 326);
+            this.pnlDapAn.ExpandOnTitleClick = true;
+            this.pnlDapAn.Location = new System.Drawing.Point(74, 396);
+            this.pnlDapAn.Name = "pnlDapAn";
+            this.pnlDapAn.Size = new System.Drawing.Size(641, 26);
+            this.pnlDapAn.Style.Alignment = System.Drawing.StringAlignment.Center;
+            this.pnlDapAn.Style.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.pnlDapAn.Style.BackColor2.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.pnlDapAn.Style.Border = DevComponents.DotNetBar.eBorderType.Bump;
+            this.pnlDapAn.Style.BorderColor.Alpha = ((byte)(0));
+            this.pnlDapAn.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(50)))), ((int)(((byte)(0)))));
+            this.pnlDapAn.Style.BorderDashStyle = System.Drawing.Drawing2D.DashStyle.DashDot;
+            this.pnlDapAn.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
+            this.pnlDapAn.Style.ForeColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.ItemText;
+            this.pnlDapAn.Style.GradientAngle = 90;
+            this.pnlDapAn.TabIndex = 43;
+            this.pnlDapAn.TitleStyle.Alignment = System.Drawing.StringAlignment.Center;
+            this.pnlDapAn.TitleStyle.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.pnlDapAn.TitleStyle.BackColor2.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.pnlDapAn.TitleStyle.Border = DevComponents.DotNetBar.eBorderType.RaisedInner;
+            this.pnlDapAn.TitleStyle.BorderColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
+            this.pnlDapAn.TitleStyle.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pnlDapAn.TitleStyle.ForeColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
+            this.pnlDapAn.TitleStyle.GradientAngle = 90;
+            this.pnlDapAn.TitleText = "ĐÁP ÁN";
+            this.pnlDapAn.ExpandedChanged += new DevComponents.DotNetBar.ExpandChangeEventHandler(this.pnlDapAn_ExpandedChanged);
             // 
             // LuyenTuVaCauForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::TiengViet4.Properties.Resources._5Bwallcoo51;
+            this.BackgroundImage = global::TiengViet4.Properties.Resources.aladin;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 600);
-            this.Controls.Add(this.rtfCuaSoDapAn);
-            this.Controls.Add(this.rtfCuaSoHienThi);
+            this.Controls.Add(this.pnlDapAn);
+            this.Controls.Add(this.pnlDeBai);
             this.Controls.Add(this.reflectionLabel1);
             this.Controls.Add(this.lblThongBao);
             this.Controls.Add(this.picCTKetQua);
@@ -245,6 +307,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.picCTKetQua)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picCTCauTruoc)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picCTCauTiepTheo)).EndInit();
+            this.pnlDeBai.ResumeLayout(false);
+            this.pnlDapAn.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -261,8 +325,10 @@
         private System.Windows.Forms.PictureBox picCTCauTiepTheo;
         private DevComponents.DotNetBar.LabelX lblThongBao;
         private DevComponents.DotNetBar.Controls.ReflectionLabel reflectionLabel1;
-        private KhungLamBaiLuyenTuVaCau rtfCuaSoHienThi;
         private System.Windows.Forms.ToolTip tltHuongDan;
         private System.Windows.Forms.RichTextBox rtfCuaSoDapAn;
+        private System.Windows.Forms.RichTextBox rtfCuaSoHienThi;
+        private DevComponents.DotNetBar.ExpandablePanel pnlDeBai;
+        private DevComponents.DotNetBar.ExpandablePanel pnlDapAn;
     }
 }

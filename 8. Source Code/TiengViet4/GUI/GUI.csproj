@@ -85,12 +85,6 @@
     <Compile Include="KhungHuongDan.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="KhungLamBaiLuyenTuVaCau.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="KhungLamBaiLuyenTuVaCau.Designer.cs">
-      <DependentUpon>KhungLamBaiLuyenTuVaCau.cs</DependentUpon>
-    </Compile>
     <Compile Include="Logic.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -296,7 +290,11 @@
     <None Include="Resources\ketqua.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
     <None Include="Resources\ketqua1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aladin.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
