@@ -290,7 +290,7 @@ namespace TiengViet4
 
         private void frmHinhAnh_FormClosed(object sender, EventArgs e)
         {
-            this.Close();
+            frmHinhAnh.Close();
             
         }
 
