@@ -18,7 +18,7 @@ namespace TiengViet4
         {
             InitializeComponent();
             frmParent = MyParent;
-            frmParent.Hide();
+            //frmParent.Hide();
         }
 
         private void BtnThoat_Click(object sender, DevComponents.DotNetBar.ClickEventArgs e)
@@ -100,6 +100,36 @@ namespace TiengViet4
                     try
                     {
                         List<BaiHocDTO> DanhSachBaiHoc = BaiHocBUS.LayDanhSachBaiHocTheoTuan(tnNode.Name);
+                        // Sort
+                        if (DanhSachBaiHoc.Count > 0)
+                        {
+                            for (int i = 0; i < DanhSachBaiHoc.Count; i++)
+                            {
+                                for (int j = i + 1; j < DanhSachBaiHoc.Count; j++)
+                                {
+                                    if (DanhSachBaiHoc[i].Ten[0] > DanhSachBaiHoc[j].Ten[0])
+                                    {
+                                        TreeNode tnTemp = new TreeNode();
+                                        tnTemp.Text = DanhSachBaiHoc[i].Ten;
+                                        tnTemp.Name = DanhSachBaiHoc[i].Ma;
+                                        tnTemp.Tag = DanhSachBaiHoc[i].MaLoaiMon;
+
+                                        DanhSachBaiHoc[i].Ten = DanhSachBaiHoc[j].Ten;
+                                        DanhSachBaiHoc[i].Ma = DanhSachBaiHoc[j].Ma;
+                                        DanhSachBaiHoc[i].MaLoaiMon = DanhSachBaiHoc[j].MaLoaiMon;
+
+                                        DanhSachBaiHoc[j].Ten = tnTemp.Text;
+                                        DanhSachBaiHoc[j].Ma = tnTemp.Name;
+                                        DanhSachBaiHoc[j].MaLoaiMon = tnTemp.Tag.ToString();
+                                    }
+                                }
+                            }
+                            
+                        }
+
+                        //add node
+
+                        
                         if (DanhSachBaiHoc.Count > 0)
                         {
                             foreach (BaiHocDTO BaiHoc in DanhSachBaiHoc)

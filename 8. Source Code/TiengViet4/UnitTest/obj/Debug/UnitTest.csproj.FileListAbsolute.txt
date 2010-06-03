@@ -131,3 +131,5 @@ E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\UnitTest\bin\Debug\DT
 E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\UnitTest\obj\Debug\ResolveAssemblyReference.cache
 E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\UnitTest\obj\Debug\UnitTest.dll
 E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\UnitTest\obj\Debug\UnitTest.pdb
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\UnitTest\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
+D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\UnitTest\bin\Debug\Interop.ShockwaveFlashObjects.dll
