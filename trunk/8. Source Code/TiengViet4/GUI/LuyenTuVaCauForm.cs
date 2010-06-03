@@ -13,10 +13,11 @@ namespace TiengViet4
 {
     public partial class LuyenTuVaCauForm : Form
     {
-        const int CHIEU_DAI_CUA_SO_HIEN_THI = 637;
-        const int CHIEU_RONG_CUA_SO_HIEN_THI = 307;
-        const int CHIEU_DAI_THU_NHO_CUA_SO_HIEN_THI = 330;
-        const int LOCATION_X = 80;
+        //const int CHIEU_DAI_CUA_SO_HIEN_THI = 637;
+        //const int CHIEU_RONG_CUA_SO_HIEN_THI = 307;
+        //const int CHIEU_DAI_THU_NHO_CUA_SO_HIEN_THI = 330;
+        //const int LOCATION_X = 80;
+        const int ANIMATION_TIME = 200;
 
         #region Private Properties
         List<FileLuyenTapDTO> DanhSachDeBai;
@@ -47,9 +48,13 @@ namespace TiengViet4
                     this.intDeBaiHienTai = 0;
                     this.picCTCauTruoc.Visible = false;
                     this.arrDanhSachCauDuocChon = new List<int>();
-                    if (DanhSachDeBai.Count == 1)
+                    if (DanhSachDeBai.Count <= 1)
                     {
                         this.picCTCauTiepTheo.Visible = false;
+                    }
+                    else
+                    {
+                        this.picCTCauTiepTheo.Visible = true;
                     }
                 }            
                 
@@ -78,35 +83,42 @@ namespace TiengViet4
 
         private void HienThiBaiHoc()
         {
-            switch (DanhSachDeBai[intDeBaiHienTai].LoaiFileLuyenTap)
-            {
-                case "LTVC_PLT":
-                    rtfCuaSoHienThi.LoaiBai = (byte)KhungLamBaiLuyenTuVaCau.LoaiBaiTap.PhanLoaiTu;
-                    rtfCuaSoHienThi.EnableAutoDragDrop = true;
-                    break;
-                case "LTVC_TN":
-                    rtfCuaSoHienThi.LoaiBai = (byte)KhungLamBaiLuyenTuVaCau.LoaiBaiTap.TracNghiem;
-                    break;
-                case "LTVC_NX":
-                    rtfCuaSoHienThi.LoaiBai = (byte)KhungLamBaiLuyenTuVaCau.LoaiBaiTap.NhanXet;
-                    break;
-                case "LTVC_GN":
-                    rtfCuaSoHienThi.LoaiBai = (byte)KhungLamBaiLuyenTuVaCau.LoaiBaiTap.GhiNho;
-                    break;
-                case "LTVC_LT":
-                    rtfCuaSoHienThi.LoaiBai = (byte)KhungLamBaiLuyenTuVaCau.LoaiBaiTap.LuyenTap;
-                    break;
-                //case "LTVC_TPC":
-                //    rtfCuaSoHienThi.LoaiBai = (byte)KhungLamBaiLuyenTuVaCau.LoaiBaiTap.ThanhPhanCau;
-                    //break;
-                default:
-                    rtfCuaSoHienThi.LoaiBai = (byte)KhungLamBaiLuyenTuVaCau.LoaiBaiTap.KhongXacDinh;
-                    break;
-            }
+            //switch (DanhSachDeBai[intDeBaiHienTai].LoaiFileLuyenTap)
+            //{
+            //    case "LTVC_PLT":
+            //        rtfCuaSoHienThi.LoaiBai = (byte)KhungLamBaiLuyenTuVaCau.LoaiBaiTap.PhanLoaiTu;
+            //        rtfCuaSoHienThi.EnableAutoDragDrop = true;
+            //        break;
+            //    case "LTVC_TN":
+            //        rtfCuaSoHienThi.LoaiBai = (byte)KhungLamBaiLuyenTuVaCau.LoaiBaiTap.TracNghiem;
+            //        break;
+            //    case "LTVC_NX":
+            //        rtfCuaSoHienThi.LoaiBai = (byte)KhungLamBaiLuyenTuVaCau.LoaiBaiTap.NhanXet;
+            //        break;
+            //    case "LTVC_GN":
+            //        rtfCuaSoHienThi.LoaiBai = (byte)KhungLamBaiLuyenTuVaCau.LoaiBaiTap.GhiNho;
+            //        break;
+            //    case "LTVC_LT":
+            //        rtfCuaSoHienThi.LoaiBai = (byte)KhungLamBaiLuyenTuVaCau.LoaiBaiTap.LuyenTap;
+            //        break;
+            //    //case "LTVC_TPC":
+            //    //    rtfCuaSoHienThi.LoaiBai = (byte)KhungLamBaiLuyenTuVaCau.LoaiBaiTap.ThanhPhanCau;
+            //        //break;
+            //    default:
+            //        rtfCuaSoHienThi.LoaiBai = (byte)KhungLamBaiLuyenTuVaCau.LoaiBaiTap.KhongXacDinh;
+            //        break;
+            //}
 
             if (intDeBaiHienTai >= 0 && intDeBaiHienTai < DanhSachDeBai.Count)
             {
-                this.rtfCuaSoHienThi.DocDe(DanhSachDeBai[intDeBaiHienTai].FileNoiDung);
+                try
+                {
+                    this.rtfCuaSoHienThi.LoadFile(DanhSachDeBai[intDeBaiHienTai].FileNoiDung);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
             }
 
             if (DanhSachDeBai[intDeBaiHienTai].FileDapAn == "")
@@ -116,10 +128,10 @@ namespace TiengViet4
             else
             {
                 this.picCTKetQua.Visible = true;
-                if ((this.rtfCuaSoHienThi.LoaiBai & (byte)KhungLamBaiLuyenTuVaCau.LoaiBaiTap.PhanLoaiTu) != 0)
-                {
-                    this.rtfCuaSoHienThi.DocDapAn(DanhSachDeBai[intDeBaiHienTai].FileDapAn);
-                }
+                //if ((this.rtfCuaSoHienThi.LoaiBai & (byte)KhungLamBaiLuyenTuVaCau.LoaiBaiTap.PhanLoaiTu) != 0)
+                //{
+                //    this.rtfCuaSoHienThi.DocDapAn(DanhSachDeBai[intDeBaiHienTai].FileDapAn);
+                //}
                 //else if ((this.rtfCuaSoHienThi.LoaiBai & (byte)KhungLamBaiLuyenTuVaCau.LoaiBaiTap.ThanhPhanCau)!= 0)
                 //{
                 //    this.rtfCuaSoHienThi.Location = new Point(40, 107);
@@ -174,17 +186,19 @@ namespace TiengViet4
 
         private void picCTKetQua_Click(object sender, EventArgs e)
         {
-            if (this.rtfCuaSoHienThi.TinhTrangLamBai == TinhTrang.DangLamBai)
-            {
-                this.rtfCuaSoHienThi.TinhTrangLamBai = TinhTrang.XemDapAn;
-                if (this.rtfCuaSoHienThi.LoaiBai == (byte)KhungLamBaiLuyenTuVaCau.LoaiBaiTap.PhanLoaiTu)
-                {                    
-                    this.rtfCuaSoHienThi.XemKetQua();
-                }
-                else
-                {                    
-                    this.rtfCuaSoHienThi.Size = new Size(CHIEU_DAI_THU_NHO_CUA_SO_HIEN_THI, this.rtfCuaSoHienThi.Size.Height);
-                    this.rtfCuaSoHienThi.Location = new Point(40, rtfCuaSoHienThi.Location.Y);
+            //if (this.rtfCuaSoHienThi.TinhTrangLamBai == TinhTrang.DangLamBai)
+            //{
+            //    this.rtfCuaSoHienThi.TinhTrangLamBai = TinhTrang.XemDapAn;
+                //if (this.rtfCuaSoHienThi.LoaiBai == (byte)KhungLamBaiLuyenTuVaCau.LoaiBaiTap.PhanLoaiTu)
+                //{                    
+                //    this.rtfCuaSoHienThi.XemKetQua();
+                //}
+                //else
+                //{
+            this.pnlDeBai.Expanded = false;
+            this.pnlDeBai.AnimationTime = ANIMATION_TIME;
+                    //this.rtfCuaSoHienThi.Size = new Size(CHIEU_DAI_THU_NHO_CUA_SO_HIEN_THI, this.rtfCuaSoHienThi.Size.Height);
+                    //this.rtfCuaSoHienThi.Location = new Point(40, rtfCuaSoHienThi.Location.Y);
                     
                     try
                     {
@@ -195,8 +209,8 @@ namespace TiengViet4
                     {
                         MessageBox.Show(Ex.Message);
                     }
-                }
-            }
+            //    }
+            //}
         }
 
         private void btnHome_Click(object sender, DevComponents.DotNetBar.ClickEventArgs e)
@@ -213,23 +227,25 @@ namespace TiengViet4
             {
                 this.picCTCauTruoc.Visible = false;
             }
+
+            this.pnlDapAn.Expanded = false;
             
-            if (this.rtfCuaSoHienThi.EnableAutoDragDrop == true)
-            {
-                this.rtfCuaSoHienThi.EnableAutoDragDrop = false;
-            }
-            if (this.rtfCuaSoDapAn.Visible == true)
-            {
-                this.rtfCuaSoDapAn.Visible = false;
-            }
-            if (this.rtfCuaSoHienThi.Size.Width != CHIEU_DAI_CUA_SO_HIEN_THI)
-            {
-                this.rtfCuaSoHienThi.Size = new Size(CHIEU_DAI_CUA_SO_HIEN_THI, this.rtfCuaSoHienThi.Size.Height);
-            }
-            if (this.rtfCuaSoHienThi.Location.X != LOCATION_X)
-            {
-                this.rtfCuaSoHienThi.Location = new Point(LOCATION_X, rtfCuaSoHienThi.Location.Y);
-            }
+            //if (this.rtfCuaSoHienThi.EnableAutoDragDrop == true)
+            //{
+            //    this.rtfCuaSoHienThi.EnableAutoDragDrop = false;
+            //}
+            //if (this.rtfCuaSoDapAn.Visible == true)
+            //{
+            //    this.rtfCuaSoDapAn.Visible = false;
+            //}
+            //if (this.rtfCuaSoHienThi.Size.Width != CHIEU_DAI_CUA_SO_HIEN_THI)
+            //{
+            //    this.rtfCuaSoHienThi.Size = new Size(CHIEU_DAI_CUA_SO_HIEN_THI, this.rtfCuaSoHienThi.Size.Height);
+            //}
+            //if (this.rtfCuaSoHienThi.Location.X != LOCATION_X)
+            //{
+            //    this.rtfCuaSoHienThi.Location = new Point(LOCATION_X, rtfCuaSoHienThi.Location.Y);
+            //}
 
             HienThiBaiHoc();
         }
@@ -243,22 +259,23 @@ namespace TiengViet4
                 this.picCTCauTiepTheo.Visible = false;
             }
 
-            if (this.rtfCuaSoHienThi.EnableAutoDragDrop == true)
-            {
-                this.rtfCuaSoHienThi.EnableAutoDragDrop = false;
-            }
-            if (this.rtfCuaSoDapAn.Visible == true)
-            {
-                this.rtfCuaSoDapAn.Visible = false;
-            }
-            if (this.rtfCuaSoHienThi.Size.Width != CHIEU_DAI_CUA_SO_HIEN_THI)
-            {
-                this.rtfCuaSoHienThi.Size = new Size(CHIEU_DAI_CUA_SO_HIEN_THI, this.rtfCuaSoHienThi.Size.Height);
-            }
-            if (this.rtfCuaSoHienThi.Location.X != LOCATION_X)
-            {
-                this.rtfCuaSoHienThi.Location = new Point(LOCATION_X, rtfCuaSoHienThi.Location.Y);
-            }
+            this.pnlDapAn.Expanded = false;
+            //if (this.rtfCuaSoHienThi.EnableAutoDragDrop == true)
+            //{
+            //    this.rtfCuaSoHienThi.EnableAutoDragDrop = false;
+            //}
+            //if (this.rtfCuaSoDapAn.Visible == true)
+            //{
+            //    this.rtfCuaSoDapAn.Visible = false;
+            //}
+            //if (this.rtfCuaSoHienThi.Size.Width != CHIEU_DAI_CUA_SO_HIEN_THI)
+            //{
+            //    this.rtfCuaSoHienThi.Size = new Size(CHIEU_DAI_CUA_SO_HIEN_THI, this.rtfCuaSoHienThi.Size.Height);
+            //}
+            //if (this.rtfCuaSoHienThi.Location.X != LOCATION_X)
+            //{
+            //    this.rtfCuaSoHienThi.Location = new Point(LOCATION_X, rtfCuaSoHienThi.Location.Y);
+            //}
 
             HienThiBaiHoc();
         }
@@ -267,6 +284,18 @@ namespace TiengViet4
         {
             HuongDanSuDungForm frm = new HuongDanSuDungForm();
             frm.Show();
+        }
+
+        private void pnlDeBai_ExpandedChanged(object sender, DevComponents.DotNetBar.ExpandedChangeEventArgs e)
+        {
+            this.pnlDapAn.Expanded = !this.pnlDeBai.Expanded;
+            this.pnlDapAn.AnimationTime = ANIMATION_TIME;
+        }
+
+        private void pnlDapAn_ExpandedChanged(object sender, DevComponents.DotNetBar.ExpandedChangeEventArgs e)
+        {
+            this.pnlDeBai.Expanded = !this.pnlDapAn.Expanded;
+            this.pnlDeBai.AnimationTime = ANIMATION_TIME;
         }
 
         //private void btnChuyenCauQua_Click(object sender, EventArgs e)

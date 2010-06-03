@@ -147,7 +147,7 @@ namespace TiengViet4
                         MessageBox.Show(Ex.Message);
                     }
                 }
-                //Parent.Hide();
+                frmParent.Hide();
             }
             catch (Exception Ex)
             {
