@@ -294,15 +294,13 @@ namespace TiengViet4
 
         private void pnlDapAn_ExpandedChanged(object sender, DevComponents.DotNetBar.ExpandedChangeEventArgs e)
         {
-            if (this.pnlDapAn.Text == string.Empty)
+            if (this.pnlDapAn.Expanded == true && this.rtfCuaSoDapAn.Text == string.Empty)
             {
                 this.picCTKetQua_Click(sender, e);
             }
-            else
-            {
-                this.pnlDeBai.Expanded = !this.pnlDapAn.Expanded;
-                this.pnlDeBai.AnimationTime = ANIMATION_TIME;
-            }
+
+            this.pnlDeBai.Expanded = !this.pnlDapAn.Expanded;
+            this.pnlDeBai.AnimationTime = ANIMATION_TIME;
         }
 
         //private void btnChuyenCauQua_Click(object sender, EventArgs e)
