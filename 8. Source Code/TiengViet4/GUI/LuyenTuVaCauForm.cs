@@ -203,7 +203,7 @@ namespace TiengViet4
                     try
                     {
                         this.rtfCuaSoDapAn.LoadFile(DanhSachDeBai[intDeBaiHienTai].FileDapAn);
-                        this.rtfCuaSoDapAn.Visible = true;
+                        //this.rtfCuaSoDapAn.Visible = true;
                     }
                     catch (Exception Ex)
                     {
@@ -294,8 +294,15 @@ namespace TiengViet4
 
         private void pnlDapAn_ExpandedChanged(object sender, DevComponents.DotNetBar.ExpandedChangeEventArgs e)
         {
-            this.pnlDeBai.Expanded = !this.pnlDapAn.Expanded;
-            this.pnlDeBai.AnimationTime = ANIMATION_TIME;
+            if (this.pnlDapAn.Text == string.Empty)
+            {
+                this.picCTKetQua_Click(sender, e);
+            }
+            else
+            {
+                this.pnlDeBai.Expanded = !this.pnlDapAn.Expanded;
+                this.pnlDeBai.AnimationTime = ANIMATION_TIME;
+            }
         }
 
         //private void btnChuyenCauQua_Click(object sender, EventArgs e)
