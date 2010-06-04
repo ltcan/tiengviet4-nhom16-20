@@ -11,7 +11,7 @@ namespace DAO
         public static DataTable LayDanhSachBaiTheoTuan(string strMaTuan)
         {
             string strLenhDocDuLieu = "Select * From BaiHoc " + 
-                                   "Where MaTuan = '" + strMaTuan + "' Order By MaTuan, MaLoaiMon, Ma";
+                                   "Where MaTuan = '" + strMaTuan + "' Order By Ten";
             try
             {
                 DataTable KetQua = CoSoDuLieu.LayDuLieu(strLenhDocDuLieu);
