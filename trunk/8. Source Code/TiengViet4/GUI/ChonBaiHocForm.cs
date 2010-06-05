@@ -44,33 +44,35 @@ namespace TiengViet4
                     switch (strMaLoaiMon)
                     {
                         case "CT":
-                            this.Cursor = Cursors.WaitCursor;
                             ChinhTaForm frmChinhTa = new ChinhTaForm(treDanhSachTuan.SelectedNode.Name, this);
                             frmChinhTa.Show();
                             break;
                         case "LTVC":
-                            this.Cursor = Cursors.WaitCursor;
                             LuyenTuVaCauForm frmLuyenTuVaCau = new LuyenTuVaCauForm(treDanhSachTuan.SelectedNode.Name, this);
                             frmLuyenTuVaCau.Show();
                             break;
                         case "TLV":
-                            this.Cursor = Cursors.WaitCursor;
                             TapLamVanForm frmTapLamVan = new TapLamVanForm(treDanhSachTuan.SelectedNode.Name, this);
                             frmTapLamVan.Show();
                             break;
 
                         case "KC":
-                            this.Cursor = Cursors.WaitCursor;
                             KeChuyenForm frmKeChuyen = new KeChuyenForm(treDanhSachTuan.SelectedNode.Name,this);
                              frmKeChuyen.Show();
                             break;
 
                         case "TD":
-                            this.Cursor = Cursors.WaitCursor;
                             TapDocForm frmTapDoc = new TapDocForm(treDanhSachTuan.SelectedNode.Name, this);                            
                             frmTapDoc.Show();
                             break;
+                        case "OT":
+                            OnTap frmOnTap = new OnTap();
+                            frmOnTap.Show();
+                            break;
+                        default:
+                            return;
                     }
+                    this.Cursor = Cursors.WaitCursor;
                 }             
             }
             else if (sender.GetType() == typeof(CustomButton.ImageButton))
