@@ -55,7 +55,6 @@ namespace BUS
         {
             try
             {
-            
                 FileLuyenTapDTO KetQua = new FileLuyenTapDTO();
                 DataTable BaiHoc = FileLuyenTapDAO.LayFileLuyenTapTheoMa(strMaBaiHoc);
                 if (BaiHoc.Rows.Count > 0)
