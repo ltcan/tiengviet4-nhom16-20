@@ -68,3 +68,13 @@ E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\BUS\bin\Debug\DTO.pdb
 E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\BUS\obj\Debug\ResolveAssemblyReference.cache
 E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\BUS\obj\Debug\BUS.dll
 E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\BUS\obj\Debug\BUS.pdb
+D:\tv\8. Source Code\TiengViet4\BUS\bin\Debug\CSDL\CSDL.mdb
+D:\tv\8. Source Code\TiengViet4\BUS\bin\Debug\BUS.dll
+D:\tv\8. Source Code\TiengViet4\BUS\bin\Debug\BUS.pdb
+D:\tv\8. Source Code\TiengViet4\BUS\bin\Debug\DAO.dll
+D:\tv\8. Source Code\TiengViet4\BUS\bin\Debug\DTO.dll
+D:\tv\8. Source Code\TiengViet4\BUS\bin\Debug\DAO.pdb
+D:\tv\8. Source Code\TiengViet4\BUS\bin\Debug\DTO.pdb
+D:\tv\8. Source Code\TiengViet4\BUS\obj\Debug\ResolveAssemblyReference.cache
+D:\tv\8. Source Code\TiengViet4\BUS\obj\Debug\BUS.dll
+D:\tv\8. Source Code\TiengViet4\BUS\obj\Debug\BUS.pdb

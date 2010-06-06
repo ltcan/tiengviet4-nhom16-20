@@ -133,3 +133,25 @@ E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\UnitTest\obj\Debug\Un
 E:\Study\TuChon\QL QTPM\CheckOut\8. Source Code\TiengViet4\UnitTest\obj\Debug\UnitTest.pdb
 D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\UnitTest\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
 D:\Study\Courses\Courses 6\Quan ly quy trinh phan mem\project\checkout\8. Source Code\TiengViet4\UnitTest\bin\Debug\Interop.ShockwaveFlashObjects.dll
+D:\tv\8. Source Code\TiengViet4\UnitTest\bin\Debug\CSDL\CSDL.mdb
+D:\tv\8. Source Code\TiengViet4\UnitTest\bin\Debug\UnitTest.dll
+D:\tv\8. Source Code\TiengViet4\UnitTest\bin\Debug\UnitTest.pdb
+D:\tv\8. Source Code\TiengViet4\UnitTest\bin\Debug\BUS.dll
+D:\tv\8. Source Code\TiengViet4\UnitTest\bin\Debug\DAO.dll
+D:\tv\8. Source Code\TiengViet4\UnitTest\bin\Debug\DTO.dll
+D:\tv\8. Source Code\TiengViet4\UnitTest\bin\Debug\nunit.framework.dll
+D:\tv\8. Source Code\TiengViet4\UnitTest\bin\Debug\TiengViet4.exe
+D:\tv\8. Source Code\TiengViet4\UnitTest\bin\Debug\CustomButton.dll
+D:\tv\8. Source Code\TiengViet4\UnitTest\bin\Debug\Interop.WMPLib.dll
+D:\tv\8. Source Code\TiengViet4\UnitTest\bin\Debug\DevComponents.DotNetBar2.dll
+D:\tv\8. Source Code\TiengViet4\UnitTest\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
+D:\tv\8. Source Code\TiengViet4\UnitTest\bin\Debug\AxInterop.WMPLib.dll
+D:\tv\8. Source Code\TiengViet4\UnitTest\bin\Debug\Interop.ShockwaveFlashObjects.dll
+D:\tv\8. Source Code\TiengViet4\UnitTest\bin\Debug\nunit.framework.xml
+D:\tv\8. Source Code\TiengViet4\UnitTest\bin\Debug\TiengViet4.pdb
+D:\tv\8. Source Code\TiengViet4\UnitTest\bin\Debug\DAO.pdb
+D:\tv\8. Source Code\TiengViet4\UnitTest\bin\Debug\BUS.pdb
+D:\tv\8. Source Code\TiengViet4\UnitTest\bin\Debug\DTO.pdb
+D:\tv\8. Source Code\TiengViet4\UnitTest\obj\Debug\ResolveAssemblyReference.cache
+D:\tv\8. Source Code\TiengViet4\UnitTest\obj\Debug\UnitTest.dll
+D:\tv\8. Source Code\TiengViet4\UnitTest\obj\Debug\UnitTest.pdb

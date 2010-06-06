@@ -66,7 +66,7 @@ namespace TiengViet4
                             frmTapDoc.Show();
                             break;
                         case "OT":
-                            OnTap frmOnTap = new OnTap();
+                            OnTap frmOnTap = new OnTap(treDanhSachTuan.SelectedNode.Name, this);
                             frmOnTap.Show();
                             break;
                         default:

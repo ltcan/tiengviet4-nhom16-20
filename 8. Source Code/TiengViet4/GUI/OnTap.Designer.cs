@@ -44,6 +44,7 @@
             this.pnlDeBai = new DevComponents.DotNetBar.ExpandablePanel();
             this.rtfCuaSoDeBai = new System.Windows.Forms.RichTextBox();
             this.pnlDapAn = new DevComponents.DotNetBar.ExpandablePanel();
+            this.axATOnTap = new AxWMPLib.AxWindowsMediaPlayer();
             this.rtfDapAn = new System.Windows.Forms.RichTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.picCTKetQua)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picCTCauTruoc)).BeginInit();
@@ -51,6 +52,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnThanhDieuHuongDuoi)).BeginInit();
             this.pnlDeBai.SuspendLayout();
             this.pnlDapAn.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.axATOnTap)).BeginInit();
             this.SuspendLayout();
             // 
             // btnHome
@@ -80,11 +82,12 @@
             this.picCTKetQua.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picCTKetQua.BackgroundImage")));
             this.picCTKetQua.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.picCTKetQua.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picCTKetQua.Location = new System.Drawing.Point(372, 395);
+            this.picCTKetQua.Location = new System.Drawing.Point(372, 447);
             this.picCTKetQua.Name = "picCTKetQua";
             this.picCTKetQua.Size = new System.Drawing.Size(45, 45);
             this.picCTKetQua.TabIndex = 40;
             this.picCTKetQua.TabStop = false;
+            this.picCTKetQua.Click += new System.EventHandler(this.picCTKetQua_Click);
             // 
             // picCTCauTruoc
             // 
@@ -92,11 +95,12 @@
             this.picCTCauTruoc.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picCTCauTruoc.BackgroundImage")));
             this.picCTCauTruoc.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.picCTCauTruoc.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picCTCauTruoc.Location = new System.Drawing.Point(260, 397);
+            this.picCTCauTruoc.Location = new System.Drawing.Point(260, 449);
             this.picCTCauTruoc.Name = "picCTCauTruoc";
             this.picCTCauTruoc.Size = new System.Drawing.Size(45, 45);
             this.picCTCauTruoc.TabIndex = 39;
             this.picCTCauTruoc.TabStop = false;
+            this.picCTCauTruoc.Click += new System.EventHandler(this.picCTCauTruoc_Click);
             // 
             // picCTCauTiepTheo
             // 
@@ -104,11 +108,12 @@
             this.picCTCauTiepTheo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picCTCauTiepTheo.BackgroundImage")));
             this.picCTCauTiepTheo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.picCTCauTiepTheo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picCTCauTiepTheo.Location = new System.Drawing.Point(478, 397);
+            this.picCTCauTiepTheo.Location = new System.Drawing.Point(478, 449);
             this.picCTCauTiepTheo.Name = "picCTCauTiepTheo";
             this.picCTCauTiepTheo.Size = new System.Drawing.Size(45, 45);
             this.picCTCauTiepTheo.TabIndex = 38;
             this.picCTCauTiepTheo.TabStop = false;
+            this.picCTCauTiepTheo.Click += new System.EventHandler(this.picCTCauTiepTheo_Click);
             // 
             // btnThanhDieuHuongDuoi
             // 
@@ -137,7 +142,7 @@
             this.btnThanhDieuHuongDuoi.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThanhDieuHuongDuoi.ImageSizeLarge = new System.Drawing.Size(86, 86);
             this.btnThanhDieuHuongDuoi.ImageSizeNormal = new System.Drawing.Size(64, 64);
-            this.btnThanhDieuHuongDuoi.Location = new System.Drawing.Point(199, 470);
+            this.btnThanhDieuHuongDuoi.Location = new System.Drawing.Point(199, 510);
             this.btnThanhDieuHuongDuoi.MouseOverTabColors.BorderColor = System.Drawing.Color.Transparent;
             this.btnThanhDieuHuongDuoi.Name = "btnThanhDieuHuongDuoi";
             this.btnThanhDieuHuongDuoi.SelectedTab = this.bubbleBarTab2;
@@ -179,6 +184,7 @@
             this.btnHuongDan.ImageLarge = ((System.Drawing.Image)(resources.GetObject("btnHuongDan.ImageLarge")));
             this.btnHuongDan.Name = "btnHuongDan";
             this.btnHuongDan.TooltipText = "Thông tin trợ giúp";
+            this.btnHuongDan.Click += new DevComponents.DotNetBar.ClickEventHandler(this.btnHuongDan_Click);
             // 
             // btnThoat
             // 
@@ -195,7 +201,7 @@
             this.pnlDeBai.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
             this.pnlDeBai.Controls.Add(this.rtfCuaSoDeBai);
             this.pnlDeBai.ExpandOnTitleClick = true;
-            this.pnlDeBai.Location = new System.Drawing.Point(55, 87);
+            this.pnlDeBai.Location = new System.Drawing.Point(55, 98);
             this.pnlDeBai.MinimumSize = new System.Drawing.Size(683, 153);
             this.pnlDeBai.Name = "pnlDeBai";
             this.pnlDeBai.Size = new System.Drawing.Size(683, 286);
@@ -234,7 +240,7 @@
             this.pnlDapAn.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
             this.pnlDapAn.Controls.Add(this.rtfDapAn);
             this.pnlDapAn.ExpandOnTitleClick = true;
-            this.pnlDapAn.Location = new System.Drawing.Point(55, 246);
+            this.pnlDapAn.Location = new System.Drawing.Point(55, 257);
             this.pnlDapAn.Name = "pnlDapAn";
             this.pnlDapAn.Size = new System.Drawing.Size(683, 130);
             this.pnlDapAn.Style.Alignment = System.Drawing.StringAlignment.Center;
@@ -255,6 +261,15 @@
             this.pnlDapAn.TitleStyle.GradientAngle = 90;
             this.pnlDapAn.TitleText = "Title Bar";
             // 
+            // axATOnTap
+            // 
+            this.axATOnTap.Enabled = true;
+            this.axATOnTap.Location = new System.Drawing.Point(260, 393);
+            this.axATOnTap.Name = "axATOnTap";
+            this.axATOnTap.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axATOnTap.OcxState")));
+            this.axATOnTap.Size = new System.Drawing.Size(263, 43);
+            this.axATOnTap.TabIndex = 43;
+            // 
             // rtfDapAn
             // 
             this.rtfDapAn.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -271,7 +286,8 @@
             this.AutoSize = true;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(784, 562);
+            this.ClientSize = new System.Drawing.Size(800, 600);
+            this.Controls.Add(this.axATOnTap);
             this.Controls.Add(this.pnlDapAn);
             this.Controls.Add(this.pnlDeBai);
             this.Controls.Add(this.picCTKetQua);
@@ -283,12 +299,14 @@
             this.Name = "OnTap";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "OnTap";
+            this.Load += new System.EventHandler(this.OnTap_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picCTKetQua)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picCTCauTruoc)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picCTCauTiepTheo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnThanhDieuHuongDuoi)).EndInit();
             this.pnlDeBai.ResumeLayout(false);
             this.pnlDapAn.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.axATOnTap)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -309,6 +327,7 @@
         private DevComponents.DotNetBar.ExpandablePanel pnlDeBai;
         private System.Windows.Forms.RichTextBox rtfCuaSoDeBai;
         private DevComponents.DotNetBar.ExpandablePanel pnlDapAn;
+        private AxWMPLib.AxWindowsMediaPlayer axATOnTap;
         private System.Windows.Forms.RichTextBox rtfDapAn;
 
     }

@@ -78,3 +78,19 @@ D:\Nam hoc 2009-2010\Quan Ly Quy Trinh Phan Mem\TiengViet4\DAO\bin\Debug\DTO.pdb
 D:\Nam hoc 2009-2010\Quan Ly Quy Trinh Phan Mem\TiengViet4\DAO\obj\Debug\ResolveAssemblyReference.cache
 D:\Nam hoc 2009-2010\Quan Ly Quy Trinh Phan Mem\TiengViet4\DAO\obj\Debug\DAO.dll
 D:\Nam hoc 2009-2010\Quan Ly Quy Trinh Phan Mem\TiengViet4\DAO\obj\Debug\DAO.pdb
+D:\tv\8. Source Code\TiengViet4\DAO\bin\Debug\CSDL\CSDL.mdb
+D:\tv\8. Source Code\TiengViet4\DAO\bin\Debug\DAO.dll
+D:\tv\8. Source Code\TiengViet4\DAO\bin\Debug\DAO.pdb
+D:\tv\8. Source Code\TiengViet4\DAO\bin\Debug\DTO.dll
+D:\tv\8. Source Code\TiengViet4\DAO\bin\Debug\DTO.pdb
+D:\tv\8. Source Code\TiengViet4\DAO\obj\Debug\ResolveAssemblyReference.cache
+D:\tv\8. Source Code\TiengViet4\DAO\obj\Debug\DAO.dll
+D:\tv\8. Source Code\TiengViet4\DAO\obj\Debug\DAO.pdb
+D:\tv2\8. Source Code\TiengViet4\DAO\bin\Debug\CSDL\CSDL.mdb
+D:\tv2\8. Source Code\TiengViet4\DAO\bin\Debug\DAO.dll
+D:\tv2\8. Source Code\TiengViet4\DAO\bin\Debug\DAO.pdb
+D:\tv2\8. Source Code\TiengViet4\DAO\bin\Debug\DTO.dll
+D:\tv2\8. Source Code\TiengViet4\DAO\bin\Debug\DTO.pdb
+D:\tv2\8. Source Code\TiengViet4\DAO\obj\Debug\ResolveAssemblyReference.cache
+D:\tv2\8. Source Code\TiengViet4\DAO\obj\Debug\DAO.dll
+D:\tv2\8. Source Code\TiengViet4\DAO\obj\Debug\DAO.pdb
