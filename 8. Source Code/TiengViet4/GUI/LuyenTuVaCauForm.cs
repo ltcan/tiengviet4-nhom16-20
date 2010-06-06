@@ -124,6 +124,7 @@ namespace TiengViet4
             if (DanhSachDeBai[intDeBaiHienTai].FileDapAn == "")
             {
                 this.picCTKetQua.Visible = false;
+                this.pnlDapAn.Visible = false;
             }
             else
             {
@@ -229,7 +230,10 @@ namespace TiengViet4
             }
 
             this.pnlDapAn.Expanded = false;
-            
+            if (this.DanhSachDeBai[intDeBaiHienTai].FileDapAn != String.Empty)
+            {
+                pnlDapAn.Visible = true;
+            }
             //if (this.rtfCuaSoHienThi.EnableAutoDragDrop == true)
             //{
             //    this.rtfCuaSoHienThi.EnableAutoDragDrop = false;
@@ -260,6 +264,10 @@ namespace TiengViet4
             }
 
             this.pnlDapAn.Expanded = false;
+            if (this.DanhSachDeBai[intDeBaiHienTai].FileDapAn != String.Empty)
+            {
+                pnlDapAn.Visible = true;
+            }
             //if (this.rtfCuaSoHienThi.EnableAutoDragDrop == true)
             //{
             //    this.rtfCuaSoHienThi.EnableAutoDragDrop = false;
@@ -288,8 +296,11 @@ namespace TiengViet4
 
         private void pnlDeBai_ExpandedChanged(object sender, DevComponents.DotNetBar.ExpandedChangeEventArgs e)
         {
-            this.pnlDapAn.Expanded = !this.pnlDeBai.Expanded;
-            this.pnlDapAn.AnimationTime = ANIMATION_TIME;
+            if (this.pnlDapAn.Visible == true)
+            {
+                this.pnlDapAn.Expanded = !this.pnlDeBai.Expanded;
+                this.pnlDapAn.AnimationTime = ANIMATION_TIME;
+            }
         }
 
         private void pnlDapAn_ExpandedChanged(object sender, DevComponents.DotNetBar.ExpandedChangeEventArgs e)
