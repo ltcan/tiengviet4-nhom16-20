@@ -122,8 +122,13 @@ namespace TiengViet4
 
         private void btnHuongDan_Click(object sender, DevComponents.DotNetBar.ClickEventArgs e)
         {
-            HuongDanSuDungForm frm = new HuongDanSuDungForm();
-            frm.Show();
+            axATOnTap.Ctlcontrols.pause();
+            HuongDanForm frm = new HuongDanForm("OnTap\\HuongDan.avi");
+            frm.ShowDialog();
+            if (axATOnTap.Ctlcontrols.currentPosition > 0)
+            {
+                axATOnTap.Ctlcontrols.play();
+            }
         }
     }
 }
